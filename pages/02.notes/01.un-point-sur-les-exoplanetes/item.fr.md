@@ -8,7 +8,7 @@ header_image:
     title: 'Giant World Orbiting Red Dwarf Star Gliese 876'
     author: 'NASA/ESA and G. Bacon (STScI)'
     link: 'https://www.spacetelescope.org/images/opo0227a/'
-    vertical_centering: 53
+    vertical_centering: 52
 taxonomy:
     category:
         - Sciences

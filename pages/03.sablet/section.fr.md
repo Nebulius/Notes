@@ -2,7 +2,7 @@
 title: Sablet
 homepage:
     invite: 'Petit ballon deviendra grand'
-    text: "Lorem ipsum dolor sit **amnet**.\r\n\r\nCe texte vient de l'administration directe \\o/"
+    text: 'Un ballon stratosphérique et un objectif, récupérer photos de la Terre et données de l''atmosphère… le tout avec nos petits moyens : voilà le projet Sablet.'
     button:
         icon_type: fas
         icon: fa-sun

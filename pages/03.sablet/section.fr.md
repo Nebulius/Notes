@@ -19,4 +19,6 @@ content:
 
 Mais il serait dommage de réaliser ce projet sans rien partager derrière. Donc acte : toutes les données récoltées et les codes source utilisés sont publics, sous une licence libre[^licences]. Et ci-dessous, **vous trouverez des pages détaillées sur différents points de ce projet** : technique, administratif, physique… sans compter, bien sûr, l'aventure qu'a été ce projet, ainsi que les photos et vidéos que nous avons eu la joie de récupérer !
 
+En effet, Sablet fut un projet enrichissant et, finalement, pas si complexe à mettre en œuvre, ce qui en fait quelque chose qui peut être intéressant de tenter si le défi vous tente…
+
 [^licences]: Les codes source sont distribués sous [licence CeCILL-B](http://www.cecill.info/licences/Licence_CeCILL-B_V1-fr.html) ; quant aux données, elles sont placées sous licence [Creative Commons BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).

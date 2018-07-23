@@ -3,7 +3,7 @@ title: 'La loi autour des ballons stratosphériques'
 media_order: giammarco-boscaro-380907-unsplash.jpg
 header_image:
     image: giammarco-boscaro-380907-unsplash.jpg
-    color: '#877856'
+    color: '#38361f'
     author: 'Giammarco Boscaro'
     link: 'https://unsplash.com/photos/zeH-ljawHtg'
     vertical_centering: 50

@@ -1,9 +1,8 @@
 ---
 title: Technique
-media_order: IMG_20170817_114351.jpg
 header_image:
-    image: IMG_20170817_114351.jpg
-    color: '#826800'
+    image: IMG_20170816_193117.jpg
+    color: '#063802'
     vertical_centering: 50
 date: '14:01 05-02-2018'
 license: by-sa

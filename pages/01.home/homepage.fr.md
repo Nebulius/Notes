@@ -1,7 +1,8 @@
 ---
 title: Accueil
-media_order: 'TimoBailly.jpg,PAFEV18_amaury_001-crop-large-square.jpg'
+media_order: 'nebulius-logo-604x604.jpg,TimoBailly.jpg,PAFEV18_amaury_001-crop-large-square.jpg'
 header_image:
+    color: '#7a49b7'
     vertical_centering: 50
 license: by-sa
 visible: false

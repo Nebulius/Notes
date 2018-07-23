@@ -6,7 +6,7 @@ header_image:
     color: '#38361f'
     author: 'Giammarco Boscaro'
     link: 'https://unsplash.com/photos/zeH-ljawHtg'
-    vertical_centering: 50
+    vertical_centering: 56
 date: '01:39 24-07-2018'
 license: by-sa
 ---

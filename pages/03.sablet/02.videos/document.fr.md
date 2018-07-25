@@ -10,6 +10,7 @@ header_image:
     vertical_centering: 69
 date: '14:14 05-02-2018'
 license: by-sa
+menu: 'Les vidéos'
 author: Amaury
 ---
 

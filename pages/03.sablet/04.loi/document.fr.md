@@ -9,6 +9,7 @@ header_image:
     vertical_centering: 56
 date: '01:39 24-07-2018'
 license: by-sa
+menu: 'La loi'
 ---
 
 _Cette page est en cours de rédaction. Revenez plus tard ! Le site n'est pas encore officiellement lancé._

@@ -6,6 +6,7 @@ header_image:
     vertical_centering: 50
 date: '14:01 05-02-2018'
 license: by-sa
+menu: 'La technique'
 author: Amaury
 content:
     items: '@self.modular'

@@ -15,7 +15,7 @@ content:
         by: folder
 ---
 
-**Sablet**, c'était un défi : le défi de monter seul, de A à Z et pour la première fois, un projet qui irait haut. Le défi de pouvoir **photographier la Terre de haut** nous-même. Mais aussi le défi de pouvoir **comprendre l'atmosphère**, ou du moins les premières couches (troposphère et stratosphère), grâce à des capteurs incorporés. Enfin le défi de pouvoir nous même, avec nos propres photos, montrer à ces _flat-earthers_ que non, la Terre n'est pas plate. Même si ne nous illusionnons pas — ils nous accuseront de tromperie.
+**Sablet**, c'était un défi : le défi de monter seul, de A à Z et pour la première fois, un projet qui irait haut. Le défi de pouvoir **photographier la Terre de haut** nous-même. Le défi de pouvoir **comprendre l'atmosphère**, ou du moins les premières couches (troposphère et stratosphère), grâce à des capteurs incorporés. Enfin le défi de pouvoir nous même, avec nos propres photos, montrer à ces _flat-earthers_ que non, la Terre n'est pas plate. Même si ne nous illusionnons pas — ils nous accuseront de tromperie.
 
 Mais il serait dommage de réaliser ce projet sans rien partager derrière. Donc acte : toutes les données récoltées et les codes source utilisés sont publics, sous une licence libre[^licences]. Et ci-dessous, **vous trouverez des pages détaillées sur différents points de ce projet** : technique, administratif, physique… sans compter, bien sûr, l'aventure qu'a été ce projet, ainsi que les photos et vidéos que nous avons eu la joie de récupérer !
 

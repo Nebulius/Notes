@@ -221,7 +221,7 @@ Si ça peut sembler simple, c'est en réalité loin d'être trivial : lorsque l'
 
 [^note-vlt]: _Very Large Telescope_. Vous avez dit originalité ?
 
-[^note-james-webb]: Le télescope James Webb devrait être mis en orbite d'ici 2018 au point de Lagrange L2, pour remplacer Hubble qui commence à se faire vieux.
+[^note-james-webb]: Le télescope [James Webb](https://fr.wikipedia.org/wiki/James-Webb_(télescope_spatial)) devrait être mis en orbite d'ici ~~2016~~ ~~2018~~ ~~2020~~ 2021 au point de Lagrange L2, pour remplacer Hubble qui commence à se faire vieux.
 
 [^ref-sphere]: Vous trouverez plus d'informations sur SPHERE [sur cette page de l'ESO](https://www.eso.org/sci/facilities/paranal/instruments/sphere.html) (en anglais).
 

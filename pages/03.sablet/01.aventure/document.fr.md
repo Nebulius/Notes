@@ -65,6 +65,10 @@ Vous trouverez tous les détails relatifs à la loi [sur la page dédiée à ce 
 
 *[DSAC]: Direction de la sécurité de l'Aviation civile
 
+## Trouver le bon endroit
+
+TODO
+
 ## Préparer les codes
 
 Nous embarquions des capteurs ; il fallait bien monter un système pour collecter les données et les stocker pendant le vol afin de les récupérer ensuite. Pour ce faire, nous avons utilisé un [Raspberry Pi](https://www.raspberrypi.org/) qui contrôlait les capteurs de température et de pression et stockait les données sur sa carte SD. (Aucun système d'envoi en continu des données n'était prévu, donc en cas de perte du ballon, on perdait les données avec…) Les caméras et GPS, quant à eux, fonctionnaient indépendemment.

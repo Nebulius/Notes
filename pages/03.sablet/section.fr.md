@@ -8,6 +8,7 @@ homepage:
         icon: fa-sun
         text: 'Décoller vers SABLET'
 date: '14:01 05-02-2018'
+override_default_img: envol.jpg
 author: Amaury
 content:
     items: '@self.children'

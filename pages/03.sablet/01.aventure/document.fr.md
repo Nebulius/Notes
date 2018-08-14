@@ -61,6 +61,6 @@ Nous nous sommes un peu fait avoir à ce niveau car nous attendions une réponse
 
 [tweet=https://twitter.com/Yoku_Sama/status/898245818364329988]
 
-[DSAC]: Direction de la sécurité de l'Aviation civile
+*[DSAC]: Direction de la sécurité de l'Aviation civile
 
 # Veille du lancement

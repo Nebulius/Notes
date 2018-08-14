@@ -77,6 +77,12 @@ Le détail du fonctionnement du RaspberryPi et les codes sources expliqués sont
 
 Comme pour tout projet qui se respecte, l'essentiel de l'assemblage des composants (testés autant que faire se peut) fut réalisé la veille. La veille, car fondamentalement, il n'était pas si utile de le faire des dizaines de jours avant (ça reste assez simple à monter), mais aussi car c'était un jour où nous étions physiquement au même endroit (en temps normal, des centaines de kilomètres nous séparent).
 
-Ce fut également l'occasion de finaliser les montages électroniques et les codes sources associés, intégrés dans la nacelle et en dehors (pour les capteurs extérieurs), afin de s'assurer que tout aille bien et d'ajouter quelques sécurités sur le stockage des données (mentionnées dans [la page dédiée](/sablet/technique)).
+Ce fut également l'occasion de finaliser les montages électroniques et les codes sources associés, intégrés dans la nacelle et en dehors (pour les capteurs extérieurs), afin de s'assurer que tout aille bien et se goupille et d'ajouter quelques sécurités sur le stockage des données (mentionnées dans [la page dédiée](/sablet/technique)).
 
 [tweet=https://twitter.com/AmauryPi/status/897874033374613506]
+
+Au delà de cela, ce fut également l'occasion de fixer (définitivement) sur la nacelle sa protection thermique secondaire (en l'occurrence, une couverture de survie)[^note-erreurs-couverture-survie]. Ce qui donne au passage un magnifique air de satellite à la nacelle !
+
+[images de la nacelle et de sa couverture]
+
+[^note-erreurs-couverture-survie]: Et de se planter de bien trop nombreuses fois sur le bon sens des couvertures, les couleurs variant selon les constructeurs… mais chhhht (cela dit faites attention à ce détail si vous faites votre ballon ! se tromper de sens ruine complètement l'intérêt de la couverture de survie, et revient à ne pas en mettre du tout).

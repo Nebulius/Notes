@@ -1,7 +1,7 @@
 ---
 title: 'L''aventure Sablet'
 abstract: 'Lancer un ballon sonde pour observer Terre et atmosphère fut une aventure enrichissante… Récit.'
-media_order: 'envol.jpg,Ballon-couverture-pret-veille.jpg,Ballon-couverture-assemblage.jpg,Ballon-couverture-pret-veille-zoom.jpg,Astra-planner-aout-2018.png,carte-trajet.png'
+media_order: 'envol.jpg,Ballon-couverture-pret-veille.jpg,Ballon-couverture-assemblage.jpg,Ballon-couverture-pret-veille-zoom.jpg,Astra-planner-aout-2018.png,carte-trajet.png,chaîne-de-vol-réduit.jpg'
 header_image:
     image: envol.jpg
     color: '#2b6ead'
@@ -27,11 +27,21 @@ Oh, six mois n'étaient pas vraiment nécessaires pour mener le projet à bien �
 
 Les premiers mois furent consacrés à la mise au point de ce que l'on voulait faire, et aux renseignements et contacts concernant les possibilités que l'on avait. L'objectif initial était clair : réussir l'envol (le premier de cette envergure pour Timothée), et obtenir de belles photographies et films de la Terre vue de la stratosphère, incluant idéalement la courbure de notre planète. Après discussions, s'ajouta celui de prendre des mesures de température, pression, et proportion d'ozone régulièrement dans l'atmosphère grâce à des capteurs intégrés au ballon.
 
+Mais concrètement, que lance-t-on exactement ? L'ensemble des différentes parties du ballon et de ce qu'il transporte s'appelle la _chaîne de vol_, et elle est constituées de différentes parties ayant chacune son intérêt.
+
+- Le ballon, gonflé d'hélium, sert à… transporter tout ce petit monde en haute atmosphère.
+- Le parachute permet d'éviter que la nacelle ne retombe trop violemment au sol et ne se brise ou n'abîme les composants embarqués : une fois arrivé à l'altitude maximale, le ballon explose et sans ça, la nacelle chuterait à grande vitesse depuis une altitude d'environ 30 kilomètres !
+- Le rélfecteur radar est une obligation légale ; il sert à ce que le ballon puisse être visible sur les radars des autres appareils volants ou non.
+- Enfin, la nacelle contient ce que l'on veut concrêtement envoyer en l'air : caméra, capteurs, batteries…
+
+![La chaîne de vol : de haut en bas, ballon, parachute, réflecteur radar (avec GPS, non visible sur la photo), puis dix mètres plus bas la nacelle.](cha%C3%AEne-de-vol-r%C3%A9duit.jpg)
+Figure: La chaîne de vol
+
 Nous nous sommes entendus sur cette [liste de matériel](/sablet/materiel) : 
 
 - un **ballon** (oui) pour soulever jusqu'à 1200 grammes, de 3,5 m³ ;
-- un **parachute**, pour que la nacelle ne retombe pas trop violemment au sol et ne se brise ou n'abîme les composants embarqués ;
-- un **réflecteur radar**, afin d'être visible par le reste du monde volant (obligation légale) ;
+- un **parachute** ;
+- un **réflecteur radar** ;
 - une **boîte en polystyrène expansé**, formant la nacelle et contenant tout ce qu'on embarquera dans le ciel ;
 - une **couverture de survie**[^mylar], utilisée pour renforcer l'isolation thermique de la nacelle en polystyrène ;
 - un **GPS** contactable à distance (dans notre cas par GSM) pour pouvoir retrouver le ballon (sinon, comment savoir où il est tombé ?) ;
@@ -123,7 +133,7 @@ Au delà de cela, ce fut également l'occasion de fixer (définitivement) sur la
 ![](Ballon-couverture-assemblage.jpg)
 Figure: La couverture thermique du ballon sonde en cours de fixation
 
-Enfin, le couvercle de la nacelle est fixé au reste via une charnière en adhésif métallique, afin de pouvoir placer le lendemain tous les composants à l'intérieur ; le couvercle sera scellé juste avant l'envol. Il ne reste plus qu'à fixer les cordelettes à l'élément suivant de la chaîne de vol (le rélfecteur radar), et on est bon pour la journée !
+Enfin, le couvercle de la nacelle est fixé au reste via une charnière en adhésif métallique, afin de pouvoir placer le lendemain tous les composants à l'intérieur ; le couvercle sera scellé juste avant l'envol. Il ne reste plus qu'à fixer les cordelettes à l'élément suivant de la chaîne de vol (le réflecteur), et on est bon pour la journée !
 
 ![La nacelle reliée au réflecteur radar par une cordelette partiellement enroulée (car chacun des quatre brins fixant la nacelle mesure dix mètres)](Ballon-couverture-pret-veille-zoom.jpg)
 Figure: La nacelle reliée au réflecteur radar via quatre cordelettes de dix mètres chacune.

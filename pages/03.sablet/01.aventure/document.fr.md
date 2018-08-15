@@ -1,7 +1,7 @@
 ---
 title: 'L''aventure Sablet'
 abstract: 'Lancer un ballon sonde pour observer Terre et atmosphère fut une aventure enrichissante… Récit.'
-media_order: 'envol.jpg,Ballon-couverture-pret-veille.jpg,Ballon-couverture-assemblage.jpg,Ballon-couverture-pret-veille-zoom.jpg,Astra-planner-aout-2018.png'
+media_order: 'envol.jpg,Ballon-couverture-pret-veille.jpg,Ballon-couverture-assemblage.jpg,Ballon-couverture-pret-veille-zoom.jpg,Astra-planner-aout-2018.png,carte-trajet.png'
 header_image:
     image: envol.jpg
     color: '#2b6ead'
@@ -39,7 +39,7 @@ Nous nous sommes entendus sur cette [liste de matériel](/sablet/materiel) :
 - un **RaspberryPi**, un ordinateur miniature, pour servir de cerveau à bord ;
 - deux **capteurs de température** (un à l'intérieur et un à l'extérieur de la nacelle) ;
 - un **capteur de pression** placé à l'extérieur ;
-- de la **cordelette** pour lier tous les éléments entre eux ;
+- une dizaine de mètres de **cordelette** pour lier tous les éléments entre eux ;
 - et enfin **3 400 litres d'hélium** pour gonfler le ballon[^quantité-helium].
 
 [^quantité-helium]: Le calcul permettant de déterminer la quantité d'hélium est détaillé [sur la page dédiée au matériel](/sablet/materiel).

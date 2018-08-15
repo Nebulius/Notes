@@ -128,12 +128,12 @@ Ce fut également l'occasion de finaliser les montages électroniques et les cod
 
 [tweet=https://twitter.com/AmauryPi/status/897874033374613506]
 
-Au delà de cela, ce fut également l'occasion de fixer (définitivement) sur la nacelle sa protection thermique secondaire (en l'occurrence, une couverture de survie)[^note-erreurs-couverture-survie], sans oublier de laisser une ouverture pour placer la caméra[^ouverture-camera]. Ce qui donne au passage un magnifique air de satellite à la nacelle !
+Au delà de cela, ce fut également l'occasion de fixer (définitivement) sur la nacelle sa protection thermique secondaire (en l'occurrence, une couverture de survie)[^note-erreurs-couverture-survie], sans oublier de laisser une ouverture pour placer la caméra[^ouverture-camera].
 
 ![](Ballon-couverture-assemblage.jpg)
 Figure: La couverture thermique du ballon sonde en cours de fixation
 
-Enfin, le couvercle de la nacelle est fixé au reste via une charnière en adhésif métallique, afin de pouvoir placer le lendemain tous les composants à l'intérieur ; le couvercle sera scellé juste avant l'envol. Il ne reste plus qu'à fixer les cordelettes à l'élément suivant de la chaîne de vol (le réflecteur), et on est bon pour la journée !
+Enfin, le couvercle de la nacelle est fixé au reste via une charnière en adhésif métallique, afin de pouvoir placer le lendemain tous les composants à l'intérieur ; le couvercle sera scellé juste avant l'envol. Il ne reste plus qu'à fixer les cordelettes à l'élément suivant de la chaîne de vol (le réflecteur), et on est bon pour la journée ! Au passage, la nacelle a pris un magnifique air de satellite…
 
 ![La nacelle reliée au réflecteur radar par une cordelette partiellement enroulée (car chacun des quatre brins fixant la nacelle mesure dix mètres)](Ballon-couverture-pret-veille-zoom.jpg)
 Figure: La nacelle reliée au réflecteur radar via quatre cordelettes de dix mètres chacune.

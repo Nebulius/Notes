@@ -27,7 +27,7 @@ Oh, six mois n'étaient pas vraiment nécessaires pour mener le projet à bien �
 
 Les premiers mois furent consacrés à la mise au point de ce que l'on voulait faire, et aux renseignements et contacts concernant les possibilités que l'on avait. L'objectif initial était clair : réussir l'envol (le premier de cette envergure pour Timothée), et obtenir de belles photographies et films de la Terre vue de la stratosphère, incluant idéalement la courbure de notre planète. Après discussions, s'ajouta celui de prendre des mesures de température, pression, et proportion d'ozone régulièrement dans l'atmosphère grâce à des capteurs intégrés au ballon.
 
-Nous nous sommes entendus sur cette liste de matériel : 
+Nous nous sommes entendus sur cette [liste de matériel](/sablet/materiel) : 
 
 - un **ballon** (oui) pour soulever jusqu'à 1200 grammes, de 3,5 m³ ;
 - un **parachute**, pour que la nacelle ne retombe pas trop violemment au sol et ne se brise ou n'abîme les composants embarqués ;
@@ -44,7 +44,7 @@ Nous nous sommes entendus sur cette liste de matériel :
 
 [^quantité-helium]: Le calcul permettant de déterminer la quantité d'hélium est détaillé [sur la page dédiée au matériel](/sablet/materiel).
 
-En juin, nous commençâment à [recevoir les pièces](/sablet/materiel), commandées sur Internet. Il s'agissait de tester le matériel, s'assurant par exemple que la caméra pouvait tenir suffisamment longtemps, mais aussi réfléchir à comment tout assembler proprement. Nous avions trois principales contraintes : 
+En juin, nous commençâmes à [recevoir les pièces](/sablet/materiel), commandées sur Internet. Il s'agissait de tester le matériel, s'assurant par exemple que la caméra pouvait tenir suffisamment longtemps, mais aussi réfléchir à comment tout assembler proprement. Nous avions trois principales contraintes : 
 
 - le **poids** de la charge utile[^charge-utile], qui était très limité, car il fallait que le ballon puisse décoller et aller haut[^limite-poids] ;
 - les **limites du matériel** : la température descend très bas en haute altitude, et tout ce que nous voulions embarquer ne supportait pas de telles conditions ; aussi, il fallait que les appareils devant communiquer avec le sol… puissent le faire[^blocage-gps] ;
@@ -54,7 +54,7 @@ En juin, nous commençâment à [recevoir les pièces](/sablet/materiel), comman
 [^blocage-gps]: Plus de détails sur ça un peu plus bas…
 [^limite-poids]: Quand on monte ce genre de projets, on se retrouve très vite à chercher à économiser le moindre gramme. Ce fut d'ailleurs un des critères du choix des capteurs embarqués, et de tout le reste du matériel d'ailleurs (vous trouverez [plus de détails sur la page dédiée au matériel](/sablet/materiel)). _In fine_, nous sommes arrivés à une masse tout juste au delà du kilogramme (pour la nacelle uniquement).
 
-## Jouer avec les limites du matériel
+## Tester les limites du matériel
 
 Il fut plus simple de tester certains éléments que d'autres. Les composants électroniques embarqués furent assez simple à tester, dans les limites que nous le faisions sur Terre et non aux températures réelles auxquelles ils allaient être exposés. Cela nous a d'ailleurs donné l'occasion de publier certains de ces tests lorsqu'ils se révélèrent jolis — par exemple, cet innocent _timelapse_ publié sur Instagram a initialement été tourné pour s'assurer que la batterie de la caméra tournerait suffisamment longtemps.
 

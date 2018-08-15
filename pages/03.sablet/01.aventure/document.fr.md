@@ -1,7 +1,7 @@
 ---
 title: 'L''aventure Sablet'
 abstract: 'Lancer un ballon sonde pour observer Terre et atmosphère fut une aventure enrichissante… Récit.'
-media_order: 'envol.jpg,Ballon-couverture-pret-veille.jpg,Ballon-couverture-assemblage.jpg,Ballon-couverture-pret-veille-zoom.jpg,Astra-planner-aout-2018.png,carte-trajet.png,chaîne-de-vol-réduit.jpg'
+media_order: 'envol.jpg,Ballon-couverture-pret-veille.jpg,Ballon-couverture-assemblage.jpg,Ballon-couverture-pret-veille-zoom.jpg,Astra-planner-aout-2018.png,carte-trajet.png,chaîne-de-vol-réduit.jpg,all_data.png'
 header_image:
     image: envol.jpg
     color: '#2b6ead'
@@ -16,8 +16,6 @@ authors:
 ---
 
 _Cette page est en cours de rédaction. Revenez plus tard ! Le site n'est pas encore officiellement lancé._
-
-~
 
 Lancer un ballon-sonde ne s'improvise pas la veille pour le lendemain. En l'occurrence, le projet SABLET a débuté au début de l'année 2017 (pour un lancement en août de la même année). Initialement, Timothée Bailly était seul sur le projet, rejoint au milieu de la préparation par Amaury Carrade.
 

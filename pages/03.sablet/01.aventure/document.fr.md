@@ -80,7 +80,8 @@ Pour anticiper le point de chute du ballon et, de là, choisir le lieu et l'heur
 
 ![Simulation de l'outil Astra Planner pour un vol en août 2018 (pas le vol original). On y voit une carte avec un point rouge représentant le point de décollage, et une dizaine de points bleus pour les lieux d'atterrissages possibles selon la simulation. Le point de décollage est au sud de Montélimar ; quant aux points d'atterrissage, ils sont beaucoup plus au sud-ouest, au nord d'Alès.](Astra-planner-aout-2018.png)
 Figure: Une simulation réalisée plus récemment, en août 2018, pour donner un exemple. Le point rouge montre le décollage, les points bleus les aterrissages hypothétiques, et les jaunes les lieux d'explosion du ballon, en altitude.  
-On notera que les vents, dans cette simulation, vont dans la direction opposée de ce que nous avions en août 2017 pour le vol de notre ballon. Ils se dirigeaient alors vers le sud est, en passant au dessus du Mont Ventoux pour aterrir un peu derrière. Un plan de la réelle trajectoire du ballon sera donné plus bas.
+On notera que les vents, dans cette simulation, vont dans la direction opposée de ce que nous avions en août 2017 pour le vol de notre ballon. Ils se dirigeaient alors vers le sud est, en passant au dessus du Mont Ventoux pour aterrir un peu derrière. Un plan de la réelle trajectoire du ballon sera donné plus bas.  
+On peut également y voir la direction différente des vents d'altitude, au revirement de la trajectoire au milieu (lorsque le ballon est haut) par rapport à sa trajectoire lorsqu'il est plus bas en altitude, au début et à la fin.
 
 [^note-mer]: Notre localisation de base étant proche de la mer, c'était quelque chose qu'il fallait tout particulièrement prendre en compte.
 

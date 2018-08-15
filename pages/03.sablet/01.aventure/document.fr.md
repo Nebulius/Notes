@@ -27,6 +27,23 @@ Oh, six mois n'étaient pas vraiment nécessaires pour mener le projet à bien �
 
 Les premiers mois furent consacrés à la mise au point de ce que l'on voulait faire, et aux renseignements et contacts concernant les possibilités que l'on avait. L'objectif initial était clair : réussir l'envol (le premier de cette envergure pour Timothée), et obtenir de belles photographies et films de la Terre vue de la stratosphère, incluant idéalement la courbure de notre planète. Après discussions, s'ajouta celui de prendre des mesures de température, pression, et proportion d'ozone régulièrement dans l'atmosphère grâce à des capteurs intégrés au ballon.
 
+Nous nous sommes entendus sur cette liste de matériel : 
+
+- un **ballon** (oui) pour soulever jusqu'à 1200 grammes, de 3,5 m³ ;
+- un **parachute**, pour que la nacelle ne retombe pas trop violemment au sol et ne se brise ou n'abîme les composants embarqués ;
+- un **réflecteur radar**, afin d'être visible par le reste du monde volant (obligation légale) ;
+- une **boîte en polystyrène expansé**, formant la nacelle et contenant tout ce qu'on embarquera dans le ciel ;
+- une **couverture de survie** utilisée pour renforcer l'isolation thermique de la nacelle en polystyrène ;
+- un **GPS** contactable à distance (dans notre cas par GSM) pour pouvoir retrouver le ballon (sinon, comment savoir où il est tombé ?) ;
+- une **caméra** autonome et résistante, filmant en 720p 60 FPS pendant toute la durée du vol ;
+- un **RaspberryPi**, un ordinateur miniature, pour servir de cerveau à bord ;
+- deux **capteurs de température** (un à l'intérieur et un à l'extérieur de la nacelle) ;
+- un **capteur de pression** placé à l'extérieur ;
+- de la **cordelette** pour lier tous les éléments entre eux ;
+- et enfin **3 400 litres d'hélium** pour gonfler le ballon[^quantité-helium].
+
+[^quantité-helium]: Le calcul permettant de déterminer la quantité d'hélium est détaillé [sur la page dédiée au matériel](/sablet/materiel).
+
 En juin, nous commençâment à [recevoir les pièces](/sablet/materiel), commandées sur Internet. Il s'agissait de tester le matériel, s'assurant par exemple que la caméra pouvait tenir suffisamment longtemps, mais aussi réfléchir à comment tout assembler proprement. Nous avions trois principales contraintes : 
 
 - le **poids** de la charge utile[^charge-utile], qui était très limité, car il fallait que le ballon puisse décoller et aller haut[^limite-poids] ;

@@ -133,7 +133,7 @@ Au delà de cela, ce fut également l'occasion de fixer (définitivement) sur la
 ![](Ballon-couverture-assemblage.jpg)
 Figure: La couverture thermique du ballon sonde en cours de fixation
 
-Enfin, le couvercle de la nacelle est fixé au reste via une charnière en adhésif métallique, afin de pouvoir placer le lendemain tous les composants à l'intérieur ; le couvercle sera scellé juste avant l'envol. Il ne reste plus qu'à fixer les cordelettes à l'élément suivant de la chaîne de vol (le réflecteur), et on est bon pour la journée ! Au passage, la nacelle a pris un magnifique air de satellite…
+Enfin, le couvercle de la nacelle est fixé au reste via une charnière en adhésif métallique, afin de pouvoir placer le lendemain tous les composants à l'intérieur ; le couvercle sera scellé juste avant l'envol. Il ne reste plus qu'à fixer les cordelettes à l'élément suivant de la chaîne de vol (le réflecteur), et on est bon pour la journée ! Au passage, la nacelle a prit un magnifique air de satellite…
 
 ![La nacelle reliée au réflecteur radar par une cordelette partiellement enroulée (car chacun des quatre brins fixant la nacelle mesure dix mètres)](Ballon-couverture-pret-veille-zoom.jpg)
 Figure: La nacelle reliée au réflecteur radar via quatre cordelettes de dix mètres chacune.

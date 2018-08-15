@@ -51,6 +51,10 @@ On pourrait penser que ce qui limite la résistance de l'électronique embarqué
 
 Les batteries fonctionnent grâce à des réactions chimiques qui sont beaucoup moins efficaces lorsqu'il fait froid. Dans notre cas et d'après nos relevés, l'intérieur isolé de la nacelle est tombé à -20 °C, une température que nous avions approximativemnt anticipé. Nous n'avions pas jugé nécessaire de chauffer au delà de l'isolation pour éviter que les batteries ne meurent (même si nous l'avions envisagé sérieusement), et tout s'est finalement bien passé, mais avec des batteries plus sensibles au froid ou par simple prudence, il peut être un bonne idée d'y songer (par exemple grâce à des lingettes chauffantes, ou une seconde couche d'isolant autour des batteries).
 
+## Trouver le bon endroit
+
+TODO
+
 ## Se conformer à la loi
 
 En plus des contraintes de matériel embarqué et de vitesse sus-mentionnées, la loi nous contraint également à une déclaration de lancement auprès de la DSAC.
@@ -64,10 +68,6 @@ Nous nous sommes un peu fait avoir à ce niveau car nous attendions une réponse
 Vous trouverez tous les détails relatifs à la loi [sur la page dédiée à ce sujet](/sablet/loi) ;) .
 
 *[DSAC]: Direction de la sécurité de l'Aviation civile
-
-## Trouver le bon endroit
-
-TODO
 
 ## Préparer les codes
 
@@ -87,6 +87,9 @@ Ce fut également l'occasion de finaliser les montages électroniques et les cod
 
 Au delà de cela, ce fut également l'occasion de fixer (définitivement) sur la nacelle sa protection thermique secondaire (en l'occurrence, une couverture de survie)[^note-erreurs-couverture-survie]. Ce qui donne au passage un magnifique air de satellite à la nacelle !
 
-[images de la nacelle et de sa couverture]
+![](Ballon-couverture-assemblage.jpg)
+Figure: La couverture thermique du ballon sonde en cours de fixation
+
+Enfin,
 
 [^note-erreurs-couverture-survie]: Et de se planter de bien trop nombreuses fois sur le bon sens des couvertures, les couleurs variant selon les constructeurs… mais chhhht (cela dit faites attention à ce détail si vous faites votre ballon ! se tromper de sens ruine complètement l'intérêt de la couverture de survie, et revient à ne pas en mettre du tout).

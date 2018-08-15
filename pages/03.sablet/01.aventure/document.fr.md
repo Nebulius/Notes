@@ -1,7 +1,7 @@
 ---
 title: 'L''aventure Sablet'
 abstract: 'Lancer un ballon sonde pour observer Terre et atmosphère fut une aventure enrichissante… Récit.'
-media_order: 'envol.jpg,Ballon-couverture-pret-veille.jpg,Ballon-couverture-assemblage.jpg,Ballon-couverture-pret-veille-zoom.jpg,Astra-planner-aout-2018.png,carte-trajet.png,chaîne-de-vol-réduit.jpg,all_data.png'
+media_order: 'envol.jpg,Ballon-couverture-pret-veille.jpg,Ballon-couverture-assemblage.jpg,Ballon-couverture-pret-veille-zoom.jpg,Astra-planner-aout-2018.png,carte-trajet.png,chaîne-de-vol-réduit.jpg'
 header_image:
     image: envol.jpg
     color: '#2b6ead'
@@ -140,3 +140,5 @@ Figure: La nacelle reliée au réflecteur radar via quatre cordelettes de dix m�
 
 [^note-erreurs-couverture-survie]: Et de se planter de bien trop nombreuses fois sur le bon sens des couvertures, les couleurs variant selon les constructeurs… mais chhhht (cela dit faites attention à ce détail si vous faites votre ballon ! se tromper de sens ruine complètement l'intérêt de la couverture de survie, et revient à ne pas en mettre du tout).
 [^ouverture-camera]: Nous nous accorderons sans difficulté sur le fait que filmer une couverture de survie pendant deux heures n'a que peu d'intérêt.
+
+# Jour J

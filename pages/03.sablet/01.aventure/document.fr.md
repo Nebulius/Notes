@@ -51,8 +51,8 @@ En juin, nous commençâmes à [recevoir les pièces](/sablet/materiel), command
 - la **loi**, eh oui, qui [impose d'embarquer certains éléments et de respecter certaines normes](/sablet/loi), notamment de vitesse d'ascension.
 
 [^charge-utile]: La charge utile, c'est simplement ce que le ballon transporte… _d'utile_, en plus de lui-même (la nacelle, la caméra, le GPS, les capteurs…).
-[^blocage-gps]: Plus de détails sur ça un peu plus bas…
 [^limite-poids]: Quand on monte ce genre de projets, on se retrouve très vite à chercher à économiser le moindre gramme. Ce fut d'ailleurs un des critères du choix des capteurs embarqués, et de tout le reste du matériel d'ailleurs (vous trouverez [plus de détails sur la page dédiée au matériel](/sablet/materiel)). _In fine_, nous sommes arrivés à une masse tout juste au delà du kilogramme (pour la nacelle uniquement).
+[^blocage-gps]: Plus de détails sur ça un peu plus bas…
 
 ## Tester les limites du matériel
 

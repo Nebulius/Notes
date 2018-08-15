@@ -39,7 +39,7 @@ En juin, nous commençâment à [recevoir les pièces](/sablet/materiel), comman
 
 ## Jouer avec les limites du matériel
 
-Il fut plus simple de tester certains éléments que d'autres. Les composants électroniques embarqués furent assez simple à tester, dans les limites que nous le faisions sur Terre et non aux températures réelles auxquelles ils allaient être exposés. Cela nous a d'ailleurs donné l'occasion de publier certains de ces tests lorsqu'ils se révélèrent jolis — par exemple, cet innocent _timelapse_ publié sur Instagram a initialement été tourné pour s'assurer que la batterie de la caméra tournerait longtemps.
+Il fut plus simple de tester certains éléments que d'autres. Les composants électroniques embarqués furent assez simple à tester, dans les limites que nous le faisions sur Terre et non aux températures réelles auxquelles ils allaient être exposés. Cela nous a d'ailleurs donné l'occasion de publier certains de ces tests lorsqu'ils se révélèrent jolis — par exemple, cet innocent _timelapse_ publié sur Instagram a initialement été tourné pour s'assurer que la batterie de la caméra tournerait suffisamment longtemps.
 
 [instagram=https://www.instagram.com/p/BVAgNxeFij0/]
 

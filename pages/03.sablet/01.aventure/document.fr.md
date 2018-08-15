@@ -1,7 +1,7 @@
 ---
 title: 'L''aventure Sablet'
 abstract: 'Lancer un ballon sonde pour observer Terre et atmosphère fut une aventure enrichissante… Récit.'
-media_order: envol.jpg
+media_order: 'envol.jpg,Ballon-couverture-pret-veille.jpg,Ballon-couverture-assemblage.jpg,Ballon-couverture-pret-veille-zoom.jpg,Astra-planner-aout-2018.png'
 header_image:
     image: envol.jpg
     color: '#2b6ead'
@@ -60,7 +60,7 @@ Il fut plus simple de tester certains éléments que d'autres. Les composants é
 
 [instagram=https://www.instagram.com/p/BVAgNxeFij0/]
 
-Pour d'autres éléments, il n'était pas vraiment possible de tester, ou de manière très limitée. Difficile, par exemple, de tester le bon déploiement du parachute… sans envoyer un autre ballon (et ce bien que nous annoncions avant le lancement que nous comptions faire ce test !). Aussi, nous n'avions pas de chambre froide pour tester l'isolation de notre nacelle en polystyrène face à une température extérieure de -50 °C, ni pour nous assurer que nos capteurs exposés résisteraient à de telles températures. Cela dit, ce ne fut pas un réel problème étant donné que les limites étaient généralement précisées sur les notices ou _datasheets_ des éléments utilisés.
+Pour d'autres éléments, il n'était pas vraiment possible de tester, ou de manière très limitée. Difficile, par exemple, de s'assurer du bon déploiement du parachute… sans envoyer un autre ballon (et ce bien que nous annoncions avant le lancement que nous comptions faire ce test !). Aussi, nous n'avions pas de chambre froide pour tester l'isolation de notre nacelle en polystyrène face à une température extérieure de -50 °C, ni pour nous assurer que nos capteurs exposés résisteraient à de telles températures. Cela dit, ce ne fut pas un réel problème étant donné que les limites étaient généralement précisées sur les notices ou _datasheets_ des éléments utilisés.
 
 [tweet=https://twitter.com/Yoku_Sama/status/871437949853982723]
 
@@ -70,7 +70,18 @@ Les batteries fonctionnent grâce à des réactions chimiques qui sont beaucoup 
 
 ## Trouver le bon endroit
 
-TODO
+Notre objectif était certes de lancer le ballon, mais aussi de le récupérer, tant pour pouvoir éventuellement le réutiliser que pour pouvoir récolter les données collectées (film et mesures). Il fallait donc soigneusement choisir le lieu de lancement afin qu'il ne finisse pas, par exemple, dans la mer[^note-mer]… En effet, impossible de contrôler sa trajectoire : une fois lancé, il vogue au gré des vents des différentes altitudes qu'il traverse.
+
+Il existe des outils pour simuler, en prenant les prévisions relatives aux vents d'altitude en compte, la trajectoire et le point de chute d'un ballon stratosphérique, et nous nous en sommes servis pour choisir le point précis de lancement. Seul problème : les prévisions se limitent à quelques jours, et la DSAC exige une déclaration de vol _incluant la localisation précise du décollage_ au moins un mois auparavant…
+
+En réalité ce fut un problème plutôt simple à contourner : nous avons déclaré un lieu suffisamment loin de la mer avec une grosse marge (en l'occurrence, dans la région de Valence), localisation qui fut affinée (sans déclaration) par la suite — pas très légal strictement parlant, mais sans conséquences non plus. _In fine_, nous sommes partis beaucoup plus au sud, vers Montélimar.
+
+Pour anticiper le point de chute du ballon et, de là, choisir le lieu et l'heure idéaux du lancement, nous avons utilisé [_ASTRA Planner_](http://astra-planner.soton.ac.uk/), un utilitaire mis à disposition par l'université de Southampton, dont je présente un exemple de prédiction ci-dessous. En utilisant les données récoltées par les stations métérologique et les modèles de l'atmosphère, et en connaissant les propriétés du ballon (masse, type de parachute, aérodynamisme…), il simule des trajectoires probables du ballon, ce qui permet d'avoir une idée du point de chute. La position précise n'est pas très importante, tant que c'est loin de l'eau : elle nous permettra surtout de s'assurer donc qu'on pourra retrouver le ballon, et de savoir approximativement dans quelle direction se diriger.
+
+![Simulation de l'outil Astra Planner pour un vol en août 2018 (pas le vol original). On y voit une carte avec un point rouge représentant le point de décollage, et une dizaine de points bleus pour les lieux d'atterrissages possibles selon la simulation. Le point de décollage est au sud de Montélimar ; quant aux points d'atterrissage, ils sont beaucoup plus au sud-ouest, au nord d'Alès.](Astra-planner-aout-2018.png)
+Figure: Une simulation réalisée plus récemment, en août 2018, pour donner un exemple. Le point rouge montre le décollage, les points bleus les aterrissages hypothétiques, et les jaunes les lieux d'explosion du ballon, en altitude. On notera que les vents, dans cette simulation, vont dans la direction opposée de ce que nous avions en août 2017 pour le vol de notre ballon. Ils se dirigeaient alors vers le sud est, en passant au dessus du Mont Ventoux pour aterrir un peu derrière. Un plan de la réelle trajectoire du ballon sera donné plus bas.
+
+[^note-mer]: Notre localisation de base étant proche de la mer, c'était quelque chose qu'il fallait tout particulièrement prendre en compte.
 
 ## Se conformer à la loi
 

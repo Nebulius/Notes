@@ -33,15 +33,16 @@ Nous nous sommes entendus sur cette [liste de matériel](/sablet/materiel) :
 - un **parachute**, pour que la nacelle ne retombe pas trop violemment au sol et ne se brise ou n'abîme les composants embarqués ;
 - un **réflecteur radar**, afin d'être visible par le reste du monde volant (obligation légale) ;
 - une **boîte en polystyrène expansé**, formant la nacelle et contenant tout ce qu'on embarquera dans le ciel ;
-- une **couverture de survie** utilisée pour renforcer l'isolation thermique de la nacelle en polystyrène ;
+- une **couverture de survie**[^mylar], utilisée pour renforcer l'isolation thermique de la nacelle en polystyrène ;
 - un **GPS** contactable à distance (dans notre cas par GSM) pour pouvoir retrouver le ballon (sinon, comment savoir où il est tombé ?) ;
 - une **caméra** autonome et résistante, filmant en 720p 60 FPS pendant toute la durée du vol ;
 - un **RaspberryPi**, un ordinateur miniature, pour servir de cerveau à bord ;
 - deux **capteurs de température** (un à l'intérieur et un à l'extérieur de la nacelle) ;
 - un **capteur de pression** placé à l'extérieur ;
-- une dizaine de mètres de **cordelette** pour lier tous les éléments entre eux ;
+- une cinquantaine de mètres de **cordelette** pour lier tous les éléments entre eux ;
 - et enfin **3 400 litres d'hélium** pour gonfler le ballon[^quantité-helium].
 
+[^mylar]: Fabriquée en mylar, autrement dénommé polytéréphtalate d'éthylène.
 [^quantité-helium]: Le calcul permettant de déterminer la quantité d'hélium est détaillé [sur la page dédiée au matériel](/sablet/materiel).
 
 En juin, nous commençâmes à [recevoir les pièces](/sablet/materiel), commandées sur Internet. Il s'agissait de tester le matériel, s'assurant par exemple que la caméra pouvait tenir suffisamment longtemps, mais aussi réfléchir à comment tout assembler proprement. Nous avions trois principales contraintes : 
@@ -117,11 +118,15 @@ Ce fut également l'occasion de finaliser les montages électroniques et les cod
 
 [tweet=https://twitter.com/AmauryPi/status/897874033374613506]
 
-Au delà de cela, ce fut également l'occasion de fixer (définitivement) sur la nacelle sa protection thermique secondaire (en l'occurrence, une couverture de survie)[^note-erreurs-couverture-survie]. Ce qui donne au passage un magnifique air de satellite à la nacelle !
+Au delà de cela, ce fut également l'occasion de fixer (définitivement) sur la nacelle sa protection thermique secondaire (en l'occurrence, une couverture de survie)[^note-erreurs-couverture-survie], sans oublier de laisser une ouverture pour placer la caméra[^ouverture-camera]. Ce qui donne au passage un magnifique air de satellite à la nacelle !
 
 ![](Ballon-couverture-assemblage.jpg)
 Figure: La couverture thermique du ballon sonde en cours de fixation
 
-Enfin,
+Enfin, le couvercle de la nacelle est fixé au reste via une charnière en adhésif métallique, afin de pouvoir placer le lendemain tous les composants à l'intérieur ; le couvercle sera scellé juste avant l'envol. Il ne reste plus qu'à fixer les cordelettes à l'élément suivant de la chaîne de vol (le rélfecteur radar), et on est bon pour la journée !
+
+![La nacelle reliée au réflecteur radar par une cordelette partiellement enroulée (car chacun des quatre brins fixant la nacelle mesure dix mètres)](Ballon-couverture-pret-veille-zoom.jpg)
+Figure: La nacelle reliée au réflecteur radar via quatre cordelettes de dix mètres chacune.
 
 [^note-erreurs-couverture-survie]: Et de se planter de bien trop nombreuses fois sur le bon sens des couvertures, les couleurs variant selon les constructeurs… mais chhhht (cela dit faites attention à ce détail si vous faites votre ballon ! se tromper de sens ruine complètement l'intérêt de la couverture de survie, et revient à ne pas en mettre du tout).
+[^ouverture-camera]: Nous nous accorderons sans difficulté sur le fait que filmer une couverture de survie pendant deux heures n'a que peu d'intérêt.

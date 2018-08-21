@@ -18,7 +18,7 @@ Lancer un ballon-sonde ne s'improvise pas la veille pour le lendemain. En l'occu
 
 Oh, six mois n'étaient pas vraiment nécessaires pour mener le projet à bien — mais nous n'avions pas 100 % de notre temps à consacrer, et (mais ce sera évoqué plus tard) certains soucis administratifs ont décalé le lancement.
 
-# Préparation
+# Préparer l'envol
 
 [tweet=https://twitter.com/Yoku_Sama/status/870725624268193793]
 
@@ -113,7 +113,7 @@ Nous embarquions des capteurs ; il fallait bien monter un système pour collecte
 
 Le détail du fonctionnement du RaspberryPi et les codes sources expliqués sont disponibles [sur la page dédiée à la technique](/sablet/technique).
 
-# Veille du lancement
+# La veille du lancement
 
 [tweet=https://twitter.com/Yoku_Sama/status/897826883949264896]
 
@@ -138,4 +138,11 @@ Figure: La nacelle reliée au réflecteur radar via quatre cordelettes de dix m�
 [^note-erreurs-couverture-survie]: Et de se planter de bien trop nombreuses fois sur le bon sens des couvertures, les couleurs variant selon les constructeurs… mais chhhht (cela dit faites attention à ce détail si vous faites votre ballon ! se tromper de sens ruine complètement l'intérêt de la couverture de survie, et revient à ne pas en mettre du tout).
 [^ouverture-camera]: Nous nous accorderons sans difficulté sur le fait que filmer une couverture de survie pendant deux heures n'a que peu d'intérêt.
 
-# Jour J
+# Le jour J
+
+Ça y est, le jour tant attendu est arrivé… mais il reste à faire avant de pouvoir lancer le ballon ! Tous les composants embarqués, les codes, sont prêts, mais il reste à tout assembler et à (accessoirement) gonfler le ballon… Ce sera fait une fois sur le lieu de lancement. En route !
+
+En direction de Valence, nous nous arrêtons vers Montélimar. Notre objectif : repérer un terrain dégagé et sans lignes électriques passant au dessus — ce que nous trouvons finalement après un peu de route dans la campagne drômoise. Le trajet est également l'occasion de corriger les derniers détails des programmes qui vont tourner sur le RaspberryPi afin de les rendre plus robustes… ah, la joie des correctifs de dernière minute :p .
+
+## Assemblage final
+

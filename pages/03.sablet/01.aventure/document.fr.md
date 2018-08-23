@@ -1,7 +1,7 @@
 ---
 title: 'L''aventure Sablet'
 abstract: 'Lancer un ballon sonde pour observer Terre et atmosphère fut une aventure enrichissante… Récit.'
-media_order: 'envol.jpg,Ballon-couverture-pret-veille.jpg,Ballon-couverture-assemblage.jpg,Ballon-couverture-pret-veille-zoom.jpg,Astra-planner-aout-2018.png,carte-trajet.png,chaîne-de-vol-réduit.jpg'
+media_order: 'envol.jpg,Ballon-couverture-pret-veille.jpg,Ballon-couverture-assemblage.jpg,Ballon-couverture-pret-veille-zoom.jpg,Astra-planner-aout-2018.png,carte-trajet.png,chaîne-de-vol-réduit.jpg,68f8e2b7f621d7a1d5f3e58bf70c6443d2c58c9c9ea4e7aa3b7e7ac3de7ee75a.mp4'
 header_image:
     image: envol.jpg
     color: '#2b6ead'
@@ -64,9 +64,10 @@ En juin, nous commençâmes à [recevoir les pièces](/sablet/materiel), command
 
 ## Tester les limites du matériel
 
-Il fut plus simple de tester certains éléments que d'autres. Les composants électroniques embarqués furent assez simple à tester, dans les limites que nous le faisions sur Terre et non aux températures réelles auxquelles ils allaient être exposés. Cela nous a d'ailleurs donné l'occasion de publier certains de ces tests lorsqu'ils se révélèrent jolis — par exemple, cet innocent _timelapse_ publié sur Instagram a initialement été tourné pour s'assurer que la batterie de la caméra tournerait suffisamment longtemps.
+Il fut plus simple de tester certains éléments que d'autres. Les composants électroniques embarqués furent assez simple à tester, dans les limites que nous le faisions sur Terre et non aux températures réelles auxquelles ils allaient être exposés. Cela nous a d'ailleurs donné l'occasion de publier certains de ces tests lorsqu'ils se révélèrent jolis — par exemple, cet innocent _timelapse_ initialement publié sur Instagram a initialement été tourné pour s'assurer que la batterie de la caméra tournerait suffisamment longtemps.
 
-[instagram=https://www.instagram.com/p/BVAgNxeFij0/]
+![](68f8e2b7f621d7a1d5f3e58bf70c6443d2c58c9c9ea4e7aa3b7e7ac3de7ee75a.mp4)
+Figure: Tester la caméra avec de jolis _timelapses_ (ici, avec trois heures compressées en trente secondes).
 
 Pour d'autres éléments, il n'était pas vraiment possible de tester, ou de manière très limitée. Difficile, par exemple, de s'assurer du bon déploiement du parachute… sans envoyer un autre ballon (et ce bien que nous annoncions avant le lancement que nous comptions faire ce test !). Aussi, nous n'avions pas de chambre froide pour tester l'isolation de notre nacelle en polystyrène face à une température extérieure de -50 °C, ni pour nous assurer que nos capteurs exposés résisteraient à de telles températures. Cela dit, ce ne fut pas un réel problème étant donné que les limites étaient généralement précisées sur les notices ou _datasheets_ des éléments utilisés.
 

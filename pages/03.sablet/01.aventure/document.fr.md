@@ -1,7 +1,7 @@
 ---
 title: 'L''aventure Sablet'
 abstract: 'Lancer un ballon sonde pour observer Terre et atmosphère fut une aventure enrichissante… Récit.'
-media_order: 'envol.jpg,Ballon-couverture-pret-veille.jpg,Ballon-couverture-assemblage.jpg,Ballon-couverture-pret-veille-zoom.jpg,Astra-planner-aout-2018.png,carte-trajet.png,chaîne-de-vol-réduit.jpg,68f8e2b7f621d7a1d5f3e58bf70c6443d2c58c9c9ea4e7aa3b7e7ac3de7ee75a.mp4'
+media_order: 'envol.jpg,Ballon-couverture-pret-veille.jpg,Ballon-couverture-assemblage.jpg,Ballon-couverture-pret-veille-zoom.jpg,Astra-planner-aout-2018.png,carte-trajet.png,chaîne-de-vol-réduit.jpg,timelapse-test-camera.mp4,Contenu-nacelle-annoté.jpg'
 header_image:
     image: envol.jpg
     color: '#2b6ead'
@@ -14,7 +14,7 @@ license: by-sa
 
 _Cette page est en cours de rédaction. Revenez plus tard ! Le site n'est pas encore officiellement lancé._
 
-Lancer un ballon-sonde ne s'improvise pas la veille pour le lendemain. En l'occurrence, le projet SABLET a débuté au début de l'année 2017 (pour un lancement en août de la même année). Initialement, Timothée Bailly était seul sur le projet, rejoint au milieu de la préparation par Amaury Carrade.
+Lancer un ballon-sonde ne s'improvise pas la veille pour le lendemain. En l'occurrence, le projet SABLET a débuté au début de l'année 2017 (pour un lancement en août de la même année). Initialement, [Timothée Bailly](https://twitter.com/Yoku_Sama] était seul sur le projet, rejoint au milieu de la préparation par [Amaury Carrade](https://amaury.carrade.eu).
 
 Oh, six mois n'étaient pas vraiment nécessaires pour mener le projet à bien — mais nous n'avions pas 100 % de notre temps à consacrer, et (mais ce sera évoqué plus tard) certains soucis administratifs ont décalé le lancement.
 
@@ -66,7 +66,7 @@ En juin, nous commençâmes à [recevoir les pièces](/sablet/materiel), command
 
 Il fut plus simple de tester certains éléments que d'autres. Les composants électroniques embarqués furent assez simple à tester, dans les limites que nous le faisions sur Terre et non aux températures réelles auxquelles ils allaient être exposés. Cela nous a d'ailleurs donné l'occasion de publier certains de ces tests lorsqu'ils se révélèrent jolis — par exemple, cet innocent _timelapse_ initialement publié sur Instagram a initialement été tourné pour s'assurer que la batterie de la caméra tournerait suffisamment longtemps.
 
-![](68f8e2b7f621d7a1d5f3e58bf70c6443d2c58c9c9ea4e7aa3b7e7ac3de7ee75a.mp4)
+![](timelapse-test-camera.mp4)
 Figure: Tester la caméra avec de jolis _timelapses_ (ici, avec trois heures compressées en trente secondes).
 
 Pour d'autres éléments, il n'était pas vraiment possible de tester, ou de manière très limitée. Difficile, par exemple, de s'assurer du bon déploiement du parachute… sans envoyer un autre ballon (et ce bien que nous annoncions avant le lancement que nous comptions faire ce test !). Aussi, nous n'avions pas de chambre froide pour tester l'isolation de notre nacelle en polystyrène face à une température extérieure de -50 °C, ni pour nous assurer que nos capteurs exposés résisteraient à de telles températures. Cela dit, ce ne fut pas un réel problème étant donné que les limites étaient généralement précisées sur les notices ou _datasheets_ des éléments utilisés.
@@ -147,3 +147,7 @@ En direction de Valence, nous nous arrêtons vers Montélimar. Notre objectif : 
 
 ## Assemblage final
 
+Il ne restait plus grand chose à faire concernant la charge utile embarquée. Tout était lié, connecté ; une fixation à la nacelle et on était bons. J'ai bien dit « fixation » : afin d'éviter tout problème pendant le vol, tous les éléments sont attachés solidement au sol ou aux paroies de la boîte. Seuls trois éléments sortent de la nacelle : la caméra, bien sûr, et deux capteurs (un de température, pour mesurer la température extérieure et un de pression). Les capteurs sont maintenus un peu écartés de la paroie, pour ne pas fausser les mesures (surtout de température). Maintenus écartés… un peu comme on peut, mais tant que ça marche eh…
+
+![](Contenu-nacelle-annot%C3%A9.jpg)
+Figure: Le contenu de la nacelle (sauf la caméra, qui n'était pas encore placée au moment de la prise de la photo).

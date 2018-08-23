@@ -1,7 +1,7 @@
 ---
 title: 'L''aventure Sablet'
 abstract: 'Lancer un ballon sonde pour observer Terre et atmosphère fut une aventure enrichissante… Récit.'
-media_order: 'envol.jpg,Ballon-couverture-pret-veille.jpg,Ballon-couverture-assemblage.jpg,Ballon-couverture-pret-veille-zoom.jpg,Astra-planner-aout-2018.png,carte-trajet.png,chaîne-de-vol-réduit.jpg,timelapse-test-camera.mp4,Contenu-nacelle-annoté.jpg'
+media_order: 'envol.jpg,Ballon-couverture-pret-veille.jpg,Ballon-couverture-assemblage.jpg,Ballon-couverture-pret-veille-zoom.jpg,Astra-planner-aout-2018.png,carte-trajet.png,chaîne-de-vol-réduit.jpg,timelapse-test-camera.mp4,Contenu-nacelle-annoté.jpg,Contenu-externe-nacelle-annoté.jpg'
 header_image:
     image: envol.jpg
     color: '#2b6ead'
@@ -149,5 +149,16 @@ En direction de Valence, nous nous arrêtons vers Montélimar. Notre objectif : 
 
 Il ne restait plus grand chose à faire concernant la charge utile embarquée. Tout était lié, connecté ; une fixation à la nacelle et on était bons. J'ai bien dit « fixation » : afin d'éviter tout problème pendant le vol, tous les éléments sont attachés solidement au sol ou aux paroies de la boîte. Seuls trois éléments sortent de la nacelle : la caméra, bien sûr, et deux capteurs (un de température, pour mesurer la température extérieure et un de pression). Les capteurs sont maintenus un peu écartés de la paroie, pour ne pas fausser les mesures (surtout de température). Maintenus écartés… un peu comme on peut, mais tant que ça marche eh…
 
-![](Contenu-nacelle-annot%C3%A9.jpg)
-Figure: Le contenu de la nacelle (sauf la caméra, qui n'était pas encore placée au moment de la prise de la photo).
+![Vue légendée de la nacelle. On y voit une boîte en polystyrène ouverte, dans laquelle se trouve un RaspberryPi au centre, connecté à une platine d'expérimentation de laquelle partent moulte fils vers l'extérieur (connectés aux capteurs externes), ainsi qu'un câble relié d'un côté à une batterie externe (type batterie de téléphone) et de l'autre au RaspberryPi (mais sans être branché).](Contenu-nacelle-annot%C3%A9.jpg)
+Figure: Le contenu de la nacelle (sauf la caméra, qui n'était pas encore placée au moment de la prise de la photo). RaspberryPi et batteries ne sont pas encore fixées sur cette prise, mais ça ne saurait tarder…
+
+Comme vous pouvez le constater, une platine d'expérimentation (_breadboard_) est utilisée pour connecter les capteurs aux RaspberryPi, car nous n'avions pas de matériel de soudure, et que c'était beaucoup plus simple à gérer ainsi. Les programmes d'acquisition du RaspberryPi étant [configurés pour démarrer automatiquement avec le micro-ordinateur](/sablet/technique), le Pi est laissé débranché et ne sera allumé que juste avant le décollage, afin d'épargner la batterie le plus possible. En effet, sa durée de vie sera altérée par la température bien en deça de ses conditions normales de fonctionnement, donc autant ne pas tenter le diable et rester économe.
+
+À l'extérieur, les capteurs se préparent à capter. Sur la photographie ci-dessous, le capteur de température n'est pas à sa position définitive : il sera placé de biais, appuyé sur la diode électroluminescente rouge que l'on aperçoit, de façon à ce que le capteur (l'extrémité noire) soit la plus éloignée possible de la surface, afin donc d'éviter de perturber la mesure. À la réflexion, il y aurait eu d'autres façons bien plus propre d'arriver à cet objectif… mais ça s'est fait ainsi, avec ce dont on disposait sur le moment.
+
+![Vue de près de la paroie extérieure de la nacelle abritant les capteurs. On y voit un capteur de pression sous la forme d'une plaque bleue scotchée à la paroie perpendiculaire à cette dernière, duquel partent quatre fils (verts, jaunes, rouges et noirs), à droite, un capteur de température, tout petit composant noir approximativement cubique, duquel partent trois fils (noirs, rouges et blancs), au centre, ainsi qu'une diode électroluminescente rouge, ne servant qu'à éloigner le capteur de température de la paroie, à gauche.](Contenu-externe-nacelle-annot%C3%A9.jpg)
+Figure: Les capteurs externes à la nacelle.
+
+Concernant la nacelle, il ne reste qu'à ajouter une petite note en cas de perte (bien qu'équipé d'un GPS, nous préférons être prudents…), et c'est prêt !
+
+[tweet=https://twitter.com/AmauryPi/status/898129002321379329]

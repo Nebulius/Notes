@@ -162,3 +162,10 @@ Figure: Les capteurs externes à la nacelle.
 Concernant la nacelle, il ne reste qu'à ajouter une petite note en cas de perte (bien qu'équipé d'un GPS, nous préférons être prudents…), et c'est prêt !
 
 [tweet=https://twitter.com/AmauryPi/status/898129002321379329]
+
+## Gonflage final
+
+
+
+![Le ballon en cours de gonflage. On voit la bombonne à laquelle il est connecté en dessous. Une personne tient le ballon au niveau de la bombonne, et une autre le maintient en l'air afin d'éviter tout contact avec le sol.](Ballon-gonflage.jpg)
+

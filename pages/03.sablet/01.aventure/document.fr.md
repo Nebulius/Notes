@@ -14,7 +14,7 @@ license: by-sa
 
 _Cette page est en cours de rédaction. Revenez plus tard ! Le site n'est pas encore officiellement lancé._
 
-Lancer un ballon-sonde ne s'improvise pas la veille pour le lendemain. En l'occurrence, le projet SABLET a débuté au début de l'année 2017 (pour un lancement en août de la même année). Initialement, [Timothée Bailly](https://twitter.com/Yoku_Sama] était seul sur le projet, rejoint au milieu de la préparation par [Amaury Carrade](https://amaury.carrade.eu).
+Lancer un ballon-sonde ne s'improvise pas la veille pour le lendemain. En l'occurrence, le projet SABLET a débuté au début de l'année 2017 (pour un lancement en août de la même année). Initialement, [Timothée Bailly](https://twitter.com/Yoku_Sama) était seul sur le projet, rejoint au milieu de la préparation par [Amaury Carrade](https://amaury.carrade.eu).
 
 Oh, six mois n'étaient pas vraiment nécessaires pour mener le projet à bien — mais nous n'avions pas 100 % de notre temps à consacrer, et (mais ce sera évoqué plus tard) certains soucis administratifs ont décalé le lancement.
 
@@ -64,10 +64,10 @@ En juin, nous commençâmes à [recevoir les pièces](/sablet/materiel), command
 
 ## Tester les limites du matériel
 
-Il fut plus simple de tester certains éléments que d'autres. Les composants électroniques embarqués furent assez simple à tester, dans les limites que nous le faisions sur Terre et non aux températures réelles auxquelles ils allaient être exposés. Cela nous a d'ailleurs donné l'occasion de publier certains de ces tests lorsqu'ils se révélèrent jolis — par exemple, cet innocent _timelapse_ initialement publié sur Instagram a initialement été tourné pour s'assurer que la batterie de la caméra tournerait suffisamment longtemps.
+Il fut plus simple de tester certains éléments que d'autres. Les composants électroniques embarqués furent assez simple à tester, dans les limites que nous le faisions sur Terre et non aux températures réelles auxquelles ils allaient être exposés. Cela nous a d'ailleurs donné l'occasion de publier certains de ces tests lorsqu'ils se révélèrent jolis — par exemple, cet innocent _timelapse_ initialement publié sur Instagram a été tourné pour s'assurer que la batterie de la caméra tournerait suffisamment longtemps.
 
-![](timelapse-test-camera.mp4)
-Figure: Tester la caméra avec de jolis _timelapses_ (ici, avec trois heures compressées en trente secondes).
+![Vidéo accélérée de trois heures en vingt-cinq secondes, représentant la cime de quelques arbres et le ciel, plutôt dégagé, au dessus d'eux. Des nuages passent alors que le Soleil se couche progressivement.](timelapse-test-camera.mp4)
+Figure: Tester la caméra avec de jolis _timelapses_ (trois heures compressées en trente secondes).
 
 Pour d'autres éléments, il n'était pas vraiment possible de tester, ou de manière très limitée. Difficile, par exemple, de s'assurer du bon déploiement du parachute… sans envoyer un autre ballon (et ce bien que nous annoncions avant le lancement que nous comptions faire ce test !). Aussi, nous n'avions pas de chambre froide pour tester l'isolation de notre nacelle en polystyrène face à une température extérieure de -50 °C, ni pour nous assurer que nos capteurs exposés résisteraient à de telles températures. Cela dit, ce ne fut pas un réel problème étant donné que les limites étaient généralement précisées sur les notices ou _datasheets_ des éléments utilisés.
 
@@ -159,13 +159,35 @@ Comme vous pouvez le constater, une platine d'expérimentation (_breadboard_) es
 ![Vue de près de la paroie extérieure de la nacelle abritant les capteurs. On y voit un capteur de pression sous la forme d'une plaque bleue scotchée à la paroie perpendiculaire à cette dernière, duquel partent quatre fils (verts, jaunes, rouges et noirs), à droite, un capteur de température, tout petit composant noir approximativement cubique, duquel partent trois fils (noirs, rouges et blancs), au centre, ainsi qu'une diode électroluminescente rouge, ne servant qu'à éloigner le capteur de température de la paroie, à gauche.](Contenu-externe-nacelle-annot%C3%A9.jpg)
 Figure: Les capteurs externes à la nacelle.
 
+Le dernier “capteur” testé est le GPS. Contactable à distance via le réseau GSM (concrètement, par SMS), il est indispensable pour pouvoir retrouver le ballon. Initialement, nous prévoyons de le mettre dans la nacelle… mais ce serait oublier que la couverture externe de cette dernière bloque les communications GPS et GSM ! Nous aurions alors un GPS embarqué mais inutile. C'est pour cette raison que notre balise fut finalement attachée au réflecteur radar, directement à l'air libre. Il résistera sans le moindre problème aux basses températures et pressions.
+
 Concernant la nacelle, il ne reste qu'à ajouter une petite note en cas de perte (bien qu'équipé d'un GPS, nous préférons être prudents…), et c'est prêt !
 
 [tweet=https://twitter.com/AmauryPi/status/898129002321379329]
 
-## Gonflage final
+## Gonflage
 
+La dernière étape est la plus évidente : gonfler le ballon, notre moyen de propulsion pour atteindre la stratosphère, à partir d'une bouteille d'hélium. La seule chose à laquelle il faut faire attention est le niveau de gonflage : pas assez gonflé, et il n'aura pas une vitesse suffisante d'ascension (cette dernière doit être, au moins, de 5 mètres par seconde) ; trop, et il n'ira pas aussi haut que possible.
 
+En effet, plus le ballon monte et plus il se dilate, car la pression de l'air diminue avec l'altitude. Le diamètre initial de deux mètres (nous concernant) pourra se voir multiplié par sept. Arrivé à une certaine altitude, lorsque la résistance du ballon devient inférieure à la pression de l'hélium qu'il contient, il explose, et naturellement la nacelle retombe, scellant alors l'altitude maximale de la croisière. Si dés le départ, le ballon est très gonflé, sa paroie très tendue, l'altitude à laquelle sa résistance sera insuffisante diminuera logiquement. Il faut donc trouver un juste milieu entre vitesse minimale légale d'ascension et altitude maximale.
 
-![Le ballon en cours de gonflage. On voit la bombonne à laquelle il est connecté en dessous. Une personne tient le ballon au niveau de la bombonne, et une autre le maintient en l'air afin d'éviter tout contact avec le sol.](Ballon-gonflage.jpg)
+![Le ballon en cours de gonflage. Il n'est pas encore complètement sphérique. On voit la bombonne à laquelle il est connecté en dessous. Une personne tient le ballon au niveau de la bombonne, et une autre le maintient en l'air afin d'éviter tout contact avec le sol.](Ballon-gonflage.jpg)
+Figure: Le ballon en train d'être gonflé.
 
+Pour calculer la quantité d'hélium à insufler dans le ballon, il faut prendre en compte le poids total de la chaine de vol, qu'il aura à soulever. Notre objectif est d'atteindre une vitesse d'ascension tout juste supérieure à la limite légale, afin de minimiser la quantité d'hélium et donc de maximiser l'altitude, tout en restant dans les clous de la loi française.
+
+Vous pouvez réaliser le calcul à la main (les détails sont donnés ci-dessous), ou encore utiliser des outils existants qui font le calcul pour vous. Par exemple, le [_Balloon Performances Calculator_](http://tools.highaltitudescience.com) de _[High Altitude Science](http://highaltitudescience.com)_, mais il y en a bien d'autres. Dans notre cas, pour atteindre une vitesse d'ascension de 5 mètres par seconde, et au vu de la masse transportée (1743 grammes tout inclu), il nous fallait 4,27 mètres cube d'hélium.
+
+Et c'est en gonflant que l'on se rend bien compte que oui, la poussée d'Archimède, elle tire (fort !).
+
+[[s]]
+| _TODO calculs à la main, considérant la poussée d'Archimède etc._
+
+## Lancement !
+
+Le ballon est gonflé ? Fermé ? Attaché au reste ? Tout est scellé, fixé, les appareils électroniques démarrés ? Eh bien qu'attendons-nous, lançons ! Tout le travail étant fait au préalable, il ne reste plus grand chose à vérifier, si ce n'est que les câbles ne sont pas emmelés et que le ciel est dégagé de tout obstacle. Et c'est parti… les quelques efforts portent enfin leurs fruits — plus qu'à espérer que l'aventure se termine bien !
+
+![Le ballon décollant dans le ciel, vu du sol. Le Soleil s'invite sur la photo On ne voit que le haut du ballon (ballon, parachute, réflecteur) ; pas la nacelle.](envol.jpg)
+Figure: Le ballon s'envole dans le ciel, avec son parachute, son réflecteur et sa nacelle (hors cadre).
+
+Une fois le ballon parti, il peut être une bonne idée de refaire [une simulation de trajectoire](#trouver-le-bon-endroit) afin de prévoir l'emplacement approximatif d'atterrissage en utilisant les dernières données météorologiques, et de pouvoir s'y diriger en anticipant la position avant que le GPS ne réponde. En effet, celui-ci étant contacté par SMS, il cesse très vite d'être dans la portée du réseau, qui ne monte pas très haut en altitude. Pendant la majorité du vol, on est complètement  en aveugle, sans rien pouvoir faire d'autre qu'espérer que tout se passe bien.

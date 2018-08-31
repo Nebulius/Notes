@@ -176,7 +176,7 @@ Figure: Le ballon en train d'être gonflé.
 
 Pour calculer la quantité d'hélium à insufler dans le ballon, il faut prendre en compte le poids total de la chaine de vol, qu'il aura à soulever. Notre objectif est d'atteindre une vitesse d'ascension tout juste supérieure à la limite légale, afin de minimiser la quantité d'hélium et donc de maximiser l'altitude, tout en restant dans les clous de la loi française.
 
-Vous pouvez réaliser le calcul à la main (les détails sont donnés ci-dessous), ou encore utiliser des outils existants qui font le calcul pour vous. Par exemple, le [_Balloon Performances Calculator_](http://tools.highaltitudescience.com) de _[High Altitude Science](http://highaltitudescience.com)_, mais il y en a bien d'autres. Dans notre cas, pour atteindre une vitesse d'ascension de 5 mètres par seconde, et au vu de la masse transportée (1743 grammes tout inclu), il nous fallait 4,27 mètres cube d'hélium.
+Vous pouvez réaliser le calcul à la main (les détails sont donnés ci-dessous dans le bloc masqué), ou encore utiliser des outils existants qui font le calcul pour vous. Par exemple, le [_Balloon Performances Calculator_](http://tools.highaltitudescience.com) de _[High Altitude Science](http://highaltitudescience.com)_, mais il y en a bien d'autres. Dans notre cas, pour atteindre une vitesse d'ascension de 5 mètres par seconde, et au vu de la masse transportée (1743 grammes tout inclu), il nous fallait 4,27 mètres cube d'hélium.
 
 Et c'est en gonflant que l'on se rend bien compte que oui, la poussée d'Archimède, elle tire (fort !).
 
@@ -186,15 +186,25 @@ Et c'est en gonflant que l'on se rend bien compte que oui, la poussée d'Archim�
 | Si l'on suppose qu'il n'y a pas de vent, la chaîne de vol est soumis à deux forces : son poids $P$, et la poussée d'Archimède que je noterai $\Pi$. Le poids de la chaîne est elle-même constituée des poids du ballon, de l'hélium, et de toute la charge utile. Ainsi, on a :
 |
 | $$
-| \begin{array}[rcl]
-| P & = & \left(m_{\text{charge}} + m_{\text{enveloppe}} + m_{\text{hélium}} \right) \\
-| & = & \left(m_{\text{charge}} + m_{\text{enveloppe}} + \rho_{\text{hélium}} \middot V_{\text{hélium}} \right)
+| \begin{array}{rcl}
+| P & = & \left(m_{charge} + m_{enveloppe} + m_{hélium} \right) \, \cdot \, g \\
+| & = & \left(m_{charge} + m_{enveloppe} + \rho_{hélium} \cdot V_{hélium} \right) \, \cdot \, g
 | \end{array}
 | $$
 |
-| Où $m_{\text{élément}}$ est la masse de l'élément, $ \rho_{\text{hélium}}$ la masse volumique de l'hélium et $V_{\text{hélium}}$le volume initial d'hélium dans le ballon.
+| Où $m_{élément}$ est la masse de l'élément, $ \rho_{hélium}$ la masse volumique de l'hélium et $V_{hélium}$le volume initial d'hélium dans le ballon ; $g = 9,81 \, ms^{-2}$ étant bien sûr l'accélération de pesanteur terrestre. Quant à la poussée d'Archimède, elle est égale au poids de l'air déplacé, donc lors de la libération du ballon ($\rho_{air}$ étant la masse volumique de l'air) :
 |
+| $$ \Pi = \left(\rho_{air} \cdot V_{hélium}\right) \, \cdot \, g $$
 |
+| Afin que le ballon décolle, il faut que $\Pi > P$. Il est alors simple de calculer le volume minimal d'hélium que l'on devra mettre en résolvant l'inégalité. On note, afin d'aérer les calculs, $m = m_{charge} + m_{enveloppe}$.
+|
+| $$ \Pi > P \Longleftrightarrow \rho_{air} \cdot V_{hélium} > m + \rho_{hélium} \cdot V_{hélium} $$
+|
+| Ce qui revient à dire que le volume minimal pour que le ballon décolle est :
+|
+| $$ \displaystyle V_{hélium,\ minimal} = \frac{m}{\rho_{air} - \rho_{hélium}} $$
+|
+| Mais, le travail ne s'achève pas ici. En effet, ce volume est le volume _minimal_, comprendre que si le ballon est rempli de ce volume exactement, il sera stationnaire en l'air, la poussée d'Archimède compensant exactement le poids de l'ensemble. Or, nous voulons que le ballon décolle, et plus encore, qu'il décolle à une vitesse donnée $v = 5\, m s^{-1}$.
 
 ## Lancement !
 

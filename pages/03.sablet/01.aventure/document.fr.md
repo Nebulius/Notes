@@ -181,7 +181,20 @@ Vous pouvez réaliser le calcul à la main (les détails sont donnés ci-dessous
 Et c'est en gonflant que l'on se rend bien compte que oui, la poussée d'Archimède, elle tire (fort !).
 
 [[s]]
-| _TODO calculs à la main, considérant la poussée d'Archimède etc._
+| Le calcul à la main n'est qu'une simple application du principe d'Archimède, prenant en compte les masses du ballon lui-même et de la charge utile (nacelle, parachute, réflecteur, …).
+|
+| Si l'on suppose qu'il n'y a pas de vent, la chaîne de vol est soumis à deux forces : son poids $P$, et la poussée d'Archimède que je noterai $\Pi$. Le poids de la chaîne est elle-même constituée des poids du ballon, de l'hélium, et de toute la charge utile. Ainsi, on a :
+|
+| $$
+| \begin{array}[rcl]
+| P & = & \left(m_{\text{charge}} + m_{\text{enveloppe}} + m_{\text{hélium}} \right) \\
+| & = & \left(m_{\text{charge}} + m_{\text{enveloppe}} + \rho_{\text{hélium}} \middot V_{\text{hélium}} \right)
+| \end{array}
+| $$
+|
+| Où $m_{\text{élément}}$ est la masse de l'élément, $ \rho_{\text{hélium}}$ la masse volumique de l'hélium et $V_{\text{hélium}}$le volume initial d'hélium dans le ballon.
+|
+|
 
 ## Lancement !
 
@@ -191,3 +204,4 @@ Le ballon est gonflé ? Fermé ? Attaché au reste ? Tout est scellé, fixé, le
 Figure: Le ballon s'envole dans le ciel, avec son parachute, son réflecteur et sa nacelle (hors cadre).
 
 Une fois le ballon parti, il peut être une bonne idée de refaire [une simulation de trajectoire](#trouver-le-bon-endroit) afin de prévoir l'emplacement approximatif d'atterrissage en utilisant les dernières données météorologiques, et de pouvoir s'y diriger en anticipant la position avant que le GPS ne réponde. En effet, celui-ci étant contacté par SMS, il cesse très vite d'être dans la portée du réseau, qui ne monte pas très haut en altitude. Pendant la majorité du vol, on est complètement  en aveugle, sans rien pouvoir faire d'autre qu'espérer que tout se passe bien.
+

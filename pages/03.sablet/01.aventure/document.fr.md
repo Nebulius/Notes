@@ -183,16 +183,27 @@ Et c'est en gonflant que l'on se rend bien compte que oui, la poussée d'Archim�
 [[s]]
 | Le calcul à la main n'est qu'une simple application du principe d'Archimède, prenant en compte les masses du ballon lui-même et de la charge utile (nacelle, parachute, réflecteur, …).
 |
-| Si l'on suppose qu'il n'y a pas de vent, la chaîne de vol est soumis à deux forces : son poids $P$, et la poussée d'Archimède que je noterai $\Pi$. Le poids de la chaîne est elle-même constituée des poids du ballon, de l'hélium, et de toute la charge utile. Ainsi, on a :
+| Si l'on suppose qu'il n'y a pas de vent, la chaîne de vol est soumis à trois forces :
+| - son poids $P$ ;
+| - la poussée d'Archimède que je noterai $\Pi$ ;
+| - et la force de traînée $f$.
+|
+| Le poids de la chaîne est elle-même constituée des poids du ballon, de l'hélium, et de toute la charge utile. On note : 
+| - $m_{charge}$, $m_{enveloppe}$ et $m_{hélium}$ les masses des différentes parties de la chaîne de vol (resp. la charge utile, l'enveloppe i.e. le ballon lui-même, et l'hélium) ;
+| - $m = m_{charge} + m_{enveloppe}$ ;
+| - $\rho_{air}$ et $\rho_{hélium}$ les masses volumiques respectives de l'air et de l'hélium ;
+| - $g = 9,81 \, ms^{-2}$ l'accélération de pesanteur terrestre.
+|
+| Ainsi, on a :
 |
 | $$
 | \begin{array}{rcl}
-| P & = & \left(m_{charge} + m_{enveloppe} + m_{hélium} \right) \, \cdot \, g \\
-| & = & \left(m_{charge} + m_{enveloppe} + \rho_{hélium} \cdot V_{hélium} \right) \, \cdot \, g
+| P & = & \left(m + m_{hélium} \right) \, \cdot \, g \\
+| & = & \left(m + \rho_{hélium} \cdot V_{hélium} \right) \, \cdot \, g
 | \end{array}
 | $$
 |
-| Où $m_{élément}$ est la masse de l'élément, $ \rho_{hélium}$ la masse volumique de l'hélium et $V_{hélium}$le volume initial d'hélium dans le ballon ; $g = 9,81 \, ms^{-2}$ étant bien sûr l'accélération de pesanteur terrestre. Quant à la poussée d'Archimède, elle est égale au poids de l'air déplacé, donc lors de la libération du ballon ($\rho_{air}$ étant la masse volumique de l'air) :
+| Quant à la poussée d'Archimède, elle est égale au poids de l'air déplacé, donc lors de la libération du ballon :
 |
 | $$ \Pi = \left(\rho_{air} \cdot V_{hélium}\right) \, \cdot \, g $$
 |

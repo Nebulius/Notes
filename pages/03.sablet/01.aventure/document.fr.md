@@ -186,7 +186,7 @@ Et c'est en gonflant que l'on se rend bien compte que oui, la poussée d'Archim�
 | Si l'on suppose qu'il n'y a pas de vent, la chaîne de vol est soumis à trois forces :
 | - son poids $P$ ;
 | - la poussée d'Archimède que je noterai $\Pi$ ;
-| - et la force de traînée $f$.
+| - et la force de frottement $f$.
 |
 | Le poids de la chaîne est elle-même constituée des poids du ballon, de l'hélium, et de toute la charge utile. On note : 
 | - $m_{charge}$, $m_{enveloppe}$ et $m_{hélium}$ les masses des différentes parties de la chaîne de vol (resp. la charge utile, l'enveloppe i.e. le ballon lui-même, et l'hélium) ;

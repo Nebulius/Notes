@@ -189,15 +189,16 @@ Et c'est en gonflant que l'on se rend bien compte que oui, la poussée d'Archim�
 | - et la force de traînée $T$.
 |
 | Le poids de la chaîne est elle-même constituée des poids du ballon, de l'hélium, et de toute la charge utile. On note : 
-| - $m_{charge}$, $m_{enveloppe}$ et $m_{hélium}$ les masses des différentes parties de la chaîne de vol (resp. la charge utile, l'enveloppe i.e. le ballon lui-même, et l'hélium) ;
-| - $m = m_{charge} + m_{enveloppe}$ la masse totale transportée sans l'hélium ;
+| - $m$ et $m_{hélium}$ les masses des différentes parties de la chaîne de vol (resp. la masse et l'hélium) ;
 | - $\rho_{air} = 1,170\, \mathrm{kg\, m^{-3}}$ et $\rho_{hélium} = 0,178\,  \mathrm{kg\, m^{-3}}$ les masses volumiques respectives de l'air et de l'hélium ;
+| - $C_x$ le [cœfficient de traînée](https://fr.wikipedia.org/wiki/Coefficient_de_tra%C3%AEn%C3%A9e) du ballon ($1 \over 2$ pour une sphère) ;
+| - $S$ la surface de l'enveloppe du ballon gonflée projetée sur le sol ;
 | - $g = 9,81 \, \mathrm{m\, s^{-2}}$ l'accélération de pesanteur terrestre.
 |
 | On a :
 | - $P = g \left(m + m_{hélium} \right)= g \left(m + \rho_{hélium} \cdot V_{hélium} \right)$ ;
 | - $\Pi = g \left(\rho_{air} \cdot V_{hélium}\right)$ (égale au poids de l'air déplacé) ;
-| - $T = \frac{1}{2} \rho_{air} C_x S v^2$, où $C_x$ est le [cœfficient de traînée](https://fr.wikipedia.org/wiki/Coefficient_de_tra%C3%AEn%C3%A9e) du ballon ($1 \over 2$ pour une sphère), et $S$ la surface de la sphère projetée sur le sol.
+| - $T = \frac{1}{2} \rho_{air} C_x S v^2$.
 |
 | Afin que le ballon décolle, il faut que $\Pi > P$. Il est alors simple de calculer le volume minimal d'hélium que l'on devra mettre en résolvant l'inégalité. On note, afin d'aérer les calculs, $m = m_{charge} + m_{enveloppe}$.
 |
@@ -252,3 +253,20 @@ Une heure s'écoule… une heure et demi… Silence. On ne peut que deviner ce q
 Quand soudain !
 
 [tweet=https://twitter.com/AmauryPi/status/898174435420712962]
+
+À ce moment, le vol n'est pas encore achevé, mais la nacelle, sous son parachute, est descendue assez bas pour que le GPS puisse se connecter au réseau GSM et répondre aux SMS. En envoyant des demandes régulièrement, on voit qu'il se déplace toujours doucement. Il est par ailleurs dans la zone anticipée par simulation, bien que proche de la plus lointaine des prédictions (tout ne peut pas être parfait !). Un peu plus tard, la position GPS retournée finit par se stabiliser : le ballon a touché terre ! Plus qu'un peu de route puis de marche…
+
+[tweet=https://twitter.com/AmauryPi/status/898194677077331968]
+
+…et c'est un succès !
+
+[tweet=https://twitter.com/Yoku_Sama/status/898219584129576960]
+
+En réalité, nous avons eu beaucoup de chance dans cette aventure : les conditions météo étaient très favorables, ciel sans nuage, le vent a permis au ballon d'aller à une certaine distance mais pas non plus trop loin, et au sol, le ballon est tombé dans un champ non cultivé, soit ni dans une propriété privée, ni fermée, ni dans un arbre ou une forêt… Quant aux outils embarqués, à deux détails près, tout a très bien marché ! Le vol s'achève d'une manière plus que satisfaisante.
+
+_In fine_, le ballon aura parcouru un peu plus de 80 kilomètres, passant au dessus du Mont Ventoux pour finir dans un champ de lavande, après s'être élevé jusqu'à 38 kilomètres au dessus de la surface de notre bonne vieille planète. Pas assez pour être considéré comme “dans l'espace”[^karman], mais tout de même très satisfaisant pour un ballon sonde (nous sommes très proche du maximum théorique pour ce genre d'aérostats).
+
+[^karman]: La limite arbitraire entre la Terre et l'espace, appelée _ligne de Kármán_, est située à 100 kilomètres au dessus de la surface terrestre.
+
+![La carte du trajet du ballon, partant de Montélimar jusqu'à 80 km au sud-est, sur le territoire de la commune de Redortiers](carte-trajet.png)
+Figure: Le trajet du ballon-sonde. [Cliquez ici pour ouvrir une version interactive.](https://framacarte.org/fr/map/trajet-de-sablet_29584)

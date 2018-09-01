@@ -190,11 +190,11 @@ Et c'est en gonflant que l'on se rend bien compte que oui, la poussée d'Archim�
 |
 | Le poids de la chaîne est elle-même constituée des poids du ballon, de l'hélium, et de toute la charge utile. On note : 
 | - $m_{charge}$, $m_{enveloppe}$ et $m_{hélium}$ les masses des différentes parties de la chaîne de vol (resp. la charge utile, l'enveloppe i.e. le ballon lui-même, et l'hélium) ;
-| - $m = m_{charge} + m_{enveloppe}$ ;
+| - $m = m_{charge} + m_{enveloppe}$ la masse totale transportée sans l'hélium ;
 | - $\rho_{air} = 1,170\, \mathrm{kg\, m^{-3}}$ et $\rho_{hélium} = 0,178\,  \mathrm{kg\, m^{-3}}$ les masses volumiques respectives de l'air et de l'hélium ;
 | - $g = 9,81 \, \mathrm{m\, s^{-2}}$ l'accélération de pesanteur terrestre.
 |
-| Ainsi, on a :
+| On a :
 | - $P = g \left(m + m_{hélium} \right)= g \left(m + \rho_{hélium} \cdot V_{hélium} \right)$ ;
 | - $\Pi = g \left(\rho_{air} \cdot V_{hélium}\right)$ (égale au poids de l'air déplacé) ;
 | - $T = \frac{1}{2} \rho_{air} C_x S v^2$, où $C_x$ est le [cœfficient de traînée](https://fr.wikipedia.org/wiki/Coefficient_de_tra%C3%AEn%C3%A9e) du ballon ($1 \over 2$ pour une sphère), et $S$ la surface de la sphère projetée sur le sol.
@@ -209,7 +209,7 @@ Et c'est en gonflant que l'on se rend bien compte que oui, la poussée d'Archim�
 |
 | Mais, le travail ne s'achève pas ici. En effet, ce volume est le volume _minimal_, comprendre que si le ballon est rempli de ce volume exactement, il sera stationnaire en l'air, la poussée d'Archimède compensant exactement le poids de l'ensemble. Or, nous voulons que le ballon décolle, et plus encore, qu'il se stabilise à une vitesse donnée $v = 5\, m s^{-1}$.
 |
-| Pour cela il y a deux façons de procéder. On peut s'embêter à résoudre l'équation différentielle donnée par la deuxième loi de Newton, ou simplement considérer qu'une fois la vitesse stabilisée, l'accélération devient nulle et la traînée, égale à la force ascentionnelle : $T = \Pi - P$. Alors : 
+| Pour cela il y a deux façons de procéder. On peut s'embêter à résoudre l'équation différentielle donnée par la deuxième loi de Newton, ou simplement considérer qu'une fois la vitesse du ballon stabilisée, l'accélération devient nulle et la traînée, égale à la force ascentionnelle : $T = \Pi - P$. Alors : 
 |
 | $$ T = \frac{1}{2} \rho_{air} C_x S v^2 = \Pi - P$$
 |
@@ -217,12 +217,14 @@ Et c'est en gonflant que l'on se rend bien compte que oui, la poussée d'Archim�
 |
 | $$ \displaystyle v = \sqrt{\frac{\Pi - P}{\frac{1}{2} \rho_{air} C_x S}} = \sqrt{g \frac{V_{hélium}(\rho_{air} - \rho_{hélium}) - m}{\frac{1}{2} \rho_{air} C_x S}} $$
 |
-| Ou, si l'on veut le volume à partir de la vitesse de croisière cible :
+| Ou, si l'on veut le volume à partir de la vitesse $v$ de croisière cible :
 |
-| $$ \displaystyle V_{hélium} = \frac{1}{2} \frac{v^2}{g(\rho_{air} - \rho_{hélium})} \rho_{air} C_x S + m $$
+| $$ \displaystyle V_{hélium} = \frac{\frac{v^2 \rho_{air} C_x S}{2g} + m}{\rho_{air} - \rho_{hélium}} $$
+|
+| Aux approximations près sur le cœfficient de traînée ou la surface exposée du ballon, on retrouve numériquement des valeurs proches de volume d'hélium qu'avec un calculateur. Bien que ces derniers restent, je l'admets, plus simples à utiliser…
 
 
-## Lancement !
+## Le moment est venu de quitter le nid
 
 Le ballon est gonflé ? Fermé ? Attaché au reste ? Tout est scellé, fixé, les appareils électroniques démarrés ? Eh bien qu'attendons-nous, lançons ! Tout le travail étant fait au préalable, il ne reste plus grand chose à vérifier, si ce n'est que les câbles ne sont pas emmelés et que le ciel est dégagé de tout obstacle. Et c'est parti… les quelques efforts portent enfin leurs fruits — plus qu'à espérer que l'aventure se termine bien !
 

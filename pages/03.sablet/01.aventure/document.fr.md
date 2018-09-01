@@ -231,5 +231,24 @@ Le ballon est gonflé ? Fermé ? Attaché au reste ? Tout est scellé, fixé, le
 ![Le ballon décollant dans le ciel, vu du sol. Le Soleil s'invite sur la photo On ne voit que le haut du ballon (ballon, parachute, réflecteur) ; pas la nacelle.](envol.jpg)
 Figure: Le ballon s'envole dans le ciel, avec son parachute, son réflecteur et sa nacelle (hors cadre).
 
+[tweet=https://twitter.com/Yoku_Sama/status/898142436228296704]
+
 Une fois le ballon parti, il peut être une bonne idée de refaire [une simulation de trajectoire](#trouver-le-bon-endroit) afin de prévoir l'emplacement approximatif d'atterrissage en utilisant les dernières données météorologiques, et de pouvoir s'y diriger en anticipant la position avant que le GPS ne réponde. En effet, celui-ci étant contacté par SMS, il cesse très vite d'être dans la portée du réseau, qui ne monte pas très haut en altitude. Pendant la majorité du vol, on est complètement  en aveugle, sans rien pouvoir faire d'autre qu'espérer que tout se passe bien.
 
+[tweet=https://twitter.com/Yoku_Sama/status/898162512306335744]
+
+Vient donc le moment de l'attente, ponctué de régulières tentatives de contact du GPS.
+
+Le ballon se tait.
+
+Silence.
+
+Silence assourdissant.
+
+Une heure s'écoule… une heure et demi… Silence. On ne peut que deviner ce qui se passe, supposer l'emplacement et l'altitude approximatives du ballon.
+
+[tweet=https://twitter.com/Yoku_Sama/status/898166630815068160]
+
+Quand soudain !
+
+[tweet=https://twitter.com/AmauryPi/status/898174435420712962]

@@ -186,26 +186,18 @@ Et c'est en gonflant que l'on se rend bien compte que oui, la poussée d'Archim�
 | Si l'on suppose qu'il n'y a pas de vent, la chaîne de vol est soumis à trois forces :
 | - son poids $P$ ;
 | - la poussée d'Archimède que je noterai $\Pi$ ;
-| - et la force de frottement $f$.
+| - et la force de traînée $T$.
 |
 | Le poids de la chaîne est elle-même constituée des poids du ballon, de l'hélium, et de toute la charge utile. On note : 
 | - $m_{charge}$, $m_{enveloppe}$ et $m_{hélium}$ les masses des différentes parties de la chaîne de vol (resp. la charge utile, l'enveloppe i.e. le ballon lui-même, et l'hélium) ;
 | - $m = m_{charge} + m_{enveloppe}$ ;
-| - $\rho_{air}$ et $\rho_{hélium}$ les masses volumiques respectives de l'air et de l'hélium ;
-| - $g = 9,81 \, ms^{-2}$ l'accélération de pesanteur terrestre.
+| - $\rho_{air} = 1,170\, \mathrm{kg\, m^{-3}}$ et $\rho_{hélium} = 0,178\,  \mathrm{kg\, m^{-3}}$ les masses volumiques respectives de l'air et de l'hélium ;
+| - $g = 9,81 \, \mathrm{m\, s^{-2}}$ l'accélération de pesanteur terrestre.
 |
 | Ainsi, on a :
-|
-| $$
-| \begin{array}{rcl}
-| P & = & \left(m + m_{hélium} \right) \, \cdot \, g \\
-| & = & \left(m + \rho_{hélium} \cdot V_{hélium} \right) \, \cdot \, g
-| \end{array}
-| $$
-|
-| Quant à la poussée d'Archimède, elle est égale au poids de l'air déplacé, donc lors de la libération du ballon :
-|
-| $$ \Pi = \left(\rho_{air} \cdot V_{hélium}\right) \, \cdot \, g $$
+| - $P = g \left(m + m_{hélium} \right)= g \left(m + \rho_{hélium} \cdot V_{hélium} \right)$ ;
+| - $\Pi = g \left(\rho_{air} \cdot V_{hélium}\right)$ (égale au poids de l'air déplacé) ;
+| - $T = \frac{1}{2} \rho_{air} C_x S v^2$, où $C_x$ est le [cœfficient de traînée](https://fr.wikipedia.org/wiki/Coefficient_de_tra%C3%AEn%C3%A9e) du ballon ($1 \over 2$ pour une sphère), et $S$ la surface de la sphère projetée sur le sol.
 |
 | Afin que le ballon décolle, il faut que $\Pi > P$. Il est alors simple de calculer le volume minimal d'hélium que l'on devra mettre en résolvant l'inégalité. On note, afin d'aérer les calculs, $m = m_{charge} + m_{enveloppe}$.
 |
@@ -215,7 +207,20 @@ Et c'est en gonflant que l'on se rend bien compte que oui, la poussée d'Archim�
 |
 | $$ \displaystyle V_{hélium,\ minimal} = \frac{m}{\rho_{air} - \rho_{hélium}} $$
 |
-| Mais, le travail ne s'achève pas ici. En effet, ce volume est le volume _minimal_, comprendre que si le ballon est rempli de ce volume exactement, il sera stationnaire en l'air, la poussée d'Archimède compensant exactement le poids de l'ensemble. Or, nous voulons que le ballon décolle, et plus encore, qu'il décolle à une vitesse donnée $v = 5\, m s^{-1}$.
+| Mais, le travail ne s'achève pas ici. En effet, ce volume est le volume _minimal_, comprendre que si le ballon est rempli de ce volume exactement, il sera stationnaire en l'air, la poussée d'Archimède compensant exactement le poids de l'ensemble. Or, nous voulons que le ballon décolle, et plus encore, qu'il se stabilise à une vitesse donnée $v = 5\, m s^{-1}$.
+|
+| Pour cela il y a deux façons de procéder. On peut s'embêter à résoudre l'équation différentielle donnée par la deuxième loi de Newton, ou simplement considérer qu'une fois la vitesse stabilisée, l'accélération devient nulle et la traînée, égale à la force ascentionnelle : $T = \Pi - P$. Alors : 
+|
+| $$ T = \frac{1}{2} \rho_{air} C_x S v^2 = \Pi - P$$
+|
+| Et donc, si l'on veut calculer la vitesse à partir d'une quantité d'hélium :
+|
+| $$ \displaystyle v = \sqrt{\frac{\Pi - P}{\frac{1}{2} \rho_{air} C_x S}} = \sqrt{g \frac{V_{hélium}(\rho_{air} - \rho_{hélium}) - m}{\frac{1}{2} \rho_{air} C_x S}} $$
+|
+| Ou, si l'on veut le volume à partir de la vitesse de croisière cible :
+|
+| $$ \displaystyle V_{hélium} = \frac{1}{2} \frac{v^2}{g(\rho_{air} - \rho_{hélium})} \rho_{air} C_x S + m $$
+
 
 ## Lancement !
 

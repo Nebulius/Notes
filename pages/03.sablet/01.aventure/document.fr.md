@@ -270,3 +270,12 @@ _In fine_, le ballon aura parcouru un peu plus de 80 kilomètres, passant au des
 
 ![La carte du trajet du ballon, partant de Montélimar jusqu'à 80 km au sud-est, sur le territoire de la commune de Redortiers](carte-trajet.png)
 Figure: Le trajet du ballon-sonde. [Cliquez ici pour ouvrir une version interactive.](https://framacarte.org/fr/map/trajet-de-sablet_29584)
+
+# Et après ?
+
+L'aventure ne s'arrête pas là ! Le ballon a accumulé plein de données et d'images, ce serait dommage de les laisser dans la boîte ;) .
+
+La caméra a filmé presque tout du long, s'arrêtant sans raison connue quelques minutes avant l'atterrissage, ce qui est dommage, mais bien moins grave que si elle s'était interrompue en plein vol. Vous trouverez les vidéos complètes ou découpées [sur la page dédiée aux vidéos](/sablet/videos).
+
+![Vue de la Terre depuis la caméra du ballon-sonde. On aperçoit le ciel, l'atmosphère, puis l'espace, dans le coin en haut à gauche. Sur le reste de l'image, la caméra est pointée vers le sol, sur une zone riche de petites montagnes herborées. Quelques nuages passent ça et là, que l'on voit sous le ballon, qu'est largement au dessus.](vlcsnap-2017-08-18-17h30m15s621.png)
+Figure: _The Blue Marble_ (vu de très près)

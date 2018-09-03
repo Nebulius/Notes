@@ -1,7 +1,7 @@
 ---
 title: 'L''aventure Sablet'
 abstract: 'Lancer un ballon sonde pour observer Terre et atmosphère fut une aventure enrichissante… Récit.'
-media_order: 'envol.jpg,Ballon-couverture-pret-veille.jpg,Ballon-couverture-assemblage.jpg,Ballon-couverture-pret-veille-zoom.jpg,Astra-planner-aout-2018.png,carte-trajet.png,chaîne-de-vol-réduit.jpg,timelapse-test-camera.mp4,Contenu-nacelle-annoté.jpg,Contenu-externe-nacelle-annoté.jpg'
+media_order: 'envol.jpg,Ballon-couverture-pret-veille.jpg,Ballon-couverture-assemblage.jpg,Ballon-couverture-pret-veille-zoom.jpg,Astra-planner-aout-2018.png,carte-trajet.png,chaîne-de-vol-réduit.jpg,timelapse-test-camera.mp4,Contenu-nacelle-annoté.jpg,Contenu-externe-nacelle-annoté.jpg,Ballon-gonflage.jpg,vlcsnap-2017-08-18-17h30m15s621.png'
 header_image:
     image: envol.jpg
     color: '#2b6ead'
@@ -277,5 +277,5 @@ L'aventure ne s'arrête pas là ! Le ballon a accumulé plein de données et d'i
 
 La caméra a filmé presque tout du long, s'arrêtant sans raison connue quelques minutes avant l'atterrissage, ce qui est dommage, mais bien moins grave que si elle s'était interrompue en plein vol. Vous trouverez les vidéos complètes ou découpées [sur la page dédiée aux vidéos](/sablet/videos).
 
-![Vue de la Terre depuis la caméra du ballon-sonde. On aperçoit le ciel, l'atmosphère, puis l'espace, dans le coin en haut à gauche. Sur le reste de l'image, la caméra est pointée vers le sol, sur une zone riche de petites montagnes herborées. Quelques nuages passent ça et là, que l'on voit sous le ballon, qu'est largement au dessus.](vlcsnap-2017-08-18-17h30m15s621.png)
+![Vue de la Terre depuis la caméra du ballon-sonde. On aperçoit le ciel, l'atmosphère, puis l'espace, dans le coin en haut à gauche. Sur le reste de l'image, la caméra est pointée vers le sol, sur une zone riche de petites montagnes herborées. Quelques nuages passent ça et là, que l'on voit sous le ballon, qu'est largement au dessus.](SABLET-embarqué-1-16-sol-coin-de-ciel.png)
 Figure: _The Blue Marble_ (vu de très près)

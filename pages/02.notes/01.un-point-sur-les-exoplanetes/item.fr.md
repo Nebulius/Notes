@@ -1,9 +1,6 @@
 ---
-abstract: Depuis la première découverte en 1995, les exoplanètes font  les gros titres
-    des revues scientifiques avec à la clé des planètes éventuellement habitables
-canonical: https://zestedesavoir.com/articles/42/le-point-sur-les-exoplanetes/
-date: 22:01 01-02-2018
-license: by-sa
+title: 'Un point sur les exoplanètes'
+abstract: 'Depuis la première découverte en 1995, les exoplanètes font  les gros titres des revues scientifiques avec à la clé des planètes éventuellement habitables'
 header_image:
     image: 'Thestias-vue-d''artiste-Pollux-b.jpg'
     color: '#52220a'
@@ -12,26 +9,28 @@ header_image:
     link: 'https://www.spacetelescope.org/images/opo0227a/'
     vertical_centering: 52
 taxonomy:
-    author:
-    - Amaury Carrade
-    - Timothée Bailly
-    - Arius
-    - Gabbro
-    - tcit
-    - Rockaround
     category:
-    - Sciences
+        - Sciences
     tag:
-    - physique
-    - astronomie
-    - espace
-    - vie
-    - exoplanète
-    - terre
-    - transit
-    - vitesse radiale
-    - faisons le point
-title: Un point sur les exoplanètes
+        - physique
+        - astronomie
+        - espace
+        - vie
+        - exoplanète
+        - terre
+        - transit
+        - 'vitesse radiale'
+        - 'faisons le point'
+    author:
+        - 'Amaury Carrade'
+        - 'Timothée Bailly'
+        - Arius
+        - Gabbro
+        - tcit
+        - Rockaround
+date: '22:01 01-02-2018'
+license: by-sa
+canonical: 'https://zestedesavoir.com/articles/42/le-point-sur-les-exoplanetes/'
 ---
 
 [[q]]
@@ -161,10 +160,6 @@ Figure: Une ellipse. Le _demi-grand axe_ correspond à la distance entre les poi
 
 Cette méthode est très efficace pour détecter les exoplanètes ; cependant, elle ne peut s'appliquer que dans certains cas précis. En effet, l'inclinaison de l'orbite de l'exoplanète autour de son étoile doit approcher les 90°, c'est-à-dire qu'on doit voir le système étoile-planète par la tranche. Si ce n'est pas le cas, on ne pourra pas voir depuis la Terre la planète passer devant l'étoile, rendant cette méthode inutilisable. Cette méthode favorise la détection des planètes grosses orbitant proche de leur planète.
 
-<--COMMENT
-La technique sœur des transits est l'astrométrie, qui diffère par le fait que le système étoile-planètes est vu de dessus. On peut observer les positions successives de l'étoile et mesurer ainsi les perturbations qu'entraînent les planètes sur la trajectoire de l'étoile. Cependant, si cette technique permet de détecter des planètes dans des systèmes inexploitables par transit, elle est peu utilisée, car les mesures sont perturbées par l'atmosphère terrestre.
-COMMENT-->
-
 ## La méthode des vitesses radiales
 
 Lorsqu'une planète tourne autour d'une étoile, l'étoile attire bien entendu la planète à elle, mais l'inverse est également vrai : la gravité marche dans les deux sens. En conséquence, une étoile ayant des planètes n'est pas parfaitement fixe : elle tourne autour d'une toute petite orbite, comme [illustré de manière exagérée sur cette animation](https://zestedesavoir.com/media/galleries/2377/0ffe00c6-5838-41fd-b8b5-11baf091895c.gif)[^ref-animation-influence-reciproque], sa position étant influencée par ses planètes.
@@ -197,10 +192,6 @@ Cette méthode semblait être la plus efficace pour dénicher les exoplanètes, 
 [^note-vitesse-radiale]: La vitesse radiale d'un objet par rapport à un autre (ici, d'une étoile par rapport à la Terre) est la vitesse de déplacement de l'objet en ligne droite entre les deux objets uniquement, sans tenir compte des autres déplacements. Autrement dit, c'est la vitesse à laquelle se rapproche ou s'éloigne l'étoile de la Terre.
 
 [^note-doppler-ambulances]: Oui oui, le même que celui des ambulances, si vous connaissez.
-
-<--COMMENT
-[^ref-loi-planck]: La loi de Planck décrit l'intensité des rayonnements émis par un corps en fonction de leur longueur d'onde (soit, en très très gros, de la couleur desdits rayonnements). Entre autres implications, la loi dit que bien que l'intensité d'émission varie en fonction de la longueur d'onde, cette intensité le fait de manière régulière, sans pics ou accrocs. Si on en voit, c'est que quelque chose a perturbé le rayonnement. **[Note de rédaction : ajouter une source parlant de la loi de Planck ? Laquelle ?]**
-COMMENT-->
 
 [^ref-loi-wien]: La loi du déplacement de Wien dit que la longueur d'onde maximale sur un spectre d'absorption est reliée à la température du corps associé. En termes mathématiques, $T = \frac{b}{\lambda_{max}}$ où $T$ est la température du corps, $\lambda_{max}$ la longueur d'onde maximale, et $b = 2,898 \cdot 10^{-3} \text{m}\cdot\text{K}$ une constante appelée la [_constante de Wien_](http://physics.nist.gov/cgi-bin/cuu/Value?bwien).
 
@@ -260,7 +251,7 @@ Comme mentionné plus haut, toutes ces techniques ne se valent pas en termes d'e
 
 Le tableau qui suit précise combien de planètes ont été détectées par chacune des méthodes existantes[^ref-methodes-detection].
 
-Nom de la méthode | Nombre de planètes détectées
+Méthode | Planètes détectées 
 ------|-----
 Transit | 2 788
 Vitesse radiale | 664

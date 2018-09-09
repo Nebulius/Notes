@@ -1,7 +1,9 @@
 ---
-title: 'Un point sur les exoplanètes'
-abstract: 'Depuis leur découverte en 1995, les exoplanètes font les gros titres des revues scientifiques. Les découvertes régulières en font un des points chauds de la science, avec à la clef des planètes qui pourraient être habitables pour une quelconque forme de vie. Retour sur cette exploration.'
-media_order: 'Thestias-vue-d''artiste-Pollux-b.jpg.jpg'
+abstract: Depuis la première découverte en 1995, les exoplanètes font  les gros titres
+    des revues scientifiques avec à la clé des planètes éventuellement habitables
+canonical: https://zestedesavoir.com/articles/42/le-point-sur-les-exoplanetes/
+date: 22:01 01-02-2018
+license: by-sa
 header_image:
     image: 'Thestias-vue-d''artiste-Pollux-b.jpg'
     color: '#52220a'
@@ -10,29 +12,34 @@ header_image:
     link: 'https://www.spacetelescope.org/images/opo0227a/'
     vertical_centering: 52
 taxonomy:
-    category:
-        - Sciences
-    tag:
-        - exoplanètes
-        - transit
-        - 'vitesse radiale'
-        - 'faisons le point'
     author:
-        - 'Amaury Carrade'
-        - 'Timothée Bailly'
-        - tcit
-        - Arius
-        - Gabbro
-        - Rockaround
-date: '22:01 01-02-2018'
-license: by-sa
-canonical: 'https://zestedesavoir.com/articles/42/le-point-sur-les-exoplanetes/'
+    - Amaury Carrade
+    - Timothée Bailly
+    - Arius
+    - Gabbro
+    - tcit
+    - Rockaround
+    category:
+    - Sciences
+    tag:
+    - physique
+    - astronomie
+    - espace
+    - vie
+    - exoplanète
+    - terre
+    - transit
+    - vitesse radiale
+    - faisons le point
+title: Un point sur les exoplanètes
 ---
 
 [[q]]
 | Cet article est également publié [sur Zeste de Savoir](https://zestedesavoir.com/articles/42/le-point-sur-les-exoplanetes/).
 
+
 Depuis leur découverte en 1995, les exoplanètes font les gros titres des revues scientifiques. Les découvertes qui sont annoncées régulièrement en font actuellement un des points chauds de la science, avec à la clé des planètes qui pourraient éventuellement être habitables pour une quelconque forme de vie. L'espoir de la découverte d'autres mondes ou d'autres formes de vie est donc une motivation pour cette quête, et certains chercheurs n'hésitent pas à annoncer haut et fort dans les médias que la vie extraterrestre est à notre portée. Retour sur cette exploration.
+
 
 # À propos des exoplanètes
 
@@ -48,7 +55,7 @@ Le polonais Aleksander Wolszczan a bien déniché des exoplanètes en 1990, mais
 
 [^note-nom-exoplanete]: On parle aussi de _planète extrasolaire_.
 
-[^note-def-planete]: Les connaisseurs diront probablement « hé, n'as-tu pas oublié que l'orbite des planètes doit être dégagée de tout astre concurrent ? ». C'est vrai, pour les planètes du système solaire. Pour les exoplanètes, on n'applique généralement pas cette règle pour de simples raisons technologiques : à l'heure actuelle, on n'arrive déjà pas à voir directement les exoplanètes, alors savoir si leur orbite est dégagée d'objets encore plus petits...  
+[^note-def-planete]: Les connaisseurs diront probablement « hé, n'as-tu pas oublié que l'orbite des planètes doit être dégagée de tout astre concurrent ? ». C'est vrai, pour les planètes du système solaire. Pour les exoplanètes, on n'applique généralement pas cette règle pour de simples raisons technologiques : à l'heure actuelle, on n'arrive déjà pas à voir directement les exoplanètes, alors savoir si leur orbite est dégagée d'objets encore plus petits...  
 De plus, cette définition exclue les planètes errantes, sans étoile, seules dans le grand vide de l'Univers ; de telles planètes existent, [potentiellement en très grand nombre d'ailleurs](https://www.jpl.nasa.gov/news/news.php?release=2011-147), mais leur étude est très différente des exoplanètes et sort du cadre de cet article. On parle d'ailleurs plus volontiers d'_objets libres de masse planétaire_, car il n'y a pas que des planètes dans le lot.
 
 
@@ -78,10 +85,10 @@ On entend également — plus rarement — parler des **planètes chthoniennes[^
 
 ## Une détection impressionnante
 
-Avec l'arrivée à maturité des techniques de détection (détaillées dans la partie suivante) et un intérêt accru porté à ces planètes, le nombre de détections augmente de manière exponentielle. Le 10 mai 2016, la NASA [a révélé en avoir découvert 1 284 nouvelles](https://exoplanets.jpl.nasa.gov/news/1346/) dans le cadre de la mission Kepler. De manière globale, au 1^er^ février 2018, on a détecté près de **3 600 exoplanètes**[^ref-nombre-exo].
+Avec l'arrivée à maturité des techniques de détection (détaillées dans la partie suivante) et un intérêt accru porté à ces planètes, le nombre de détections augmente de manière exponentielle. Le 10 mai 2016, la NASA [a révélé en avoir découvert 1 284 nouvelles](https://exoplanets.jpl.nasa.gov/news/1346/) dans le cadre de la mission Kepler. De manière globale, au 1^er^ février 2018, on a détecté près de **3 600 exoplanètes**[^ref-nombre-exo].
 
-![Graphique : nombre d'exoplanètes détectées chaque année](https://zestedesavoir.com/media/galleries/2377/8fab5cc0-0357-42aa-a227-50d40a968e26.png)
-Figure: Nombre d'exoplanètes détectées chaque année depuis 1995. Le pic en 2014 est causé par la publication de 715 exoplanètes découvertes par le satellite Kepler. Ce dernier remet ça en 2016 avec 1 284 autres planètes.
+![Graphique : nombre d'exoplanètes détectées chaque année](graphique-nombre-dexoplanetes-detectees-chaque-annee.png)
+Figure: Nombre d'exoplanètes détectées chaque année depuis 1995. Le pic en 2014 est causé par la publication de 715 exoplanètes découvertes par le satellite Kepler. Ce dernier remet ça en 2016 avec 1 284 autres planètes.
 
 Cela dit, on est encore très, très loin du compte : on estime qu'il y a plus de 100 milliards d'exoplanètes rien que dans la Voie lactée.
 
@@ -97,8 +104,9 @@ Ensuite, les numéros suivants sont attribués soit par ordre de découverte des
 
 Enfin, pour avoir le nom de l'exoplanète, on ajoute une lettre de l'alphabet, dans l'ordre de découverte d'exoplanètes autour de l'étoile concernée. Certains noms de planètes ne prennent pas leur nom à partir d'un catalogue, mais à partir du nom du télescope spatial qui les a découvertes, à l'instar de Kepler-10b.
 
+
 # Comment détecte-t-on les exoplanètes ?
- 
+
 Repérer des planètes a jusqu'à présent été, dans notre système solaire, _relativement_ simple.
 La majorité d’entre elles ont été découvertes par observation directe[^note-planetes-observables-directement] et celles restantes par observation de leur influence sur des corps visibles[^note-planetes-observables-indirectement].
 Pour les exoplanètes c'est une autre histoire : du fait de leurs distances très importantes à la Terre, il n'est généralement pas possible de les observer directement en pointant un télescope. Il faut donc trouver d'autres moyens pour les détecter, et on a mis du temps à pouvoir le faire.
@@ -115,12 +123,12 @@ L'idée de la méthode des transits est simple : lorsqu'une planète passe devan
 
 En bonus, cette méthode permet également d'estimer la taille de la planète par rapport à celle de l'étoile, en regardant à quel point l'étoile est occultée par cette dernière.
 
-![Illustration simplifiée de la méthode des transits.](https://zestedesavoir.com/media/galleries/2377/428430ab-a511-4778-8c9c-8b3bb5552acf.jpg)
+![Illustration simplifiée de la méthode des transits.](illustration-simplifiee-de-la-methode-des-transits.jpg)
 Figure: Illustration simplifiée de la méthode des transits. Lorsqu'une planète passe devant son étoile, elle l'occulte partiellement ; cette occultation est visible depuis la Terre. Source : traduction d'une [illustration de la NASA](http://web.archive.org/web/20070711043415/http://planetquest.jpl.nasa.gov/images/transit.jpg) (lien d'archive).
 
 Ce n'est malheureusement pas toujours aussi simple. Les planètes sont rarement seules autour de leur étoile (regardez notre système solaire qui en a huit, par exemple). Dans de tels cas, on observe de multiples variations d'intensité se superposant ; il faudra alors réussir à séparer les différentes planètes.
 
-![Méthode du transit : variation de l'intensité lumineuse](https://zestedesavoir.com/media/galleries/2377/146bce13-3549-48ba-bf4b-4a217196a1fa.jpg)
+![Méthode du transit : variation de l'intensité lumineuse](methode-du-transit-variation-de-lintensite-lumineuse.jpg)
 Figure: Variation de l'intensité lumineuse (magnitude, « mag ») telle qu'observée par un télescope, ici sur une Jupiter chaude. Le graphique en dessous est un zoom de la vue d'ensemble au dessus.[^ref-graph-variations]
 
 [^ref-graph-variations]: Source : [_HATS-18b: An extreme short-period massive transiting planet spinning up its star_, Penev et al., arXiv](http://arxiv.org/pdf/1606.00848v2.pdf).
@@ -143,7 +151,7 @@ C'est un bon début, mais si on connaît un peu l'étoile autour de laquelle orb
 
 Si la masse de l'étoile est connue, et qu'on la suppose très grande devant celle de la planète, on peut aussi connaître la forme de l'orbite de la planète. En effet, les planètes décrivent une ellipse autour de leur étoile, et il existe une relation, appelée la _troisième loi de Kepler_, qui relie le _demi-grand-axe_ de l'ellipse (sur la figure ci-dessous, $a$) à la durée que met la planète à en faire le tour[^note-troisieme-loi-kepler].
 
-![Une ellipse.](https://zestedesavoir.com/media/galleries/2377/032882e6-9167-45ab-92c8-ad85b6973194.png)
+![Une ellipse.](une-ellipse.png)
 Figure: Une ellipse. Le _demi-grand axe_ correspond à la distance entre les points $O$ et $A$, $a$.
 
 [^note-troisieme-loi-kepler]: Plus précisément, la troisième loi de Kepler dit que le carré de la période — c’est-à-dire la durée au bout de laquelle la planète a fait un tour — est proportionnel au cube du demi-grand-axe, autrement dit $T^2=k \cdot a^3$ (où $T$ est la période et $k$ un nombre que l'on peut calculer). Si vous voulez en savoir plus sur les lois de Kepler, vous pouvez [consulter ce cours](https://www.uu.edu/dept/math/SeniorPapers/09-10/DavisEmily.pdf) qui en donne une description et une démonstration (nécessite un petit bagage mathématique cela dit ; en anglais), ou plus simplement [l'article de l'encyclopédie Wikipédia sur le sujet](https://fr.wikipedia.org/wiki/Lois_de_Kepler) (en français).
@@ -153,6 +161,9 @@ Figure: Une ellipse. Le _demi-grand axe_ correspond à la distance entre les poi
 
 Cette méthode est très efficace pour détecter les exoplanètes ; cependant, elle ne peut s'appliquer que dans certains cas précis. En effet, l'inclinaison de l'orbite de l'exoplanète autour de son étoile doit approcher les 90°, c'est-à-dire qu'on doit voir le système étoile-planète par la tranche. Si ce n'est pas le cas, on ne pourra pas voir depuis la Terre la planète passer devant l'étoile, rendant cette méthode inutilisable. Cette méthode favorise la détection des planètes grosses orbitant proche de leur planète.
 
+<--COMMENT
+La technique sœur des transits est l'astrométrie, qui diffère par le fait que le système étoile-planètes est vu de dessus. On peut observer les positions successives de l'étoile et mesurer ainsi les perturbations qu'entraînent les planètes sur la trajectoire de l'étoile. Cependant, si cette technique permet de détecter des planètes dans des systèmes inexploitables par transit, elle est peu utilisée, car les mesures sont perturbées par l'atmosphère terrestre.
+COMMENT-->
 
 ## La méthode des vitesses radiales
 
@@ -164,12 +175,12 @@ L’effet Doppler fonctionne ainsi : un rayon lumineux a une longueur d’onde a
 
 Pour la suite, il nous faut savoir d'où vient la lumière des étoiles. La _loi de Planck_ précise que tout objet émet des radiations, et que ces radiations sont d'autant plus intenses et avec une longueur d'onde faible que l'objet est chaud (c'est pourquoi un humain à 37 °C émet un peu d'infrarouges et très peu d'autres ondes, et que le Soleil émet beaucoup plus, avec un pic dans le domaine du visible). Les éléments présents dans l'étoile vont cependant absorber des rayonnements à des fréquences précises, ce qui laisse des marques (des _raies_) si on trace l'énergie des radiations en fonction de leur longueur d'onde sur un graphique (un _spectre_), comme présenté ci-dessous.
 
-![Énergie des radiations d'une étoile en fonction de leur longueur d'onde](https://zestedesavoir.com/media/galleries/2377/55856f55-a21e-4ebd-abb4-9036f22e57b1.gif)
+![Énergie des radiations d'une étoile en fonction de leur longueur d'onde](energie-des-radiations-dune-etoile-en-fonction-de-leur-longueur-donde.gif)
 Figure: Des raies lumineuses pas si lumineuses. Source : _Sloan Digital Sky Survey_.
 
 Toute seule, cette propriété permet déjà de connaître la composition de l'étoile, en associant les raies aux éléments dont on connaît la signature sur un spectre comme celui ci-dessus. On peut également déterminer la température de l'étoile grâce à la loi de Wien[^ref-loi-wien]. Mais on peut aller plus loin — c'est ici que l'effet Doppler-Fizeau entre en jeu.
 
-![Décalage du spectre d'absorption](https://zestedesavoir.com/media/galleries/2377/e861b81b-d72b-46eb-b3f5-56a514775dec.png)
+![Décalage du spectre d'absorption](decalage-du-spectre-dabsorption.png)
 Figure: Décalage du spectre d'absorption. Les traits noirs sont les raies d'absorption mentionnées plus haut. À gauche, les raies sont représentées telles qu'on les voit si l'étoile est immobile. À droite, si l'étoile est en train de s'éloigner de nous. Les raies sont décalées vers le rouge. Crédit : physiquement-chimique.fr.
 
 Si la longueur d’onde des raies d’absorption varie régulièrement dans le temps, on peut donc en déduire que l’étoile s’éloigne parfois plus rapidement de nous, et parfois moins rapidement, et qu’il y a un astre orbitant autour de l'étoile qui cause cet effet. En effet, les raies se décalent de la même manière que le spectre de l'étoile et sont plus facile à observer que le décalage du spectre entier. On a ainsi détecté une planète !
@@ -187,6 +198,10 @@ Cette méthode semblait être la plus efficace pour dénicher les exoplanètes, 
 
 [^note-doppler-ambulances]: Oui oui, le même que celui des ambulances, si vous connaissez.
 
+<--COMMENT
+[^ref-loi-planck]: La loi de Planck décrit l'intensité des rayonnements émis par un corps en fonction de leur longueur d'onde (soit, en très très gros, de la couleur desdits rayonnements). Entre autres implications, la loi dit que bien que l'intensité d'émission varie en fonction de la longueur d'onde, cette intensité le fait de manière régulière, sans pics ou accrocs. Si on en voit, c'est que quelque chose a perturbé le rayonnement. **[Note de rédaction : ajouter une source parlant de la loi de Planck ? Laquelle ?]**
+COMMENT-->
+
 [^ref-loi-wien]: La loi du déplacement de Wien dit que la longueur d'onde maximale sur un spectre d'absorption est reliée à la température du corps associé. En termes mathématiques, $T = \frac{b}{\lambda_{max}}$ où $T$ est la température du corps, $\lambda_{max}$ la longueur d'onde maximale, et $b = 2,898 \cdot 10^{-3} \text{m}\cdot\text{K}$ une constante appelée la [_constante de Wien_](http://physics.nist.gov/cgi-bin/cuu/Value?bwien).
 
 
@@ -194,12 +209,12 @@ Cette méthode semblait être la plus efficace pour dénicher les exoplanètes, 
 
 Les étoiles sont massives, très massives même. La théorie de la relativité générale prédit (et on le vérifie) que ces astres dévient la lumière qui passe à proximité. C'est lié, en simplifiant, au fait que la lumière suit la courbure de l'espace-temps déformé par la masse de l'étoile (comme illustré ci-dessous).
 
-![Lentille gravitationnelle](https://zestedesavoir.com/media/galleries/2377/3ba1488f-7ea0-4df8-b102-ba3df8f13af3.png)
+![Lentille gravitationnelle](lentille-gravitationnelle.png)
 Figure: La lumière suit le plus court chemin dans l'espace-temps. Ce dernier étant sensiblement déformé par les étoiles, massives, la lumière y est déviée. Crédit : astropolis.fr.
 
 Lorsqu'une autre étoile se trouve _derrière_ l'étoile que l'on veut observer, sa lumière est donc déviée, déformée par l'étoile observée. Celle-ci se comporte alors comme une lentille, comme illustré ci-dessous. L'effet de micro-lentille gravitationnelle fait que l'on reçoit plus de lumière, comme si le système était plus gros qu'il ne l'est vraiment. Ce phénomène permet de faciliter la détection des planètes orbitant autour de l'étoile lentille, qui ne réémettent que peu de lumière.
 
-![Microlentille gravitationnelle](https://zestedesavoir.com/media/galleries/2377/de0e7dd9-a54c-42df-b9d4-a4521c05fae1.png)
+![Microlentille gravitationnelle](microlentille-gravitationnelle.png)
 Figure: La lumière est déviée autour de l'étoile centrale que l'on cherche à observer. La déviation grossit l'image d'éventuelles planètes et augmente leur luminosité, ce qui permet de les voir. Crédit : traduction et adaptation d'une [illustration de la NASA](https://commons.wikimedia.org/wiki/File:Gravitational_micro_rev.svg) placée dans le domaine public.
 
 Cependant, cet effet n'est visible que lorsque le système étoile lentille -- Terre (observateur) est aligné, exactement comme sur un banc d'optique. Comme l'alignement n'arrive qu'une seule fois, la mesure ne peut pas être répétée, donc il n'y a pas de confirmation de la découverte possible par cette technique. Il faut alors en utiliser une autre, ce qui fait que l'effet de micro-lentille gravitationnelle reste très peu utilisé pour détecter des planètes. Cela dit, les observations faites par micro-lentilles servent aussi à d'autres domaines, comme la détection de la matière noire ou bien l'étude de la structure de notre galaxie.
@@ -211,7 +226,7 @@ Il n'y a guère que quelques projets actifs, dont PLANET/RoboNet, un réseau int
 
 Cette méthode est dite directe, car on cherche à observer directement des exoplanètes. On utilise pour ce faire de gros télescopes, comme le VLT[^note-vlt], situés à terre, dans des déserts en altitude comme celui d'Atacama au Chili, afin de réduire au maximum les effets perturbateurs de l'atmosphère terrestre sur les images prises. On peut aussi utiliser des télescopes spatiaux placés en orbite qui ne sont pas soumis à ce problème, à l'instar d'Hubble ou de son futur successeur, James Webb[^note-james-webb].
 
-![Le VLT (Very Large Telescope) de l'ESO](https://zestedesavoir.com/media/galleries/2377/7f5989c8-3d8f-4513-83ec-21d39cde2dd9.jpg)
+![Le VLT (Very Large Telescope) de l'ESO](le-vlt-very-large-telescope-de-leso.jpg)
 Figure: Le VLT (_Very Large Telescope_) de l'ESO. Crédit : [ESO/Y. Beletsky](http://www.eso.org/public/unitedkingdom/images/yb_vlt_pan_sunset_cc/) sous licence CC BY 4.0.
 
 Pour avoir une chance d'observer des exoplanètes de cette manière, il faut occulter l'étoile qui émet trop de lumière et nous cache les éventuelles exoplanètes passant à ses côtés. Des instruments sont ou seront installés sur les principaux télescopes pour voir des exoplanètes. On trouve notamment le module SPHERE[^ref-sphere] sur le VLT, dans cet objectif.
@@ -245,7 +260,7 @@ Comme mentionné plus haut, toutes ces techniques ne se valent pas en termes d'e
 
 Le tableau qui suit précise combien de planètes ont été détectées par chacune des méthodes existantes[^ref-methodes-detection].
 
-Méthode | Planètes détectées
+Nom de la méthode | Nombre de planètes détectées
 ------|-----
 Transit | 2 788
 Vitesse radiale | 664
@@ -260,7 +275,7 @@ Astrométrie | 1
 
 Au début des techniques de détection, la méthode des vitesses radiales était la meilleure dans les faits ; cela dit, elle s'est fait supplanter par la méthode des transits, bien plus efficace depuis qu'elle est au point.
 
-![Nombre_exoplanetes](https://zestedesavoir.com/media/galleries/2377/ab0c2198-8aa1-4ca5-9adc-3db08ba9e852.png)
+![Nombre_exoplanetes](nombre-exoplanetes.png)
 Figure: Le succès des différentes méthodes de détection au fil des années.
 
 
@@ -277,8 +292,11 @@ Figure: Le succès des différentes méthodes de détection au fil des années.
 *[ESO]: European Southern Observatory
 *[SPHERE]: Spectro-Polarimetric High-contrast Exoplanet REsearch
 
+*[CC BY]: Creative Commons Attribution
+
+
 # Les exoplanètes et la vie
- 
+
 La présence de la vie hors de la Terre est un sujet qui passionne [depuis longtemps](https://fr.wikipedia.org/wiki/Canaux_martiens), et la découverte d'exoplanètes relance l'espoir. Posons-nous donc les questions suivantes : existe-t-il de la vie ailleurs que sur Terre ? Nous nous bornerons à « une vie telle que nous la connaissons » ; en effet, s'il existe une vie basée sur des mécanismes très différents, nous ne connaissons pas les conditions favorables à l'émergence de cette vie.
 
 ## La zone d'habitabilité
@@ -294,7 +312,7 @@ Quant à Europe, un satellite de Jupiter, elle ne se trouve pas dans la zone d'h
 
 Bref, être dans la zone d'habitabilité ne semble ni suffisant, ni nécessaire. Cette zone ne tient compte ni de l'atmosphère (Vénus est très chaude avant tout à cause de son atmosphère très dense, Mars très froide entre autres à cause de la quasi-absence d'effet de serre) ni de la possibilité d'avoir de l'énergie autrement que par l'étoile (comme les effets de marée sur Europe).
 
-![Zone d'habitabilité pour le système solaire et le système Gliese 581](https://zestedesavoir.com/media/galleries/2377/e7748439-eb3a-4458-b198-010ce96bdeb8.jpg)
+![Zone d'habitabilité pour le système solaire et le système Gliese 581](zone-dhabitabilite-pour-le-systeme-solaire-et-le-systeme-gliese-581.jpg)
 Figure: Zone d'habitabilité pour le système solaire et le système Gliese 581. [Source](https://commons.wikimedia.org/wiki/File:Gliese_581_-_2010.jpg?uselang=fr), par ESO, sous licence CC-BY 3.
 
 
@@ -317,9 +335,8 @@ La vie telle que nous la connaissons pourrait donc apparaitre sur des planètes 
 Bref, trouver une jumelle de la Terre est loin d'être facile ; trop grosse, trop loin, tournant mal autour de son étoile... Les raisons sont multiples. Et quand bien même on trouverait une telle jumelle, rien ne dit que l'on aurait une Terre et non pas une Mars, et rien ne dit que la vie serait effectivement apparue dessus.
 
 
+------
 
-
-# Conclusion
 
 S'il reste encore beaucoup de chemin à parcourir, notons le chemin accompli : nous sommes capables aujourd'hui de détecter des planètes à plusieurs dizaines d'années-lumière de la Terre, et d'estimer leur taille, masse et distance à leur étoile ! Des planètes de types jusqu'ici inconcevables ont été découvertes, remettant en question les modèles de formation des systèmes planétaires.
 

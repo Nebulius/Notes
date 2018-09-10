@@ -273,19 +273,6 @@ Figure: Le succès des différentes méthodes de détection au fil des années.
 [^ref-methodes-detection]: Au 1^er^ février 2018. Source : [_NASA Exoplanet Archive_](http://exoplanetarchive.ipac.caltech.edu/docs/counts_detail.html).
 
 
-*[CoRoT]: COnvection, ROtation et Transits planétaires
-*[HARPS]: High Accuracy Radial velocity Planet Searcher
-*[PLATO]: PLAnetary Transits and Oscillations of stars
-*[PLANET]: Probing Lensing Anomalies Network
-*[RoboNet]: Robotic Telescope Network
-*[OGLE]: Optical Gravitational Lensing Experiment
-*[VLT]: Very Large Telescope
-*[ESO]: European Southern Observatory
-*[SPHERE]: Spectro-Polarimetric High-contrast Exoplanet REsearch
-
-*[CC BY]: Creative Commons Attribution
-
-
 # Les exoplanètes et la vie
 
 La présence de la vie hors de la Terre est un sujet qui passionne [depuis longtemps](https://fr.wikipedia.org/wiki/Canaux_martiens), et la découverte d'exoplanètes relance l'espoir. Posons-nous donc les questions suivantes : existe-t-il de la vie ailleurs que sur Terre ? Nous nous bornerons à « une vie telle que nous la connaissons » ; en effet, s'il existe une vie basée sur des mécanismes très différents, nous ne connaissons pas les conditions favorables à l'émergence de cette vie.
@@ -332,3 +319,14 @@ Bref, trouver une jumelle de la Terre est loin d'être facile ; trop grosse, tro
 S'il reste encore beaucoup de chemin à parcourir, notons le chemin accompli : nous sommes capables aujourd'hui de détecter des planètes à plusieurs dizaines d'années-lumière de la Terre, et d'estimer leur taille, masse et distance à leur étoile ! Des planètes de types jusqu'ici inconcevables ont été découvertes, remettant en question les modèles de formation des systèmes planétaires.
 
 Un très grand merci à [adri1](https://zestedesavoir.com/membres/voir/adri1/) pour ses retours lors de la béta et à [Anto59290](https://zestedesavoir.com/membres/voir/Anto59290/) et à [Aabu](https://zestedesavoir.com/membres/voir/Aabu/) pour la valeureuse validation de ce très long article. :)
+
+
+*[CoRoT]: COnvection, ROtation et Transits planétaires
+*[HARPS]: High Accuracy Radial velocity Planet Searcher
+*[PLATO]: PLAnetary Transits and Oscillations of stars
+*[PLANET]: Probing Lensing Anomalies Network
+*[RoboNet]: Robotic Telescope Network
+*[OGLE]: Optical Gravitational Lensing Experiment
+*[VLT]: Very Large Telescope
+*[ESO]: European Southern Observatory
+*[SPHERE]: Spectro-Polarimetric High-contrast Exoplanet REsearch

@@ -1,6 +1,6 @@
 ---
-title: 'Un point sur les exoplanètes'
 abstract: 'Depuis la première découverte en 1995, les exoplanètes font  les gros titres des revues scientifiques avec à la clé des planètes éventuellement habitables'
+title: 'Un point sur les exoplanètes'
 header_image:
     image: 'Thestias-vue-d''artiste-Pollux-b.jpg'
     color: '#52220a'
@@ -30,6 +30,8 @@ taxonomy:
         - Rockaround
 date: '22:01 01-02-2018'
 license: by-sa
+override_default_title: 'Un point sur les exoplanètes – Nébulius'
+override_default_desc: 'Depuis leur découverte en 1995, les exoplanètes font les gros titres des revues scientifiques. Les découvertes qui sont annoncées régulièrement en font actuellement un des points chauds de la science, avec à la clé des planètes qui pourraient éventuellement être habitables pour une quelconque forme de vie…'
 canonical: 'https://zestedesavoir.com/articles/42/le-point-sur-les-exoplanetes/'
 ---
 

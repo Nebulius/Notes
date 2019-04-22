@@ -71,7 +71,7 @@ Figure: Tester la caméra avec de jolis _timelapses_ (trois heures compressées 
 
 Pour d'autres éléments, il n'était pas vraiment possible de tester, ou de manière très limitée. Difficile, par exemple, de s'assurer du bon déploiement du parachute… sans envoyer un autre ballon (et ce bien que nous annoncions avant le lancement que nous comptions faire ce test !). Aussi, nous n'avions pas de chambre froide pour tester l'isolation de notre nacelle en polystyrène face à une température extérieure de -50 °C, ni pour nous assurer que nos capteurs exposés résisteraient à de telles températures. Cela dit, ce ne fut pas un réel problème étant donné que les limites étaient généralement précisées sur les notices ou _datasheets_ des éléments utilisés.
 
-[tweet=https://twitter.com/Yoku_Sama/status/871437949853982723]
+[tweet="https://twitter.com/Yoku_Sama/status/871437949853982723"]
 
 On pourrait penser que ce qui limite la résistance de l'électronique embarquée, ce sont les parties actives (caméras, capteurs…). En réalité le facteur bloquant est tout autre, ces parties actives fonctionnant généralement sans problème à des températures très basses. Non, ce à quoi il faut faire attention quand on envoie de l'électronique à très basse température, ce sont les **batteries**.
 
@@ -98,11 +98,11 @@ On peut également y voir la direction différente des vents d'altitude, au revi
 
 En plus des contraintes de matériel embarqué et de vitesse sus-mentionnées, la loi nous contraint également à une déclaration de lancement auprès de la DSAC.
 
-[tweet=https://twitter.com/Yoku_Sama/status/871302979479105536]
+[tweet="https://twitter.com/Yoku_Sama/status/871302979479105536"]
 
 Nous nous sommes un peu fait avoir à ce niveau car nous attendions une réponse, alors que la demande est sous-entendue acceptée en cas de silence de l'administration de plus de trois semaines. Ils ne répondent généralement que s'ils ont quelque chose à redire — ou si ça leur chante, comme ce fut le cas pour notre seconde demande.
 
-[tweet=https://twitter.com/Yoku_Sama/status/898245818364329988]
+[tweet="https://twitter.com/Yoku_Sama/status/898245818364329988"]
 
 Vous trouverez tous les détails relatifs à la loi [sur la page dédiée à ce sujet](/sablet/loi) ;) .
 
@@ -116,7 +116,7 @@ Le détail du fonctionnement du RaspberryPi et les codes sources expliqués sont
 
 # La veille du lancement
 
-[tweet=https://twitter.com/Yoku_Sama/status/897826883949264896]
+[tweet="https://twitter.com/Yoku_Sama/status/897826883949264896"]
 
 Comme pour tout projet qui se respecte, l'essentiel de l'assemblage des composants (testés autant que faire se peut) fut réalisé la veille[^réalisé-la-veille]. La veille, car fondamentalement, il n'était pas si utile de le faire des dizaines de jours avant (ça reste assez simple à monter), mais aussi car c'était un jour où nous étions physiquement au même endroit (en temps normal, des centaines de kilomètres nous séparent).
 
@@ -163,7 +163,7 @@ Le dernier “capteur” testé est le GPS. Contactable à distance via le rése
 
 Concernant la nacelle, il ne reste qu'à ajouter une petite note en cas de perte (bien qu'équipé d'un GPS, nous préférons être prudents…), et c'est prêt !
 
-[tweet=https://twitter.com/AmauryPi/status/898129002321379329]
+[tweet="https://twitter.com/AmauryPi/status/898129002321379329"]
 
 ## Gonflage
 
@@ -232,11 +232,11 @@ Le ballon est gonflé ? Fermé ? Attaché au reste ? Tout est scellé, fixé, le
 ![Le ballon décollant dans le ciel, vu du sol. Le Soleil s'invite sur la photo On ne voit que le haut du ballon (ballon, parachute, réflecteur) ; pas la nacelle.](envol.jpg)
 Figure: Le ballon s'envole dans le ciel, avec son parachute, son réflecteur et sa nacelle (hors cadre).
 
-[tweet=https://twitter.com/Yoku_Sama/status/898142436228296704]
+[tweet="https://twitter.com/Yoku_Sama/status/898142436228296704"]
 
 Une fois le ballon parti, il peut être une bonne idée de refaire [une simulation de trajectoire](#trouver-le-bon-endroit) afin de prévoir l'emplacement approximatif d'atterrissage en utilisant les dernières données météorologiques, et de pouvoir s'y diriger en anticipant la position avant que le GPS ne réponde. En effet, celui-ci étant contacté par SMS, il cesse très vite d'être dans la portée du réseau, qui ne monte pas très haut en altitude. Pendant la majorité du vol, on est complètement  en aveugle, sans rien pouvoir faire d'autre qu'espérer que tout se passe bien.
 
-[tweet=https://twitter.com/Yoku_Sama/status/898162512306335744]
+[tweet="https://twitter.com/Yoku_Sama/status/898162512306335744"]
 
 Vient donc le moment de l'attente, ponctué de régulières tentatives de contact du GPS.
 
@@ -248,19 +248,19 @@ Silence assourdissant.
 
 Une heure s'écoule… une heure et demi… Silence. On ne peut que deviner ce qui se passe, supposer l'emplacement et l'altitude approximatives du ballon.
 
-[tweet=https://twitter.com/Yoku_Sama/status/898166630815068160]
+[tweet="https://twitter.com/Yoku_Sama/status/898166630815068160"]
 
 Quand soudain !
 
-[tweet=https://twitter.com/AmauryPi/status/898174435420712962]
+[tweet="https://twitter.com/AmauryPi/status/898174435420712962"]
 
 À ce moment, le vol n'est pas encore achevé, mais la nacelle, sous son parachute, est descendue assez bas pour que le GPS puisse se connecter au réseau GSM et répondre aux SMS. En envoyant des demandes régulièrement, on voit qu'il se déplace toujours doucement. Il est par ailleurs dans la zone anticipée par simulation, bien que proche de la plus lointaine des prédictions (tout ne peut pas être parfait !). Un peu plus tard, la position GPS retournée finit par se stabiliser : le ballon a touché terre ! Plus qu'un peu de route puis de marche…
 
-[tweet=https://twitter.com/AmauryPi/status/898194677077331968]
+[tweet="https://twitter.com/AmauryPi/status/898194677077331968"]
 
 …et c'est un succès !
 
-[tweet=https://twitter.com/Yoku_Sama/status/898219584129576960]
+[tweet="https://twitter.com/Yoku_Sama/status/898219584129576960"]
 
 En réalité, nous avons eu beaucoup de chance dans cette aventure : les conditions météo étaient très favorables, ciel sans nuage, le vent a permis au ballon d'aller à une certaine distance mais pas non plus trop loin, et au sol, le ballon est tombé dans un champ non cultivé, soit ni dans une propriété privée, ni fermée, ni dans un arbre ou une forêt… Quant aux outils embarqués, à deux détails près, tout a très bien marché ! Le vol s'achève d'une manière plus que satisfaisante.
 

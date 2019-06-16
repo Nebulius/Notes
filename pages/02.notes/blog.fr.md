@@ -1,7 +1,8 @@
 ---
-title: Notes
 homepage:
     invite: 'De tout, de rien, mais surtout de sciences…'
+    frontpage_invite: 'Dernier article'
+title: Notes
 child_type: item
 admin:
     children_display_order: collection

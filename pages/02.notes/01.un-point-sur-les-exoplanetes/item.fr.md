@@ -1,6 +1,6 @@
 ---
-abstract: 'Depuis la première découverte en 1995, les exoplanètes font  les gros titres des revues scientifiques avec à la clé des planètes éventuellement habitables… Comment les découvre-t-on ? Comment peut-on les observer, les comprendre ? À quoi s''attendre ?'
 title: 'Un point sur les exoplanètes'
+abstract: 'Depuis la première découverte en 1995, les exoplanètes font  les gros titres des revues scientifiques avec à la clé des planètes éventuellement habitables… Comment les découvre-t-on ? Comment peut-on les observer, les comprendre ? À quoi s''attendre ?'
 header_image:
     image: 'Thestias-vue-d''artiste-Pollux-b.jpg'
     color: '#52220a'
@@ -30,10 +30,11 @@ taxonomy:
         - Rockaround
 date: '22:01 01-02-2018'
 license: by-sa
+canonical: 'https://zestedesavoir.com/articles/42/le-point-sur-les-exoplanetes/'
+zestedesavoir: 'https://zestedesavoir.com/articles/42/le-point-sur-les-exoplanetes/'
 override_default_title: 'Un point sur les exoplanètes – Nébulius'
 override_default_desc: 'Depuis leur découverte en 1995, les exoplanètes font les gros titres des revues scientifiques. Les découvertes qui sont annoncées régulièrement en font actuellement un des points chauds de la science, avec à la clé des planètes qui pourraient éventuellement être habitables pour une quelconque forme de vie…'
 override_default_img: 'Thestias-vue-d''artiste-Pollux-b.jpg'
-canonical: 'https://zestedesavoir.com/articles/42/le-point-sur-les-exoplanetes/'
 ---
 
 Depuis leur découverte en 1995, les exoplanètes font les gros titres des revues scientifiques. Les découvertes qui sont annoncées régulièrement en font actuellement un des points chauds de la science, avec à la clé des planètes qui pourraient éventuellement être habitables pour une quelconque forme de vie. L'espoir de la découverte d'autres mondes ou d'autres formes de vie est donc une motivation pour cette quête, et certains chercheurs n'hésitent pas à annoncer haut et fort dans les médias que la vie extraterrestre est à notre portée. Retour sur cette exploration.
@@ -318,9 +319,6 @@ Bref, trouver une jumelle de la Terre est loin d'être facile ; trop grosse, tro
 S'il reste encore beaucoup de chemin à parcourir, notons le chemin accompli : nous sommes capables aujourd'hui de détecter des planètes à plusieurs dizaines d'années-lumière de la Terre, et d'estimer leur taille, masse et distance à leur étoile ! Des planètes de types jusqu'ici inconcevables ont été découvertes, remettant en question les modèles de formation des systèmes planétaires.
 
 Un très grand merci à [adri1](https://zestedesavoir.com/membres/voir/adri1/) pour ses retours lors de la béta et à [Anto59290](https://zestedesavoir.com/membres/voir/Anto59290/) et à [Aabu](https://zestedesavoir.com/membres/voir/Aabu/) pour la valeureuse validation de ce très long article. :)
-
--> _Cet article est également publié [sur Zeste de Savoir](https://zestedesavoir.com/articles/42/le-point-sur-les-exoplanetes/)._ <-
-
 
 *[CoRoT]: COnvection, ROtation et Transits planétaires
 *[HARPS]: High Accuracy Radial velocity Planet Searcher

@@ -21,6 +21,9 @@ taxonomy:
 date: '21:56 20-05-2019'
 license: by-sa
 canonical: 'https://zestedesavoir.com/articles/2901/le-kilogramme-nouveau-est-arrive/'
+override_default_title: 'Le kilogramme nouveau est arrivé !'
+override_default_desc: 'Depuis des dizaines d''années, le kilogramme est défini comme étant la masse d''un bout de platine sous cloche en banlieue parisienne. Mais les choses ont changé le 20 mai 2019. Comment le kilogramme est désormais défini ? Vous trouverez tout ici.'
+override_default_img: balance-allemande.jpg
 ---
 
 Du 13 au 16 novembre 2018 à Versailles, s'est tenue la 26^e^ réunion de la Conférence Générale des Poids et Mesures. Lors de cette grand-messe de la métrologie internationale, **une nouvelle définition du kilogramme a été adoptée**, accompagnée de nouvelles définitions pour l'ampère, la mole et le kelvin, **qui entrent en vigueur le 20 mai 2019**. La nouvelle définition du kilogramme ne change pas pour autant sa valeur, comme nous l'expliquerons dans cet article (et il en est de même pour les autres unités).

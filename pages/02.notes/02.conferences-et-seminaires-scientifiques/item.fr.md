@@ -30,6 +30,9 @@ date: '12:13 27-12-2018'
 license: cc0
 canonical: 'https://zestedesavoir.com/articles/2905/conferences-et-seminaires-scientifiques-a-paris-et-ailleurs/'
 zestedesavoir: 'https://zestedesavoir.com/articles/2905/conferences-et-seminaires-scientifiques-a-paris-et-ailleurs/'
+override_default_title: 'Conférences et séminaires scientifiques à Paris (et ailleurs)'
+override_default_desc: 'Paris est depuis la nuit des temps une ville rayonnante dans le domaine des sciences sur le plan mondial. Ce que l&#039;on sait moins, c&#039;est que ce qui s&#039;y passe n&#039;est pas seulement réservé à l&#039;élite intellectuelle&hellip;'
+override_default_img: ENS-grands-hommes.jpg
 ---
 
 Paris est depuis la nuit des temps une ville rayonnante dans le domaine des sciences sur le plan mondial. Ce que l'on sait moins, c'est que ce qui s'y passe n'est pas seulement réservé à l'élite intellectuelle. De nombreuses conférences pour se mettre à la page ou explorer de nouveaux domaines sont ouvertes à tous les curieux et les curieuses !

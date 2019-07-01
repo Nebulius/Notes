@@ -10,14 +10,17 @@ header_image:
     vertical_centering: 50
 taxonomy:
     category:
-        - Physique
-        - 'Autres (sciences de la nature)'
+        - Sciences
     tag:
         - physique
         - métrologie
+        - kilogramme
+        - unités
     author:
-        - Amaury
+        - 'Amaury Carrade'
         - Aabu
+page-toc:
+    active: true
 date: '21:56 20-05-2019'
 license: by-sa
 canonical: 'https://zestedesavoir.com/articles/2901/le-kilogramme-nouveau-est-arrive/'

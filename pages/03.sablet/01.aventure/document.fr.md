@@ -1,6 +1,6 @@
 ---
-abstract: 'Lancer un ballon sonde pour observer Terre et atmosphère fut une aventure enrichissante… Récit.'
 title: 'L''aventure Sablet'
+abstract: 'Lancer un ballon sonde pour observer Terre et atmosphère fut une aventure enrichissante… Récit.'
 media_order: 'envol.jpg,Ballon-couverture-pret-veille.jpg,Ballon-couverture-assemblage.jpg,Ballon-couverture-pret-veille-zoom.jpg,Astra-planner-aout-2018.png,carte-trajet.png,chaîne-de-vol-réduit.jpg,timelapse-test-camera.mp4,Contenu-nacelle-annoté.jpg,Contenu-externe-nacelle-annoté.jpg,Ballon-gonflage.jpg,vlcsnap-2017-08-18-17h30m15s621.png'
 header_image:
     image: envol.jpg
@@ -8,6 +8,8 @@ header_image:
     title: 'L''envol du ballon, juste après son décollage'
     author: 'A. Carrade'
     vertical_centering: 74
+page-toc:
+    active: true
 date: '11:42 27-06-2018'
 license: by-sa
 ---

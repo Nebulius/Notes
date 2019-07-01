@@ -28,6 +28,8 @@ taxonomy:
         - Gabbro
         - tcit
         - Rockaround
+page-toc:
+    active: true
 date: '22:01 01-02-2018'
 license: by-sa
 canonical: 'https://zestedesavoir.com/articles/42/le-point-sur-les-exoplanetes/'

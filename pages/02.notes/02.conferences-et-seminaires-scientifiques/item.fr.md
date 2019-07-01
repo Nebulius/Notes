@@ -11,9 +11,6 @@ header_image:
     vertical_centering: 50
 taxonomy:
     category:
-        - Astronomie
-        - Physique
-        - Mathématiques
         - Autres
     tag:
         - physique
@@ -22,10 +19,12 @@ taxonomy:
         - sciences
         - séminaires
     author:
+        - 'Amaury Carrade'
         - 'Etoile Filante'
         - Situphen
         - Melcore
-        - Amaury
+page-toc:
+    active: true
 date: '12:13 27-12-2018'
 license: cc0
 canonical: 'https://zestedesavoir.com/articles/2905/conferences-et-seminaires-scientifiques-a-paris-et-ailleurs/'

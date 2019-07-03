@@ -1,7 +1,12 @@
 ---
-title: 'Le kilogramme nouveau est arrivé ! (simple)'
+title: 'Le kilogramme nouveau est arrivé !'
+abstract: 'Même valeur, nouvelle définition.'
 header_image:
-    color: '#7a49b7'
+    image: balance-allemande.jpg
+    color: '#5e3f08'
+    title: Kilogramm
+    author: 'Laura Beltrán Villamizar'
+    link: 'https://www.flickr.com/photos/64597162@N00/12289661806'
     vertical_centering: 50
 taxonomy:
     category:

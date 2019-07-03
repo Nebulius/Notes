@@ -34,4 +34,4 @@ Certains des articles de ce site sont co-écrits ; dans de tels cas, les autres 
 | 
 | Sauf mention contraire, le contenu est placé sous licence [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Les données brutes du site sont [disponibles sur GitHub](https://github.com/Nebulius/Notes).
 |
-| Ce site est géré par [Grav](https://getgrav.org) en utilisant un [thème personnalisé](https://github.com/Nebulius/grav-theme-nebulius).
+| Ce site est géré par [Grav](https://getgrav.org) en utilisant un [thème personnalisé](https://github.com/Nebulius/grav-theme-nebulius). Remerciements à [Kiliann Becquet](https://www.instagram.com/kiliannbqt/) pour son aide et ses suggestions quant au développement de ce dernier.

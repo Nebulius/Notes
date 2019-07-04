@@ -53,7 +53,7 @@ Il est conservé précieusement sous une triple cloche de verre dans un coffre-f
 
 Pour les usages plus réguliers, on utilise les copies attribuées aux différents pays. Ces prototypes nationaux servent à calibrer les quelques laboratoires de métrologie les plus précis dans chaque pays, qui servent de références au sein du système de métrologie de chaque pays. Les copies servent aussi aux comparaisons internationales, comme nous le verrons après.
 
-![Prototype international du kilogramme, avec la permission du BIPM.  © BIPM.](prototype-international-du-kilogramme-avec-la-permission-du-bipm.jpg)
+![Le prototype international du kilogramme, avec la permission du BIPM.  © BIPM.](prototype-international-du-kilogramme-avec-la-permission-du-bipm.jpg)
 
 ## Dérive du kilogramme
 

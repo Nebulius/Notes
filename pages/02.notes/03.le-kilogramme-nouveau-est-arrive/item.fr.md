@@ -50,7 +50,12 @@ Le second gros problème, c'est que comme le prototype est unique, il est **diff
 
 Certes, il y a les copies pour compenser, mais comme on l'a vu, il n’est pas garanti que la masse de la copie soit véritablement proche de celle du prototype. Or **tout le système de métrologie dépend du prototype** : les copies servaient aux laboratoires nationaux, qui possèdent les balances les plus précises, qui servaient elle-même à calibrer les balances des laboratoires de métrologie plus nombreux mais moins précis, qui servaient à leur tour à calibrer les appareils communs dans les laboratoires industriels ou académiques, qui sont utilisés pour (enfin) peser des choses !
 
-Ces problèmes devenaient très lourds à porter pour la communauté scientifique. Il fallait faire mieux ! Mais comment ?
+Ces problèmes étaient anticipés depuis bien longtemps, mais ils devenaient de plus en plus lourds à porter pour la communauté scientifique. Il fallait faire mieux ! Mais comment ?
+
+> Même si le repère cylindrique du kilogramme est abrité dans un coffre spécial, dans des conditions contrôlées au BIPM,  **sa masse (théorique) peut dériver légèrement au fil des ans** et il est  sujet à des modifications de masse (théorique) en raison de la  contamination, la perte de matériau de surface par nettoyage, ou  d'autres effets.
+>
+> **Une propriété de la nature est, par définition, toujours la même** et peut en théorie être mesurée n'importe où, **alors que le kilogramme au BIPM pourrait être endommagé ou détruit**.
+Source: J. C. Maxwell (1831 – 1879), physicien (il a notamment travaillé sur [l'électromagnétisme](https://fr.wikipedia.org/wiki/%C3%89quations_de_Maxwell))
 
 [^golf]: Une balle de golf mesure 42 millimètres de diamètre, soit 3 de plus que le prototype.
 [^localisation-prototype]: Il est dans le sud de Paris, si vous voulez tout savoir.
@@ -98,7 +103,7 @@ Equation: La constante de Planck
 Le fait est que l'unité de la constante de Planck (les Joules – secondes, $J\, s$) peut être reliée à une mesure en kilogrammes. Concrètement, ça veut dire qu'**il est possible, en mesurant une masse connue dans des conditions particulières, de trouver la valeur de la constante de Planck**. On peut aussi faire l'inverse : trouver la valeur d'une masse en effectuant une mesure particulière, à condition de connaître la constante de Planck, autrement dit après avoir fixé une bonne fois pour toutes ladite constante de Planck ! Bingo, nous avons notre constante universelle et immuable, il ne reste plus qu'à fixer sa valeur. Mais quelle valeur choisir ?
 
 [[i]]
-| L'explication de cette équivalence est disponible [dans la version complète de l'article](./plus).
+| L'explication de cette équivalence est disponible [dans la version complète de l'article](./plus#kilogramme-et-constante-de-planck).
 
 
 

@@ -52,11 +52,6 @@ Certes, il y a les copies pour compenser, mais comme on l'a vu, il n’est pas g
 
 Ces problèmes étaient anticipés depuis bien longtemps, mais ils devenaient de plus en plus lourds à porter pour la communauté scientifique. Il fallait faire mieux ! Mais comment ?
 
-> Même si le repère cylindrique du kilogramme est abrité dans un coffre spécial, dans des conditions contrôlées au BIPM,  **sa masse (théorique) peut dériver légèrement au fil des ans** et il est  sujet à des modifications de masse (théorique) en raison de la  contamination, la perte de matériau de surface par nettoyage, ou  d'autres effets.
->
-> **Une propriété de la nature est, par définition, toujours la même** et peut en théorie être mesurée n'importe où, **alors que le kilogramme au BIPM pourrait être endommagé ou détruit**.
-Source: J. C. Maxwell (1831 – 1879), physicien (il a notamment travaillé sur [l'électromagnétisme](https://fr.wikipedia.org/wiki/%C3%89quations_de_Maxwell))
-
 [^golf]: Une balle de golf mesure 42 millimètres de diamètre, soit 3 de plus que le prototype.
 [^localisation-prototype]: Il est dans le sud de Paris, si vous voulez tout savoir.
 
@@ -70,6 +65,11 @@ On a deux grands critères mentionnés dans la partie précédente :
 Quand on se retourne vers l'histoire de la métrologie[^métrologie], on constate que ce problème est loin d'être nouveau : on avait rencontré le même avec le mètre, la seconde[^anciennes-définitions-mètre-seconde]… Et dans tous ces cas (et d'autres !), la solution retenue qui a bien marché c'est de se baser sur des **constantes fondamentales**.
 
 Une constante fondamentale, c'est une valeur physique universelle et… constante. Par exemple, la vitesse de la lumière en est une : c'est la même valeur partout, depuis toujours, et pour toujours. C'est donc un très bon choix pour ce qu'on veut faire : c'est indépendant d'un objet matériel et reproductible partout (vu que les constantes sont les mêmes dans tout l'univers). En plus, c'est par essence super durable (beaucoup plus qu'un cylindre de platine). Bingo !
+
+> Même si le repère cylindrique du kilogramme est abrité dans un coffre spécial, dans des conditions contrôlées au BIPM,  **sa masse (théorique) peut dériver légèrement au fil des ans** et il est  sujet à des modifications de masse (théorique) en raison de la  contamination, la perte de matériau de surface par nettoyage, ou  d'autres effets.
+>
+> **Une propriété de la nature est, par définition, toujours la même** et peut en théorie être mesurée n'importe où, **alors que le kilogramme au BIPM pourrait être endommagé ou détruit**.
+Source: J. C. Maxwell (1831 – 1879), physicien (il a notamment travaillé sur [l'électromagnétisme](https://fr.wikipedia.org/wiki/%C3%89quations_de_Maxwell))
 
 ## Quelle constante choisir ?
 
@@ -105,10 +105,34 @@ Le fait est que l'unité de la constante de Planck (les Joules – secondes, $J\
 [[i]]
 | L'explication de cette équivalence est disponible [dans la version complète de l'article](./plus#kilogramme-et-constante-de-planck).
 
-
-
 [^métrologie]: La métrologie est la science de la mesure, qui s'occupe de définir les grandes unités et qui les approche le plus précisément possible avec des expériences.
 [^anciennes-définitions-mètre-seconde]: Pendant un temps, le mètre a été défini comme la longeur d'un étalon en platine, posant les mêmes problèmes que le kilogramme avant le 20 mars 2019. La seconde, quant à elle, était définie en fonction de la durée d'une rotation terrestre, mais on s'est rendu compte que ce n'était pas si régulier que ça…
 [^seconde]: Si vous voulez [la définition exacte](https://www.bipm.org/fr/publications/si-brochure/second.html), la seconde est la durée de 9 192 631 770 périodes de la radiation correspondant à la transition entre les deux niveaux hyperfins de l’état fondamental de l’atome de césium 133 au repos, à une température de 0 K. Oui c'est un peu technique, mais que voulez-vous, on a besoin de précision !
 
-​			
+# Fixer la constante de Planck : toute une aventure
+
+Le travail de détermination puis de fixation de la constante de Planck a été de longue haleine : il a commencé plus de dix ans avant la rédéfinition officielle ! En effet, le Bureau International des Poids et Mesures exigeait que la mesure expérimentale soit très précise. Il fallait la faire en plus de deux façons différentes, histoire d'être vraiment sûr.
+
+Ces deux méthodes sont la **balance de Kibble** et la **méthode XRCD**. Voyons en quoi cela consiste.
+
+[[i]]
+| Les informations présentées ici sur les deux méthodes de détermination de la constante de Planck sont très survolées. Si vous voulez plus de détails (incluant certains calculs mathématiques), [consultez la version complète de cet article](./plus#première-étape-mesurer-la-constante-de-planck).
+
+## Balance de Kibble
+
+Imaginez une vieille balance à plateaux. D'un côté, on met ce qu'on a à peser, par exemple quelque marchandise. Et sur l'autre plateau, on place des petites masses, jusqu'à ce que les deux plateaux s'équilibrent : alors, la masse est la même des deux côtés, et on peut peser ce qu'on voulait. Si on y réfléchit un peu, une balance est un outil pour comparer deux forces, ici, les poids des contenus des deux plateaux.
+
+L'idée d'une balance de Kibble est similaire, sauf que la seconde force n'est plus un poids : **c'est une force électromagnétique**.
+
+Concrètement, pour peser avec une balance de Kibble, on équilibre le poids qu'on veut avec la force d'un champ magnétique produit par un courant circulant dans une bobine (un électroaimant). Le champ magnétique va attirer à lui le plateau, et quand les deux plateaux sont équilibrés, que les forces se compensent, on peut déduire le poids de l'objet.
+
+À partir du poids, connaissant très, très précisément la pesanteur locale, on extrait la masse de l'objet.
+
+On a besoin d'une très grande précision dans la mesure de la force électromagnétique, afin que la mesure soit fine. Pour ce faire, on utilise deux effets quantiques : l'effet Jefferson et l'effet Hall quantique, qui, assemblés, permettent de déterminer avec une très, très bonne précision, l'intensité qui circule dans la bobine, et donc le champ magnétique, car ils sont liés.
+
+Or, les calculs en utilisant ces effets font intervenir la constante de Planck ! La boucle est bouclée, et en renversant les calculs, on peut calculer la-dite constante en pesant le prototype du kilogramme (ou une de ses copies), et la fixer une bonne fois pour toute.
+
+![Photographie de la balance de Kibble du BIPM. Elle ne ressemble pas à une balance classique, mais à une structure metallique ouverte, assez verticale, environ deux fois plus large que haute, remplie d'électronique et d'appareils de mesure peu discernables sur la photo.](plus/photographie-de-la-balance-de-kibble-du-bipm.jpg)
+Figure: La balance de Kibble du BIPM. Je l'admets, ça ne ressemble pas des masses à une balance usuelle. Tout est toujours plus compliqué en sciences, faut croire… ([Source](https://www.bipm.org/en/bipm/mass/watt-balance/))
+
+*[BIPM]: Bureau International des Poids et Mesures

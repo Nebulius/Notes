@@ -113,10 +113,10 @@ Le fait est que l'unité de la constante de Planck (les Joules – secondes, $J\
 
 Le travail de détermination puis de fixation de la constante de Planck a été de longue haleine : il a commencé plus de dix ans avant la rédéfinition officielle ! En effet, le Bureau International des Poids et Mesures exigeait que la mesure expérimentale soit très précise. Il fallait la faire en plus de deux façons différentes, histoire d'être vraiment sûr.
 
-Ces deux méthodes sont la **balance de Kibble** et la **méthode XRCD**. Voyons en quoi cela consiste.
+Ces deux méthodes sont la **balance de Kibble** et la **diffraction à rayons X** (XRCD). Voyons en quoi cela consiste.
 
 [[i]]
-| Les informations présentées ici sur les deux méthodes de détermination de la constante de Planck sont très survolées. Si vous voulez plus de détails (incluant certains calculs mathématiques), [consultez la version complète de cet article](./plus#première-étape-mesurer-la-constante-de-planck).
+| Ces quelques paragraphes ne présentent que l'idée des deux méthodes de mesure. Si vous voulez plus de détails (incluant certains calculs mathématiques), [consultez la version complète de cet article](./plus#première-étape-mesurer-la-constante-de-planck).
 
 ## Balance de Kibble
 
@@ -135,4 +135,98 @@ Or, les calculs en utilisant ces effets font intervenir la constante de Planck !
 ![Photographie de la balance de Kibble du BIPM. Elle ne ressemble pas à une balance classique, mais à une structure metallique ouverte, assez verticale, environ deux fois plus large que haute, remplie d'électronique et d'appareils de mesure peu discernables sur la photo.](plus/photographie-de-la-balance-de-kibble-du-bipm.jpg)
 Figure: La balance de Kibble du BIPM. Je l'admets, ça ne ressemble pas des masses à une balance usuelle. Tout est toujours plus compliqué en sciences, faut croire… ([Source](https://www.bipm.org/en/bipm/mass/watt-balance/))
 
+## Diffraction à rayons X
+
+L'idée derrière cette méthode peut sembler complètement folle… et pourtant ! Il s'agit de, littéralement, compter les atomes dans un objet pour déterminer sa masse ; ou, dans un objet dont on connaît très précisément la masse, déterminer la constante de Planck, qui intervient dans le calcul.
+
+Bien sûr, on ne va pas compter les atomes un à un avec un super-microscope, car ce ne serait pas vraiment possible. Et puis, il y en a beaucoup, des atomes, dans un solide. Comprendre, _beaucoup_ : une goutte d'eau contient environ mille six-cent milliards de milliards d'atomes. Juste une goutte d'eau !
+
+Pour compter, on fabrique un objet parfait (ou le plus parfait possible) afin qu'on puisse déterminer le nombre d'atomes en le mesurant. On fabrique une sphère de silicium très pur[^pourquoi-silicium] et la plus ronde possible. Vraiment très ronde : ces sphères sont en fait devenues les objets les plus ronds jamais fabriqués — rien que ça ! Pour vous donner une idée, si la sphère avait la taille de la Terre, la plus haute montagne s'élèverait d'environ *deux mètres*.
+
+![La chambre de pesée d'un comparateur de masse de haute précision. On y voit la sphère de silicium à gauche, une copie de l'étalon du kilogramme au centre, et diverses masses d'ajustement.](plus/la-chambre-de-pesee-dun-comparateur-de-masse-de-haute-precision.png)
+Figure: La sphère en silicium, à gauche. (Source disponible [dans l'article complet](./plus#diffraction-à-rayons-x).)
+
+Une fois qu'on a notre sphère, et qu'on l'a mesurée très précisément, connaissant la structure du silicium pur et les propriétés des atomes, on peut assez facilement compter ces derniers. Et c'est là que Planck arrive !
+
+En effet, le but ultime reste de déterminer la *masse* la sphère (car c'est aussi une méthode de mesure). Or certaines équations de la physique fondamentale nous permettent de connaître la masse d'un électron en fonction de la constante de Planck ! La boucle est donc bouclée.
+
+En fabriquant une sphère de précisément un kilogramme (en la fabriquant puis comparant sa masse avec une copie du prototype), comme on connait sa masse (1 kg) et son nombre d'atomes, on peut ajuster la valeur de la constante de Planck dans la formule qui donne la masse d'un électron afin que ça tombe juste. Et voilà !
+
+[^pourquoi-silicium]: Pourquoi du silicium ? Car l'industrie des semi-conducteurs (életronique, processeurs…) en utilise massivement et sait donc très bien réaliser des masses très, très pures de silicium. Il était donc malin de réutiliser les connaissances : plus la sphère est pure, meilleure est la mesure.
+
+# La nouvelle définition
+
+Après plus de dix ans d'expériences, d'affinements, de mesures multiples, et d'efforts, une valeur définitive et fixée de la constante de Planck a été choisie par le BIPM.
+
+[[neutre|La valeur de la constante de Planck qui a été choisie est]]
+| $$h = 6{,}626\,070\,15 \times 10^{−34} \text{J s}$$
+
+Cette fois, ce n'est plus une approximation : la constante de Planck a _exactement_ cette valeur, _par définition_.
+
+**Fixer la valeur de la constante de Planck revient à fixer le kilogramme.** En effet, donner une valeur fixe à la constante de Planck définit précisément l'unité joule-seconde qui correspond à des kg.m^2^.s^-1^. Comme le mètre et la seconde sont eux-mêmes précisément définis, cela définit la valeur du kilogramme comme étant :
+
+$$ 1 kg = \left( \frac{h}{6{,}626\,070\,15 \times 10^{−34}} \right) m^{-2} s $$
+
+Et cela transforme par la même occasion la balance de Kibble d'un appareil mesurant la constante de Planck **en une balance de précision extrême**, car elle pèse littéralement avec la constante de Planck, donc en utilisant directement la définition du kilogramme !
+
+[[i]]
+| Il existe un équivalent dans une autre unité : les horloges atomiques pour la seconde. La seconde, on l'a mentionné plus haut, est définie comme la durée nécessaire pour que l'atome de Césium 133 “oscille” 9 192 631 770 fois. Certaines horloges atomiques ont donc du césium en leur sein, et comptent les oscillations. Dés lors que 9 192 631 770 ont été comptées, une seconde est passée !
+
+## Mais concrètement, comment peser avec cette définition bizarre ?
+
+Il est vrai que si l'ancienne définition avait moulte défauts, elle avait au moins l'avantage d'être bien plus compréhensible. Du coup comment pèse-t-on ?
+
+En réalité, le commun des mortels n'utilisera jamais cette définition — tout comme il n'utilise pas la définition du mètre en fonction de la vitesse de la lumière ! Ce sont les **laboratoires de métrologie**, garants des mesures de précisions, qui, à l'aide de balances de Kibble (ou d'autres méthodes, comme XRCD), **réaliseront des étalons d'un kilogramme extrêmement précis qui serviront à étalonner les balances grand public ou d'autres laboratoires**. On trouve des laboratoires de métrologie dans tous les pays, par exemple le [LNE](https://www.lne.fr) en France (mais ce n'est pas le seul).
+
+Ce sont aussi ces laboratoires de métrologie qui peuvent certifier la conformité  et la précision d'appareils de mesure grand public (par exemple, les vignettes vertes sur les balances de commerçants). Ils utiliseront la nouvelle définition pour étalonner et vérifier, mais ça s'arrêtera là, et les balances usuelles ne changeront pas.
+
+[[question]]
+| Comment ça, un étalon ? On ne vient pas de rappeler en long, en large et en travers à quel point ce n'est pas pratique ?
+
+Oui… en tant que définition ! Sinon, ça reste bien plus utilisable dans la vie courante, à condition d'être capable d'en fabriquer à la précision voulue sans dépendre de personne. Concrètement, pour beaucoup d'applications, on utilise encore des étalons du mètre, alors que sa définition a changé en 1983… et ça ne pose absolument aucun problème.
+
+D'autant plus qu'il y a des étalons de précisions variée : de très, très précis pour des applications très fines, à beaucoup plus grossier pour la vie de tous les jours, où une telle précision est de toute façon inutile.
+
+Désormais, la définition est telle que, dans l'absolu, **n'importe qui peut fabriquer son kilogramme sans devoir aller dupliquer celui du BIPM**. Certaines expériences de physique ayant besoin de plus grande précision peuvent même utiliser directement la définition sans passer par un étalon.
+
+Finalement, ce changement permet une grande pérennité de la définition du kilogramme, mais pour la majorité des mesures concrètes de masse, cela ne changera pas grand chose. Et tant mieux, en soit ! C'est une preuve que la redéfinition a été bien faite. ^^
+
+[[i]]
+| Le kilogramme n'est pas le seul à avoir été redéfini à cette occasion. En réalité, toutes les définitions des unités de base du système international d'unités ont reçu a minima un *lifting*, et pour certaines, une définition complètement nouvelle. [Plus d'informations sont disponibles dans une section dédiée de l'article complet](./plus#rédéfinitions-dautres-unités-liées-au-kilogramme).
+
+---
+
+Si l'on résume les nouvelles relations entre les diverses unités à l'aide d'un diagramme tel que le précédent, on obtient le résultat ci-dessous.
+
+![Les relations entre les nouvelles unités. La seconde est liée à l'ampère, au mètre, au kelvin, à la candela et au kilogramme. Le kilogramme est lié à la candela et au kelvin. Le mètre est lié au kilogramme, à la candela et au kelvin. Les autres unités ne sont pas liées à d'autres, et la mole est complètement indépendante. Le graphique présente aussi pour chaque unité, la constante fondamentale qui la définit : la période de radiation du Césium pour la seconde ; le nombre d'Avogadro pour la mole ; la constante de Planck pour le kilogramme ; l'efficacité lumineuse d'une source d'une fréquence donnée pour la candela, la constante de Boltzmann pour le kelvin ; la vitesse de la lumière pour le mètre ; et enfin la charge élémentaire pour l'ampère.](plus/les-relations-entre-les-nouvelles-unites.png)
+Figure: Les nouvelles relations entre les unités, ainsi que les constantes fondamentales auxquelles elles sont désormais dépendantes. ([Source](https://commons.wikimedia.org/wiki/File:Relations_between_New_SI_units_definitions.svg?uselang=fr))
+
+La mole se retrouve indépendante, comme précisé plus haut, et les autres unités ne dépendent plus les unes des autres de la même façon. Notablement, et c'était l'un des objectifs principaux, **toutes les unités dépendent désormais d'une constante fondamentale fixée** : il n'y a plus aucun étalon physique ; la précision des valeurs est donc maximisée, et sera beaucoup plus stable dans le temps !
+
 *[BIPM]: Bureau International des Poids et Mesures
+*[SI]: (Unité⋅s du) Système International
+
+------
+
+
+Le kilogramme était la dernière unité qu'il restait à redéfinir grâce aux constantes fondamentales de la physique.  **C'est maintenant chose faite, ce qui achève une page de l'histoire du système international d'unités.**
+
+Pour autant, les travaux visant à améliorer la métrologie ne s'arrêtent pas là. Les expériences de physique les plus poussées demandent des précisions grandissantes qui stimulent les méthodes de mesure, en particulier pour la seconde. Cette unité se rapproche graduellement d'une redéfinition, car les meilleures horloges sont désormais plus précises que la définition ! Le futur réserve d'ailleurs sûrement d'autres surprises.
+
+Nous tenons à remercier @**Hugo ROTA**, @Rockaround, @etherpin pour la relecture ; et @qwerty pour la validation de cet article !
+
+# Liens et sources
+
+## Liens
+
+* [Documents](https://www.bipm.org/fr/cgpm-2018/) à propos de la 26^e^ CGPM sur le site web du BIPM.
+* Présentation de la [balance de Kibble du BIPM](https://www.bipm.org/en/bipm/mass/watt-balance/) (en anglais).
+
+## Sources
+
+_Les sources de cet article sont disponibles [à la fin de la version complète](./plus#sources)._
+
+*[BIPM]: Bureau International des Poids et Mesures
+*[SI]: (Unité⋅s du) Système International
+*[ppm]: Partie par million : un millionième
+*[XRCD]: X-Ray Crystal Density (mesure de la densité d'un cristal par diffraction de rayons X)

@@ -94,6 +94,11 @@ D'autres unités ont présenté des soucis de définition, parce qu'elles étaie
 
 Pour résoudre ces problèmes, la stratégie a presque toujours été la même : tenter de **ramener les définitions de ces unités à des grandeurs physiques** que l'on peut calculer ou mesurer de façon extrêmement précise, et qui sont stables dans le temps. Ainsi, il devient possible de facilement[^reproduction-facile] reproduire les mesures de ces unités partout dans le monde (et au-delà) sans limite de précision et sans dépendre d'un objet physique fragile !
 
+> Même si le repère cylindrique du kilogramme est abrité dans un coffre spécial, dans des conditions contrôlées au BIPM,  **sa masse (théorique) peut dériver légèrement au fil des ans** et il est  sujet à des modifications de masse (théorique) en raison de la  contamination, la perte de matériau de surface par nettoyage, ou  d'autres effets.
+>
+> **Une propriété de la nature est, par définition, toujours la même** et peut en théorie être mesurée n'importe où, **alors que le kilogramme au BIPM pourrait être endommagé ou détruit**.
+Source: J. C. Maxwell (1831 – 1879), physicien (il a notamment travaillé sur [l'électromagnétisme](https://fr.wikipedia.org/wiki/%C3%89quations_de_Maxwell)). Cette réflexion n'est donc pas toute récente !
+
 Pour reprendre l'exemple de la seconde, sa définition actuelle est, pour faire simple, la durée de 9 192 631 770 vibrations de l'atome de césium 133 au zéro absolu[^seconde], ce qui est une valeur extrêmement précise et stable dans le temps, les propriétés des atomes étant immuables. Avec une telle définition, il devient possible de reproduire cette mesure partout et n'importe quand avec une horloge atomique[^horloge-atomique].
 
 La définition du mètre, quant à elle, se base aujourd'hui sur la vitesse de la lumière : il s'agit de la distance parcourue par la lumière dans le vide en 1⁄~299 792 458~ seconde — la seconde étant définie très précisément, et la vitesse de la lumière dans le vide parfaitement constante, on connaît la valeur d'un mètre avec une très grande précision.
@@ -462,12 +467,14 @@ Pour autant, les travaux visant à améliorer la métrologie ne s'arrêtent pas 
 
 Nous tenons à remercier @**Hugo ROTA**, @Rockaround, @etherpin pour la relecture ; et @qwerty pour la validation de cet article !
 
-# Liens
+# Liens et sources
+
+## Liens
 
 * [Documents](https://www.bipm.org/fr/cgpm-2018/) à propos de la 26^e^ CGPM sur le site web du BIPM.
 * Présentation de la [balance de Kibble du BIPM](https://www.bipm.org/en/bipm/mass/watt-balance/) (en anglais).
 
-# Sources
+## Sources
 
 [[secret|Cliquez pour afficher les sources de cet article]]
 | 1. Becker, P., Dorenwendt, K., Ebeling, G., Lauer, R., Lucas, W., Probst, R., … Siegert, H. (1981). Absolute Measurement of the (220) Lattice Plane Spacing in a Silicon Crystal. *Physical Review Letters*, *46*(23), 1540‑1543. <https://doi.org/10.1103/PhysRevLett.46.1540>

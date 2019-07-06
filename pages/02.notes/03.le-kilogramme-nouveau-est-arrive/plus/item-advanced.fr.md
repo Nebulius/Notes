@@ -469,12 +469,8 @@ Nous tenons à remercier @**Hugo ROTA**, @Rockaround, @etherpin pour la relectur
 
 # Liens et sources
 
-## Liens
-
 * [Documents](https://www.bipm.org/fr/cgpm-2018/) à propos de la 26^e^ CGPM sur le site web du BIPM.
 * Présentation de la [balance de Kibble du BIPM](https://www.bipm.org/en/bipm/mass/watt-balance/) (en anglais).
-
-## Sources
 
 [[secret|Cliquez pour afficher les sources de cet article]]
 | 1. Becker, P., Dorenwendt, K., Ebeling, G., Lauer, R., Lucas, W., Probst, R., … Siegert, H. (1981). Absolute Measurement of the (220) Lattice Plane Spacing in a Silicon Crystal. *Physical Review Letters*, *46*(23), 1540‑1543. <https://doi.org/10.1103/PhysRevLett.46.1540>

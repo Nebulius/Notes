@@ -135,7 +135,7 @@ Or, les calculs en utilisant ces effets font intervenir la constante de Planck !
 ![Photographie de la balance de Kibble du BIPM. Elle ne ressemble pas à une balance classique, mais à une structure metallique ouverte, assez verticale, environ deux fois plus large que haute, remplie d'électronique et d'appareils de mesure peu discernables sur la photo.](plus/photographie-de-la-balance-de-kibble-du-bipm.jpg)
 Figure: La balance de Kibble du BIPM. Je l'admets, ça ne ressemble pas des masses à une balance usuelle. Tout est toujours plus compliqué en sciences, faut croire… ([Source](https://www.bipm.org/en/bipm/mass/watt-balance/))
 
-## Diffraction à rayons X
+## Diffraction à rayons X
 
 L'idée derrière cette méthode peut sembler complètement folle… et pourtant ! Il s'agit de, littéralement, compter les atomes dans un objet pour déterminer sa masse ; ou, dans un objet dont on connaît très précisément la masse, déterminer la constante de Planck, qui intervient dans le calcul.
 
@@ -217,14 +217,11 @@ Nous tenons à remercier @**Hugo ROTA**, @Rockaround, @etherpin pour la relectur
 
 # Liens et sources
 
-## Liens
-
 * [Documents](https://www.bipm.org/fr/cgpm-2018/) à propos de la 26^e^ CGPM sur le site web du BIPM.
 * Présentation de la [balance de Kibble du BIPM](https://www.bipm.org/en/bipm/mass/watt-balance/) (en anglais).
 
-## Sources
-
-_Les sources de cet article sont disponibles [à la fin de la version complète](./plus#sources)._
+[[i]]
+| Les sources de cet article sont disponibles [à la fin de la version complète](./plus#liens-et-sources).
 
 *[BIPM]: Bureau International des Poids et Mesures
 *[SI]: (Unité⋅s du) Système International

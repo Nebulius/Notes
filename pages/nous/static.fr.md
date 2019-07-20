@@ -43,5 +43,7 @@ Certains des articles de ce site sont co-écrits ; dans de tels cas, les autres 
 | Ce site web est hébergé par Online SAS, 75366 Paris CEDEX 08,  FRANCE (RCS Paris B 433 115 904). Le responsable de la publication est [Amaury Carrade](https://amaury.carrade.eu/contact).
 | 
 | Sauf mention contraire, le contenu est placé sous licence [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Les données brutes du site sont [disponibles sur GitHub](https://github.com/Nebulius/Notes).
-
-Ce site est géré par [Grav](https://getgrav.org) en utilisant un [thème personnalisé](https://github.com/Nebulius/grav-theme-nebulius). Je tiens à remercier tout particulièrement [Kiliann Becquet](https://kiliannbecquet.fr/) pour son aide et ses suggestions quant au développement de ce dernier ; ainsi que pour [ses contributions aux graphismes de Nébulius](https://github.com/Nebulius/Graphics).
+|
+| ---
+|
+| Ce site est géré par [Grav](https://getgrav.org) en utilisant un [thème personnalisé](https://github.com/Nebulius/grav-theme-nebulius). Je tiens à remercier tout particulièrement **[Kiliann Becquet](https://kiliannbecquet.fr/)** pour son aide et ses suggestions quant au développement de ce dernier ; ainsi que pour [ses contributions aux graphismes de Nébulius](https://github.com/Nebulius/Graphics).

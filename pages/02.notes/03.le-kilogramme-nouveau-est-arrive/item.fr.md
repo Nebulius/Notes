@@ -24,11 +24,9 @@ date: '03:14 03-07-2019'
 license: by-sa
 ---
 
-Du 13 au 16 novembre 2018 à Versailles, s'est tenue la 26^e^ réunion de la Conférence Générale des Poids et Mesures. Lors de cette grand-messe de la métrologie internationale, **une nouvelle définition du kilogramme a été adoptée**, accompagnée de nouvelles définitions pour l'ampère, la mole et le kelvin, **qui entrent en vigueur le 20 mai 2019**. La nouvelle définition du kilogramme ne change pas pour autant sa valeur, comme nous l'expliquerons dans cet article (et il en est de même pour les autres unités).
+Pendant des dizaines d'années, le kilogramme a officiellement été défini comme la masse d'un objet stocké sous cloche et haute précaution dans la banlieue parisienne. Oui, vraiment ! C'est certes assez simple comme définition, mais pas vraiment pratique ou rigoureux… Il fallait changer ça !
 
-Cette redéfinition ne s'est pas faite en un jour — l'adoption officielle de la nouvelle définition par la CGPM marque l'aboutissement de travaux scientifiques de longue haleine. Il s'agit de la continuité d'un long processus visant à **faire reposer le système international d'unités**, souvent appelé le SI, **sur des constantes fondamentales de la physique** plutôt que sur des objets physiques.
-
-Le kilogramme était en effet la dernière unité définie par référence à un objet physique, à savoir le prototype international du kilogramme. Le mètre, jadis défini comme étant la longueur du mètre-étalon, avait déjà été redéfini en 1983 sur la base de la vitesse de la lumière et de la durée de la seconde.
+Et ça tombe bien : du 13 au 16 novembre 2018 à Versailles, s'est tenue la 26^e^ réunion de la Conférence Générale des Poids et Mesures. Lors de cette grand-messe de la métrologie internationale, et après une dizaine d'années de travail, **une nouvelle définition du kilogramme a été adoptée**, accompagnée de nouvelles définitions pour l'ampère, la mole et le kelvin, **qui entrent en vigueur le 20 mai 2019**. La nouvelle définition du kilogramme ne change pas pour autant sa valeur, comme nous l'expliquerons dans cet article.
 
 # Avant le 20 mai 2019, l'ancienne définition
 
@@ -44,7 +42,7 @@ Oui après tout, pourquoi ne pas se contenter de cette définition ? Eh bien ell
 
 Tout d'abord, le prototype du kilogramme est un… objet, un vrai, physique et tout[^localisation-prototype], donc **comme tout objet sa masse peut changer.** Rayures, usure, ou même dépôt de poussières ou de molécules présentes dans l'air à sa surface… sont autant de facteurs pouvant causer des variations de masse. Oh, il est protégé, y'a pas de soucis à ce niveau, mais le problème, c'est que c'est **la** référence ! Comme par définition il pèse un kilogramme tout le temps, s'il gagne ou perds de la masse, c'est tous les kilogrammes du monde qui suivent. Gênant, un peu, surtout quand on sait que concrètement sa masse évolue.
 
-En effet, on a des copies du prototype qu'on pèse régulièrement pour les comparer à l'original et… la différence existe et se creuse avec le temps, dans les deux sens ! Difficile donc de savoir précisément comment il a évolué, car il faudrait le comparer avec lui-même… Concrètement et à cause de ça, **la connaissance du kilogramme est limité à ± quelques microgrammes**, ce qui peut sembler tout à fait satisfaisant dans la vie de tous les jours, mais pas du tout pour des usages scientifiques plus avancés.
+En effet, on a des copies du prototype qu'on pèse régulièrement pour les comparer à l'original et… la différence existe et se creuse avec le temps, dans les deux sens ! Difficile donc de savoir précisément comment il a évolué, car il faudrait le comparer avec lui-même… Concrètement et à cause de ça, **la connaissance du kilogramme est limité à quelques microgrammes près**, ce qui peut sembler tout à fait satisfaisant dans la vie de tous les jours, mais pas du tout pour des usages scientifiques plus avancés.
 
 Le second gros problème, c'est que comme le prototype est unique, il est **difficilement accessible**. D'autres unités (tel que le mètre, la seconde…) peuvent être reproduites dans n'importe quel laboratoire équipé, mais ce n'est pas le cas du kilogramme dans le cadre de cette vieille définition. Techniquement, pour connaître le kilogramme, on était obligé d'avoir le Prototype sous la main… ce qu'est un privilège extrêmement rare : il n'est sorti de ses coquilles, pour le comparer avec les copies et en faire de nouvelles, que tous les 50 ans !
 

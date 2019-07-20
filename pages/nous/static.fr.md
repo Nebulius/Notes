@@ -39,12 +39,10 @@ Je suis **Amaury Carrade**, et je suis l'auteur principal de ce site web. Je sui
 
 Certains des articles de ce site sont co-écrits ; dans de tels cas, les autres auteurs sont systématiquement précisés en tête d'article. Je désire mettre en avant **Timothée Bailly**, qui a notamment contribué au [projet Sablet](/sablet).
 
-[[i|Les trucs légaux]]
+[[i|Trucs légaux et remerciements]]
 | Ce site web est hébergé par Online SAS, 75366 Paris CEDEX 08,  FRANCE (RCS Paris B 433 115 904). Le responsable de la publication est [Amaury Carrade](https://amaury.carrade.eu/contact).
 | 
 | Sauf mention contraire, le contenu est placé sous licence [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Les données brutes du site sont [disponibles sur GitHub](https://github.com/Nebulius/Notes).
-|
-| ---
 |
 | Ce site est géré par [Grav](https://getgrav.org) en utilisant un [thème personnalisé](https://github.com/Nebulius/grav-theme-nebulius).
 |

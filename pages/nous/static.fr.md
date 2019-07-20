@@ -46,4 +46,6 @@ Certains des articles de ce site sont co-écrits ; dans de tels cas, les autres 
 |
 | ---
 |
-| Ce site est géré par [Grav](https://getgrav.org) en utilisant un [thème personnalisé](https://github.com/Nebulius/grav-theme-nebulius). Je tiens à remercier tout particulièrement **[Kiliann Becquet](https://kiliannbecquet.fr/)** pour son aide et ses suggestions quant au développement de ce dernier ; ainsi que pour [ses contributions aux graphismes de Nébulius](https://github.com/Nebulius/Graphics).
+| Ce site est géré par [Grav](https://getgrav.org) en utilisant un [thème personnalisé](https://github.com/Nebulius/grav-theme-nebulius).
+|
+| Je tiens à remercier tout particulièrement **[Kiliann Becquet](https://kiliannbecquet.fr/)** pour son aide et ses suggestions quant au développement de ce dernier ; ainsi que pour [ses contributions aux graphismes de Nébulius](https://github.com/Nebulius/Graphics).

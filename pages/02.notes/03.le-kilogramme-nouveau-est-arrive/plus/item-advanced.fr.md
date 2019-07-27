@@ -20,6 +20,7 @@ page-toc:
 date: '21:56 20-05-2019'
 license: by-sa
 canonical: 'https://zestedesavoir.com/articles/2901/le-kilogramme-nouveau-est-arrive/'
+visible: true
 override_default_title: 'Le kilogramme nouveau est arrivé !'
 override_default_desc: 'Depuis des dizaines d''années, le kilogramme est défini comme étant la masse d''un bout de platine sous cloche en banlieue parisienne. Mais les choses ont changé le 20 mai 2019. Comment le kilogramme est désormais défini ? Vous trouverez tout ici.'
 ---

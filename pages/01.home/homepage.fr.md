@@ -19,9 +19,9 @@ homepage:
             abstract: 'Ma tribune libre sur Zeste de Savoir. Sujets beaucoup plus variés et sans réelle ligne éditoriale :o'
             latest:
                 invite: 'Dernière tribune'
-                title: 'Atelier de programmation à Orsay le mercredi 24 avril 2019'
-                link: 'https://zestedesavoir.com/billets/3106/atelier-de-programmation-a-orsay-le-mercredi-24-avril-2019/'
-                date: '06-04-2019 00:00'
+                title: 'Compte-rendu du premier « zRédigeons ensemble »'
+                link: 'https://zestedesavoir.com/billets/3232/compte-rendu-du-premier-zredigeons-ensemble/'
+                date: '31-07-2019 09:14'
             link: 'https://zestedesavoir.com/contenus/tribunes/1126/'
             root: /home
         -

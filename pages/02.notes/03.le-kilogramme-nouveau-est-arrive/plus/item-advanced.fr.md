@@ -46,7 +46,7 @@ C'est parti !
 
 ## Le prototype international du kilogramme
 
-Jusqu’à présent, une masse de 1 kg était définie comme la masse d’un objet appelé « prototype international du kilogramme » ou PIK, aussi surnommé « le grand $\mathbb{K}$ ». Autrement dit, **un kilogramme était la masse d’un certain objet pris pour référence**, dont la masse est par définition un kilogramme sans avoir besoin de le peser.
+Jusqu’à présent, une masse de 1 kg était définie comme la masse d’un objet appelé « prototype international du kilogramme » ou PIK, aussi surnommé « le grand $\mathbb{K}$ ». Autrement dit, **un kilogramme était la masse d’un certain objet pris pour référence**, dont la masse est par définition un kilogramme sans avoir besoin de le peser.
 
 Le prototype international du kilogramme, fabriqué à la fin du XIXᵉ siècle, est un cylindre constitué d’un alliage de 90 % de platine et 10 % d’iridium, qui lui donne une grande dureté, une bonne résistance à l’oxydation et une grande densité. Ces caractéristiques sont intéressantes pour assurer une bonne solidité, une bonne stabilité chimique, et limiter sa taille. Le cylindre mesure 39,17 mm de haut et 39,17 mm de diamètre, ce qui permet de minimiser la surface du cylindre exposée. Pour vous faire une idée de sa compacité, sachez qu’une balle de golf fait environ 42 mm de diamètre !
 
@@ -79,7 +79,7 @@ D’autres unités peuvent être réalisées par n’importe quel laboratoire é
 
 Les copies pallient partiellement ce problème, mais comme nous l’avons vu dans la partie précédente, il n’est pas garanti que la masse de la copie soit véritablement proche de celle du PIK, et une comparaison n’est faite, grossièrement, que tous les 50 ans. L’information obtenue par la comparaison devient donc rapidement ancienne, voire obsolète.
 
-**Tout le système de métrologie de masse reposait sur le PIK** : ses copies servaient aux laboratoires nationaux, qui possèdent les balances les plus précises, qui servaient elle-même à calibrer les balances des laboratoires de métrologie plus nombreux mais moins précis, qui servaient à leur tour à calibrer les appareils communs dans les laboratoires industriels ou académiques, qui sont utilisés pour (enfin) peser des choses !
+**Tout le système de métrologie de masse reposait sur le PIK** : ses copies servaient aux laboratoires nationaux, qui possèdent les balances les plus précises, qui servaient elle-même à calibrer les balances des laboratoires de métrologie plus nombreux mais moins précis, qui servaient à leur tour à calibrer les appareils communs dans les laboratoires industriels ou académiques, qui sont utilisés pour (enfin) peser des choses !
 
 *[BIPM]: Bureau International des Poids et Mesures
 *[PIK]: Prototype international du kilogramme
@@ -102,7 +102,7 @@ Source: J. C. Maxwell (1831 – 1879), physicien (il a notamment travaillé sur 
 
 Pour reprendre l'exemple de la seconde, sa définition actuelle est, pour faire simple, la durée de 9 192 631 770 vibrations de l'atome de césium 133 au zéro absolu[^seconde], ce qui est une valeur extrêmement précise et stable dans le temps, les propriétés des atomes étant immuables. Avec une telle définition, il devient possible de reproduire cette mesure partout et n'importe quand avec une horloge atomique[^horloge-atomique].
 
-La définition du mètre, quant à elle, se base aujourd'hui sur la vitesse de la lumière : il s'agit de la distance parcourue par la lumière dans le vide en 1⁄~299 792 458~ seconde — la seconde étant définie très précisément, et la vitesse de la lumière dans le vide parfaitement constante, on connaît la valeur d'un mètre avec une très grande précision.
+La définition du mètre, quant à elle, se base aujourd'hui sur la vitesse de la lumière : il s'agit de la distance parcourue par la lumière dans le vide en 1⁄~299 792 458~ seconde — la seconde étant définie très précisément, et la vitesse de la lumière dans le vide parfaitement constante, on connaît la valeur d'un mètre avec une très grande précision.
 
 Le nouveau kilogramme suit la même logique, et le concernant, **c'est la [constante de Planck](https://fr.wikipedia.org/wiki/Constante_de_Planck) qui a été choisie** pour sa redéfinition. Mais qu'est-ce donc que la constante de Planck et quel rapport avec le kilogramme ?
 
@@ -177,7 +177,7 @@ Une balance de Kibble (anciennement « balance du watt ») est un appareil de me
 ![Photographie de la balance de Kibble du BIPM. Elle ne ressemble pas à une balance classique, mais à une structure metallique ouverte, assez verticale, environ deux fois plus large que haute, remplie d'électronique et d'appareils de mesure peu discernables sur la photo.](photographie-de-la-balance-de-kibble-du-bipm.jpg)
 Figure: La balance de Kibble du BIPM. ([Source](https://www.bipm.org/en/bipm/mass/watt-balance/))
 
-La mesure se fait en deux temps. Dans un premier temps, **on équilibre l'étalon de masse $m$ et de poids $w = m g$ par une force électromagnétique** (dite de Lorentz) générée par un courant $I$ circulant dans une boucle conductrice dans un champ magnétique $B$. Le réglage de la force est fait à l'aide du courant, le champ magnétique restant constant. Le courant peut être mesuré très précisément, mais pas la longueur de la boucle $L$ ni l'intensité du champ magnétique, dont dépend pourtant la force, ce qui rend nécessaire la deuxième étape. On déduit de cette première étape la relation suivante (où le facteur $B L$ n'est pas connu), car les forces sont équilibrées, donc égales :
+La mesure se fait en deux temps. Dans un premier temps, **on équilibre l'étalon de masse $m$ et de poids $w = m g$ par une force électromagnétique** (dite de Lorentz) générée par un courant $I$ circulant dans une boucle conductrice dans un champ magnétique $B$. Le réglage de la force est fait à l'aide du courant, le champ magnétique restant constant. Le courant peut être mesuré très précisément, mais pas la longueur de la boucle $L$ ni l'intensité du champ magnétique, dont dépend pourtant la force, ce qui rend nécessaire la deuxième étape. On déduit de cette première étape la relation suivante (où le facteur $B L$ n'est pas connu), car les forces sont équilibrées, donc égales :
 
 $$ w  = m g = B L I $$
 
@@ -318,7 +318,7 @@ Equation: La valeur expérimentale du nombre d'Avogadro, qui va nous permette de
 
 
 
-#### Enfin, retrouvons Planck (d'aucuns diront : « pas trop tôt »)
+#### Enfin, retrouvons Planck (d'aucuns diront : « pas trop tôt »)
 
 Certaines équations de la physique fondamentale nous permettent de connaître la masse d'un électron en fonction de la constante de Planck $h$ (ouf) et de pleins d'autres termes barbares :
 
@@ -362,8 +362,8 @@ L'objectif était de prendre et de **fixer une valeur pour cette constante qui r
 
 D'autres constantes fondamentales ont été fixées au passage : 
 
-- **le nombre d'Avogadro** que l'on a croisé plus haut est fixé à exactement $N_A = 6,022\,140\,76 \times 10^{23}\ \text{mol}^{-1} $, en utilisant la méthode XRCD pour choisir sa valeur ;
-- **la charge élémentaire** (à savoir la charge d'un proton, ou l'opposé de celle d'un électron), est fixée à exactement $e = 1,602\, 176\, 634 \times 10^{-19}$ [Coulombs](https://fr.wikipedia.org/wiki/Coulomb), en cohérence avec les autres définitions, via un processus de fixation similaire à celui détaillé pour $h$ et $N_A$ dans cet article, [en utilisant les unités électriques conventionnelles](https://www.lne.fr/fr/comprendre/systeme-international-unites/ampere) mentionnées dans le cadre de la balance de Kibble.
+- **le nombre d'Avogadro** que l'on a croisé plus haut est fixé à exactement $N_A = 6,022\,140\,76 \times 10^{23}\ \text{mol}^{-1} $, en utilisant la méthode XRCD pour choisir sa valeur ;
+- **la charge élémentaire** (à savoir la charge d'un proton, ou l'opposé de celle d'un électron), est fixée à exactement $e = 1,602\, 176\, 634 \times 10^{-19}$ [Coulombs](https://fr.wikipedia.org/wiki/Coulomb), en cohérence avec les autres définitions, via un processus de fixation similaire à celui détaillé pour $h$ et $N_A$ dans cet article, [en utilisant les unités électriques conventionnelles](https://www.lne.fr/fr/comprendre/systeme-international-unites/ampere) mentionnées dans le cadre de la balance de Kibble.
 
 De plus et en conséquence, une autre constante fondamentale se retrouve fixée, car dépendante uniquement de constantes désormais fixées ou connues avec une très grande précision : la **constante de Boltzmann**, qui vaut désormais exactement $k_B = 1,380\, 649 \times 10^{-23}\,\ \text s^{-2}\, \text m^2\, \text{kg}\, \text K^{-1}$ (oui l'unité est tordue). On la recroisera en fin d'article. ;)
 
@@ -387,7 +387,7 @@ $g$ et $v$ ainsi que $U$ et $I$ peuvent être mesurés de manière ultra précis
 
 Le Bureau International des Poids et Mesure formule la nouvelle définition du kilogramme en ces termes :
 
-> Le kilogramme, kg, est l'unité de masse ; sa valeur est définie  en fixant la valeur numérique de la constante de Planck à exactement $6,626\, 070\, 15 \times 10^{-34}$ quand elle est exprimée en s^−1^ m^2^ kg, ce qui correspond à des J s.
+> Le kilogramme, kg, est l'unité de masse ; sa valeur est définie  en fixant la valeur numérique de la constante de Planck à exactement $6,626\, 070\, 15 \times 10^{-34}$ quand elle est exprimée en s^−1^ m^2^ kg, ce qui correspond à des J s.
 
 ## Mais concrètement, comment peser avec cette définition bizarre ?
 
@@ -422,12 +422,12 @@ Figure: Interdépendances entre les sept unités de base du SI avant le 20 mai 2
 
 Avec la révision du SI, **la mole passe d'une définition basée sur le kilogramme à une totalement indépendante**, car comme on l'a vu, $N_A$ a désormais une valeur exacte.
 
-> La mole, mol, est l'unité de quantité de matière d'une entité élémentaire spécifique, qui peut être un atome, une molécule, un ion, un électron ou n'importe quelle autre particule ou groupe particulier de ces particules ; sa valeur est définie en fixant la valeur numérique du nombre d'Avogadro à exactement $6,022\, 140\, 76 \times 10^{23}$ quand elle est exprimée en mol^-1^.
+> La mole, mol, est l'unité de quantité de matière d'une entité élémentaire spécifique, qui peut être un atome, une molécule, un ion, un électron ou n'importe quelle autre particule ou groupe particulier de ces particules ; sa valeur est définie en fixant la valeur numérique du nombre d'Avogadro à exactement $6,022\, 140\, 76 \times 10^{23}$ quand elle est exprimée en mol^-1^.
 Source: Nouvelle définition de la mole par le BIPM à partir du 20 mai 2019.
 
 **L'ampère est redéfini en fonction de la charge élémentaire $e$**, désormais parfaitement définie, plutôt qu'à partir d'une force (c'est-à-dire indirectement de la masse). On aura ainsi une définition de l'ampère indépendante du kilogramme.
 
-> L'ampère, A, est l'unité du courant électrique ; sa valeur est définie en fixant la valeur numérique de la charge élémentaire à exactement $1,602\, 176\, 634 \times 10^{-19}$ quand elle est exprimée en A s, ce qui correspond à des [C](https://fr.wikipedia.org/wiki/Coulomb).
+> L'ampère, A, est l'unité du courant électrique ; sa valeur est définie en fixant la valeur numérique de la charge élémentaire à exactement $1,602\, 176\, 634 \times 10^{-19}$ quand elle est exprimée en A s, ce qui correspond à des [C](https://fr.wikipedia.org/wiki/Coulomb).
 > Source: Nouvelle définition de l'ampère par le BIPM à partir du 20 mai 2019.
 
 À l'inverse, **la définition du kelvin, actuellement indépendante, sera reliée à celle du kilogramme**, via la constante de Boltzmann. Le kelvin était auparavant défini comme $1/273,16$ de la température du point triple de l'eau (la température à laquelle les trois phases solide, liquide et gaz cohabitent, environ 0,01 °C) — la définition change donc fondamentalement.
@@ -436,17 +436,17 @@ La constante de Boltzmann $k_B$ relie l'énergie d'un corps à sa température, 
 
 Quant au degré Celsius, qui n'est pas une unité SI, il est défini par rapport au kelvin ; sa définition change donc également par ricochet.
 
-> Le kelvin, K, est l'unité thermodynamique de température ; sa valeur est définie en fixant la valeur numérique de la constante de Boltzmann à exactement $1,380\, 649 \times 10^{-23}$ quand elle est exprimée en s^−2^ m^2^ kg K^−1^, ce qui correspond à des J K^−1^.
+> Le kelvin, K, est l'unité thermodynamique de température ; sa valeur est définie en fixant la valeur numérique de la constante de Boltzmann à exactement $1,380\, 649 \times 10^{-23}$ quand elle est exprimée en s^−2^ m^2^ kg K^−1^, ce qui correspond à des J K^−1^.
 > Source: Nouvelle définition du kelvin par le BIPM à partir du 20 mai 2019.
 
 Les définitions des autres unités restent fondamentalement les mêmes, mais sont reformulées à l'occasion, afin de les rendre plus claires et plus rigoureuses. Par exemple, l'ancienne définition de la seconde :
 
-> La seconde est la durée de 9 192 631 770 périodes de la radiation correspondant à la transition entre les deux niveaux hyperfins de l'état fondamental de l'atome de césium 133 à la température du zéro absolu.
+> La seconde est la durée de 9 192 631 770 périodes de la radiation correspondant à la transition entre les deux niveaux hyperfins de l'état fondamental de l'atome de césium 133 à la température du zéro absolu.
 > Source: Ancienne définition de la seconde par le BIPM avant 2019.
 
 devient :
 
-> La seconde, s, est l'unité de durée ; sa valeur est définie en  fixant la valeur du nombre de périodes de la radiation correspondant à  la transition entre les deux [niveaux hyperfins](https://fr.wikipedia.org/wiki/Structure_hyperfine) de l'[état fondamental](https://fr.wikipedia.org/wiki/%C3%89tat_fondamental) de l'atome de [césium](https://fr.wikipedia.org/wiki/C%C3%A9sium) 133 à la température du zéro absolu à exactement 9 192 631 770 quand elle est exprimée en s^−1^.
+> La seconde, s, est l'unité de durée ; sa valeur est définie en  fixant la valeur du nombre de périodes de la radiation correspondant à  la transition entre les deux [niveaux hyperfins](https://fr.wikipedia.org/wiki/Structure_hyperfine) de l'[état fondamental](https://fr.wikipedia.org/wiki/%C3%89tat_fondamental) de l'atome de [césium](https://fr.wikipedia.org/wiki/C%C3%A9sium) 133 à la température du zéro absolu à exactement 9 192 631 770 quand elle est exprimée en s^−1^.
 > Source: Nouvelle définition de la seconde par le BIPM à partir du 20 mai 2019.
 
 ---
@@ -478,7 +478,7 @@ Nous tenons à remercier @**Hugo ROTA**, @Rockaround, @etherpin pour la relectur
 [[secret|Cliquez pour afficher les sources de cet article]]
 | 1. Becker, P., Dorenwendt, K., Ebeling, G., Lauer, R., Lucas, W., Probst, R., … Siegert, H. (1981). Absolute Measurement of the (220) Lattice Plane Spacing in a Silicon Crystal. *Physical Review Letters*, *46*(23), 1540‑1543. <https://doi.org/10.1103/PhysRevLett.46.1540>
 | 2. Bettin, H., & Bundesanstalt, P.-T. (2016). *X-ray Crystal Density Method to Determine the Avogadro and Planck Constants*. 19.
-| 3. Bureau International des Poids et Mesures. (2013). Recommandation G1 — Pour une nouvelle définition du kilogramme en 2018. *Recommandation Du Comité Consultatif Pour La Masse et Les Grandeurs Apparentées Présentée Au Comité International Des Poids et Mesures*, 36, 37. Consulté à l’adresse <https://www.bipm.org/utils/common/pdf/CC/CCM/CCM14.pdf>
+| 3. Bureau International des Poids et Mesures. (2013). Recommandation G1 — Pour une nouvelle définition du kilogramme en 2018. *Recommandation Du Comité Consultatif Pour La Masse et Les Grandeurs Apparentées Présentée Au Comité International Des Poids et Mesures*, 36, 37. [Consulté sur bipm.org](https://www.bipm.org/utils/common/pdf/CC/CCM/CCM14.pdf)
 | 4. Cladé, P., Biraben, F., Julien, L., Nez, F., & Guellati-Khelifa, S. (2016). Precise determination of the ratio h/mu: a way to link microscopic mass to the new kilogram. *Metrologia*, *53*(5), A75–A82. <https://doi.org/10.1088/0026-1394/53/5/A75>
 | 5. Fischer, J., Fellmuth, B., Gaiser, C., Zandt, T., Pitre, L., Sparasci, F., … del Campo, D. (2018). The Boltzmann project. *Metrologia*, *55*(2), R1‑R20. <https://doi.org/10.1088/1681-7575/aaa790>
 | 6. Fujii, K., Bettin, H., Becker, P., Massa, E., Rienitz, O., Pramann, A., … Borys, M. (2016). Realization of the kilogram by the XRCD method. *Metrologia*, *53*(5), A19‑A45. <https://doi.org/10.1088/0026-1394/53/5/A19>
@@ -486,3 +486,4 @@ Nous tenons à remercier @**Hugo ROTA**, @Rockaround, @etherpin pour la relectur
 | 8. Girard, G. (1994). The Third Periodic Verification of National Prototypes of the Kilogram (1988-1992). *Metrologia*, *31*(4), 317–336. <https://doi.org/10.1088/0026-1394/31/4/007>
 | 9. Haddad, D., Seifert, F., Chao, L. S., Possolo, A., Newell, D. B., Pratt, J. R., … Schlamminger, S. (2017). Measurement of the Planck constant at the National Institute of Standards and Technology from 2015 to 2017. *Metrologia*, *54*(5), 633‑641. <https://doi.org/10.1088/1681-7575/aa7bf2>
 | 10. Newell, D. B., Cabiati, F., Fischer, J., Fujii, K., Karshenboim, S. G., Margolis, H. S., … Zhang, Z. (2018). The CODATA 2017 values of h, e, k, and N A for the revision of the SI. *Metrologia*, *55*(1), L13–L16. <https://doi.org/10.1088/1681-7575/aa950a>
+| 11. Bureau International des Poids et Mesures. (2012). *Vocabulaire international de métrologie – Concepts fondamentaux et généraux et termes associés (VIM).* [Consulté sur bipm.org](https://www.bipm.org/utils/common/documents/jcgm/JCGM_200_2012.pdf)

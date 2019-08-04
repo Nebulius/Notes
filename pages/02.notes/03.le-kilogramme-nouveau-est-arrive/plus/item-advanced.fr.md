@@ -1,6 +1,6 @@
 ---
 title: 'Le kilogramme nouveau est arrivé !'
-abstract: 'Même valeur, nouvelle définition.'
+abstract: 'Le 20 mai 2019, la définition du kilogramme a changé. Mais pourtant, vos balances n''ont pas besoin de mise à jour ! Pourquoi ce changement, comment a-t-il été opéré ? On vous dit tout.'
 header_image:
     color: '#7a49b7'
     vertical_centering: 50
@@ -157,8 +157,8 @@ Un grand avantage de cette méthode, c'est que **dans la vie courante, un kilogr
 Le travail de détermination puis de fixation de la constante de Planck a été de longue haleine : il a commencé plus de dix ans avant la rédéfinition officielle ! Le Bureau International des Poids et Mesures avait donné plusieurs exigences[^bipm-exigences-planck] quant à la mesure de la constante de Planck : 
 
 - des mesures par **trois expériences indépendantes**, validées par le BIPM, utilisant au moins **deux méthodes de mesure différentes** (balance de Kibble et XRCD — nous détaillerons cela juste après) ;
-- **une précision de la mesure de $\pm 5 \times 10^{-8}\ \text{J s}$** pour chacune de ces expériences (soit une mesure à un vingt-millionnième près !) ;
-- **au moins une de ces expériences avec une précision de $\pm 2 \times 10^{-8}\ \text{J s}$** (ce qui fait cette fois une mesure à un cinquante-millionnième près) ;
+- **une précision de la mesure[^fidélité-mesure] de $\pm 5 \times 10^{-8}\ \text{J s}$** pour chacune de ces expériences (soit une mesure à un vingt-millionnième près !) ;
+- **au moins une de ces expériences avec une précision[^fidélité-mesure] de $\pm 2 \times 10^{-8}\ \text{J s}$** (ce qui fait cette fois une mesure à un cinquante-millionnième près) ;
 - et enfin, que la valeur mesurée soit **cohérente** avec le prototype international du kilogramme.
 
 Voyons en quoi ces expériences consistent, et comment on peut calculer la constante de Planck avec.
@@ -167,6 +167,8 @@ Voyons en quoi ces expériences consistent, et comment on peut calculer la const
 | Bien qu'une attention particulière soit prêtée à l'accessibilité, la section suivante de l'article rentre dans des détails mathématiques et physiques. Si cela ne vous intéresse pas et que vous acceptez d'admettre que « ça marche », sautez cette partie sans remords, ou lisez-la en ignorant les formules. À l'inverse, si vous avez des questions ou besoin de plus de détails, manifestez-vous dans les commentaires !
 
 [^bipm-exigences-planck]: Les exigences du BIPM sont précisées dans la [_Recommandation G1 – Sur une nouvelle définition du kilogramme_](https://www.bipm.org/utils/common/pdf/CC/CCM/CCM14.pdf#page=34) (2013) ; elles ont été considérées comme remplies par ledit bureau dans la [_Recommandation G1 – Pour une nouvelle définition du kilogramme en 2018_](https://www.bipm.org/cc/CCM/Allowed/16/06F_Final_CCM-Recommendation_G1-2017.pdf) (2017).
+
+[^fidélité-mesure]: En métrologie, en réalité, on n'aime pas trop le terme de précision, lui préférant celui de « fidélité » d'une mesure, correspondant donc à l'écart entre la valeur mesurée expérimentalement et la valeur réelle. J'utilise malgré tout le terme de précision par soucis de claireté. (Cf. onzième source en conclusion.)
 
 ### Balance de Kibble
 
@@ -337,7 +339,7 @@ Oui, encore de nouveaux termes barbares (c'est pas moi c'est la physique), les d
 - $M_u = 1 \text{ g/mol}$, c'est la constante de masse molaire — ça sert à ce que les unités restent correctes ;
 - $A_r(e)$ c'est la [masse atomique](https://fr.wikipedia.org/wiki/Masse_atomique) de l'électron — concrètement, sa masse, mais dans une unité un peu différente. Rien de bien méchant.
 
-On a, finalement, **la valeur de la constante de Planck en fonction d'éléments connus avec grande précision expérimentale**. On y est ![^simplifications-xrcd] \o/
+On a, finalement, **la valeur de la constante de Planck en fonction d'éléments connus avec une grande fidélité expérimentale**. On y est ![^simplifications-xrcd] \o/
 
 $$h = {c \cdot M_u \cdot A_r(e) \cdot \alpha^2 \over 2 R_\infty \cdot N_A}$$
 Equation: La constante de Planck, en fonction de tout un tas de trucs précis.

@@ -19,9 +19,9 @@ homepage:
             abstract: 'Ma tribune libre sur Zeste de Savoir. Sujets beaucoup plus variés et sans réelle ligne éditoriale :o'
             latest:
                 invite: 'Dernière tribune'
-                title: 'Compte-rendu du premier « zRédigeons ensemble »'
-                link: 'https://zestedesavoir.com/billets/3232/compte-rendu-du-premier-zredigeons-ensemble/'
-                date: '31-07-2019 09:14'
+                title: Onze
+                link: 'https://zestedesavoir.com/billets/3280/onze/'
+                date: '06-09-2019 08:21'
             link: 'https://zestedesavoir.com/contenus/tribunes/1126/'
             root: /home
         -

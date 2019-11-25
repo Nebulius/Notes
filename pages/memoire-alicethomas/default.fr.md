@@ -7,6 +7,6 @@ page-toc:
     active: true
 date: '19:22 21-11-2019'
 license: by-sa
-redirect: /mémoire-alice-thomas
+redirect: /memoire-alice-thomas
 ---
 

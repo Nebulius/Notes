@@ -24,3 +24,6 @@ date: '16:30 14-12-2019'
 license: by-sa
 ---
 
+Après l'un des plus célèbres fratricides fut fondée la ville de Rome le 21 avril 753 av. J.-C.
+
+Sauf que c'est une légende. Désolé. Mais ! Ça reste important car le calendrier romain, grand-père de notre calendrier moderne, s'appuie dessus.

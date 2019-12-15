@@ -15,6 +15,8 @@ child_type: document
 visible: true
 content:
     items: '@self.children'
+    filter:
+        visible: true
     order:
         by: folder
 ---

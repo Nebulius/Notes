@@ -25,6 +25,13 @@ homepage:
             link: 'https://zestedesavoir.com/contenus/tribunes/1126/'
             root: /home
         -
+            title: 'Avent 2019'
+            type: pages
+            abstract: 'Du 14 décembre au 6 janvier 2020, ouvrez chaque jour le chocolat de culture calendaire et temporelle !'
+            latest:
+                invite: 'Aujourd''hui'
+            root: /avent-2019
+        -
             title: 'Et tout le reste…'
             type: link
             abstract: 'Continuez de défiler la page, et vous trouverez ballons stratosphériques &amp; autre projets&nbsp;! (Et du social si vous êtes vaillant⋅e)'

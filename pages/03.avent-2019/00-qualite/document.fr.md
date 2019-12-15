@@ -11,8 +11,9 @@ header_image:
     vertical_centering: 50
 page-toc:
     active: true
-date: '00:09 15-12-2019'
+date: '16:00 14-12-2019'
 license: by-sa
+override_default_title: 'Qualité d''un calendrier'
 ---
 
 C'est un fait, tous les calendriers ne se valent pas. Mais comment savoir à quel point ?

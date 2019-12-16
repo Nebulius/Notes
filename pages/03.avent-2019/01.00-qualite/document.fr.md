@@ -14,6 +14,7 @@ page-toc:
 date: '16:00 14-12-2019'
 license: by-sa
 override_default_title: 'Qualité d''un calendrier'
+override_default_desc: 'Dans les différents articles de cette série, comment comparer les calendriers entre eux ?'
 ---
 
 C'est un fait, tous les calendriers ne se valent pas. Mais comment savoir à quel point ?

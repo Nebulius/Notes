@@ -22,6 +22,8 @@ page-toc:
 published: true
 date: '16:30 14-12-2019'
 license: by-sa
+override_default_title: 'Le calendrier romain'
+override_default_desc: 'Premier décembre — Commençons avec le calendrier à l''origine du nôtre : le calendrier romain !'
 ---
 
 Après l'un des plus célèbres fratricides fut fondée la ville de Rome le 21 avril 753 av. J.-C.

@@ -22,6 +22,8 @@ page-toc:
 published: true
 date: '16:30 15-12-2019'
 license: by-sa
+override_default_title: 'Le calendrier julien'
+override_default_desc: '2 décembre — Le calendrier julien succéda au calendrier romain car soyons clairs, il devenait urgent de mettre de l''ordre.'
 ---
 
 Comme précisé [au dernier épisode](../01-romain), la gestion terriblement bordélique et _intéressée_ du calendrier avait eu pour conséquence une avance de 90 jours sur l'année tropique[^tropique] — gênant. Et pire, à force de placer les mois intercalaires n'importe comment au gré des influences politiques et religieuses, une bonne partie des citoyens romains étaient complètement perdus et ne savaient plus du tout quelle jour on était. Bref, il fallait un bon coup de balais sur tout ça !

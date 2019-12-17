@@ -15,6 +15,7 @@ date: '16:30 17-12-2019'
 license: by-sa
 override_default_title: 'Les calendriers solaires'
 override_default_desc: 'Éloignons-nous un peu des calendriers historiques pour réfléchir à comment on en conçoit un. Première version : en se basant sur le Soleil…'
+override_default_img: avent-2019-4-calendrier-solaire.jpg
 ---
 
 La diversité des civilisations a fait que l'Homme a répondu de plein de manières différentes à cette même problématique qu'est le fait de suivre le temps qui passe. Pour ce faire, il n'y a pas trente-six possibilités : il faut se baser sur un événement naturel, répétitif, et visible à l'œil nu — il faut s'imaginer les moyens de l'époque !

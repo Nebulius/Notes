@@ -13,7 +13,8 @@ page-toc:
     active: true
 date: '16:30 16-12-2019'
 license: by-sa
-override_default_title: 'Un pas dans notre ère : notre calendrier grégorien'
+override_default_title: 'Notre calendrier grégorien'
+override_default_desc: 'On arrive à notre époque : d''où vient le calendrier que l''on utilise tous les jours ? Quelles différences avec le calendrier julien qui lui ressemble tout de même beaucoup ?'
 ---
 
 Le [calendrier julien](../02-julien) était vraiment pas mal lorsqu'il a été instauré par Jules César et l'empereur Auguste — mais quelques siècles plus tard, ses faiblesses sont devenues incontournables. À raison d'un jour tous les 134 ans, on est à 10 jours de décalage en 1200… et les voix commencent à s'élever dans la sphère religieuse, car ça décale les dates des fêtes (notamment Pâques). Sacrilège !

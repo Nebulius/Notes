@@ -1,9 +1,14 @@
 ---
 title: 'Notre calendrier grégorien'
 abstract: '3 décembre — On arrive à notre époque : d''où vient le calendrier que l''on utilise tous les jours ? Quelles différences avec le calendrier julien qui lui ressemble tout de même beaucoup ?'
+media_order: avent-2019-3-gregorien.jpg
 header_image:
-    color: '#7a49b7'
-    vertical_centering: 50
+    image: avent-2019-3-gregorien.jpg
+    color: '#7a6200'
+    title: 'Gregory''s XIII dragon'
+    author: 'Tambako The Jaguar'
+    link: 'https://flic.kr/p/2skstv'
+    vertical_centering: 44
 page-toc:
     active: true
 date: '16:30 16-12-2019'

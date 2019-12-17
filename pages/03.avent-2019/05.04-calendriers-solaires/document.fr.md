@@ -1,14 +1,18 @@
 ---
 title: 'Les calendriers solaires'
 abstract: '4 décembre — Éloignons-nous un peu des calendriers historiques pour réfléchir à comment on en conçoit un. Première version : en se basant sur le Soleil…'
+media_order: 'analemma-fishburn.jpg,ecliptique-equateur-celeste.png,GOES-equinoxe-vernal.jpg,soleil-zodiac.jpg,avent-2019-4-calendrier-solaire.jpg'
 header_image:
-    color: '#7a49b7'
-    vertical_centering: 50
+    image: avent-2019-4-calendrier-solaire.jpg
+    color: '#8a04b3'
+    title: 'Vernal equinox dawn, with Venus in attendance...'
+    author: 'Bob Peterson'
+    link: 'https://www.flickr.com/photos/pondapple/13315493863/'
+    vertical_centering: 58
 page-toc:
     active: true
-date: '13:54 17-12-2019'
+date: '16:30 17-12-2019'
 license: by-sa
-visible: false
 override_default_title: 'Les calendriers solaires'
 override_default_desc: 'Éloignons-nous un peu des calendriers historiques pour réfléchir à comment on en conçoit un. Première version : en se basant sur le Soleil…'
 ---
@@ -17,7 +21,7 @@ La diversité des civilisations a fait que l'Homme a répondu de plein de maniè
 
 De tels événements facilement repérables, il n'y en a pas tellement… en fait, il y en a principalement deux : la Lune et ses phases ; et le Soleil et les saisons.
 
-Nous sommes beaucoup plus habitués au second et pour cause — notre calendrier, le [calendrier grégorien](../03-gregorien) se base dessus : c'est un _calendrier solaire_. C'est assez naturel si on observe le cycle du Soleil au fil des mois, des saisons et des années : la position apparente de notre étoile dans le ciel semble osciller de haut en bas (avec des variations selon les zones géographiques, bien sûr).
+Nous sommes beaucoup plus habitués au second et pour cause — notre calendrier, le [calendrier grégorien](../03-gregorien), se base dessus : c'est un _calendrier solaire_. C'est assez naturel si on observe le cycle du Soleil au fil des mois, des saisons et des années : la position apparente de notre étoile dans le ciel semble osciller de haut en bas (avec des variations selon les zones géographiques, bien sûr).
 
 ![La position du Soleil au fur et à mesure d'une année. On y voit les positions successives du Soleil faire une sorte de courbe en huit se repliant sur elle-même et très allongée.](analemma-fishburn.jpg)
 Figure: La position du Soleil au fil de l'année 1998 – 1999 à Murray Hills, NJ, par [Jfishburn](https://commons.wikimedia.org/wiki/File:Analemma_fishburn.tif).

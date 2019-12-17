@@ -12,7 +12,7 @@ header_image:
 page-toc:
     active: true
 date: '16:30 16-12-2019'
-license: 'Tous droits réservés'
+license: by-sa
 override_default_title: 'Un pas dans notre ère : notre calendrier grégorien'
 ---
 

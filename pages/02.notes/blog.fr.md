@@ -5,7 +5,7 @@ homepage:
 title: Notes
 child_type: item
 admin:
-    children_display_order: collection
+    children_display_order: default
 license: by-sa
 content:
     items: '@self.children'

@@ -2,13 +2,16 @@
 title: 'Les calendriers lunaires'
 abstract: '5 décembre — On peut aussi concevoir des calendriers en se basant non sur le Soleil, mais sur la Lune !'
 header_image:
-    color: '#7a49b7'
-    vertical_centering: 50
+    image: avent-2019-5-calendrier-lunaire.jpg
+    color: '#000000'
+    title: 'Lunar eclipse, late phase, always red in the shadow area, which throws the earth on the moon.'
+    author: hundertblumen
+    link: 'https://flic.kr/p/MqPmAu'
+    vertical_centering: 42
 page-toc:
     active: true
 date: '16:30 18-12-2019'
 license: by-sa
-visible: false
 override_default_title: 'Les calendriers lunaires'
 override_default_desc: 'On peut aussi concevoir des calendriers en se basant non sur le Soleil, mais sur la Lune !'
 ---
@@ -21,7 +24,7 @@ Avec le Soleil, on s'intéressait à [l'année tropique](../04-calendriers-solai
 
 Un mois d'un calendrier lunaire correspond à la durée que met la Lune à retrouver une même phase. On peut aussi voir ça comme la durée entre deux alignements successifs  dans cet ordre de la Terre, la Lune, et le Soleil (ce qui correspondrait à une nouvelle lune).
 
-![Les phases de la Lune (illustration)](phases-de-la-lune.jpg)
+![Les phases de la Lune](phases-de-la-lune.jpg)
 
 La Lune tourne autour de la Terre en un peu plus de 27 jours (le mois lunaire). Mais pendant ce temps, la Terre a un peu tourné autour du Soleil ! Pour retrouver la même _phase_, il faut que le Soleil soit à la même place par rapport à la Terre et à la Lune (ainsi, vu de la Terre, la Lune est éclairée par le Soleil de la même façon) : on parle de mois lunaire *synodique*. Il faut deux jours de plus : un mois lunaire synodique dure environ 29 jours et demi[^mois-lunaire].
 
@@ -32,6 +35,8 @@ Le premier jour des calendriers lunaires est souvent celui de la nouvelle lune, 
 ## Décalages & ajustements
 
 Les calendriers basés sur la Lune essaie d'avoir des mois d'une durée la plus proche possible d'une lunaison. Cependant, comme il n'y a pas un nombre entier de jours, on retrouve les mêmes problèmes qu'avec nos calendriers solaires et leurs années bissextiles : il faut ajouter des jours intercalaires pour rester synchronisé avec les phases de la Lune.
+
+Les différents calendriers utilisent des stratégies variées pour ajouter des jours. Mais concrètement, si les mois font 29 jours, il faut ajouter environ un jour tous les deux mois, et en plus, trois jours tous les 100 mois, pour être approximativement synchronisé.
 
 Et autre problème : comme il n'y a pas un nombre entier de lunaisons par an, ces calendriers se décalent petit à petit par rapport aux saisons, ce qui n'est pas bien pratique, par exemple pour l'agriculture ! C'est pour quoi il n'y a plus beaucoup de calendriers purement lunaires[^calendrier-purement-lunaire] : la majorité utilisent des astuces pour avoir le “meilleur des deux mondes”. Mais ça, c'est au programme de demain !
 

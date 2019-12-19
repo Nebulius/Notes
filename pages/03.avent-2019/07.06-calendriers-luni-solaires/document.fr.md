@@ -1,9 +1,24 @@
 ---
 title: 'Les calendriers luni-solaires'
 abstract: '6 décembre — Calendriers solaires, lunaires… _why not both?_'
+media_order: avent-2019-6-calendrier-luni-solaire.jpg
 header_image:
-    color: '#7a49b7'
+    image: avent-2019-6-calendrier-luni-solaire.jpg
+    color: '#0e14b3'
+    title: 'Magical Afternoon in Alaska'
+    author: ' JLS Photography'
+    link: 'https://flic.kr/p/22FjDjs'
     vertical_centering: 50
+taxonomy:
+    category:
+        - 'Avent 2019'
+    tag:
+        - calendrier
+        - lune
+        - soleil
+        - cycle
+    author:
+        - 'Amaury Carrade'
 page-toc:
     active: true
 date: '16:30 19-12-2019'

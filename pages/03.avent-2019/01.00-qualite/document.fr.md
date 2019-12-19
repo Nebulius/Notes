@@ -9,6 +9,16 @@ header_image:
     author: ' jojomelons'
     link: 'https://flic.kr/p/65AsHH'
     vertical_centering: 50
+taxonomy:
+    category:
+        - 'Avent 2019'
+    tag:
+        - astronomie
+        - calendrier
+        - histoire
+        - qualité
+    author:
+        - 'Amaury Carrade'
 page-toc:
     active: true
 date: '16:00 14-12-2019'

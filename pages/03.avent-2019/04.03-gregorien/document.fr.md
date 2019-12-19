@@ -9,6 +9,16 @@ header_image:
     author: 'Tambako The Jaguar'
     link: 'https://flic.kr/p/2skstv'
     vertical_centering: 44
+taxonomy:
+    category:
+        - 'Avent 2019'
+    tag:
+        - calendrier
+        - histoire
+        - soleil
+        - grégorien
+    author:
+        - 'Amaury Carrade'
 page-toc:
     active: true
 date: '16:30 16-12-2019'

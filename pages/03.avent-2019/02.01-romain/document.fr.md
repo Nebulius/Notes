@@ -15,6 +15,8 @@ taxonomy:
     tag:
         - calendrier
         - romain
+        - histoire
+        - soleil
     author:
         - 'Amaury Carrade'
 page-toc:

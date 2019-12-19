@@ -8,6 +8,17 @@ header_image:
     author: hundertblumen
     link: 'https://flic.kr/p/MqPmAu'
     vertical_centering: 42
+taxonomy:
+    category:
+        - 'Avent 2019'
+    tag:
+        - astronomie
+        - histoire
+        - calendrier
+        - lune
+        - cycle
+    author:
+        - 'Amaury Carrade'
 page-toc:
     active: true
 date: '16:30 18-12-2019'

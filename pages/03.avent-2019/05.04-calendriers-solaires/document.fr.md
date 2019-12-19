@@ -9,6 +9,17 @@ header_image:
     author: 'Bob Peterson'
     link: 'https://www.flickr.com/photos/pondapple/13315493863/'
     vertical_centering: 58
+taxonomy:
+    category:
+        - 'Avent 2019'
+    tag:
+        - calendrier
+        - soleil
+        - cycle
+        - astronomie
+        - histoire
+    author:
+        - 'Amaury Carrade'
 page-toc:
     active: true
 date: '16:30 17-12-2019'

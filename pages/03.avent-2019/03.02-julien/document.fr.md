@@ -14,7 +14,9 @@ taxonomy:
         - 'Avent 2019'
     tag:
         - calendrier
+        - histoire
         - julien
+        - soleil
     author:
         - 'Amaury Carrade'
 page-toc:

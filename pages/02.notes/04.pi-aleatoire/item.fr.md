@@ -1,13 +1,26 @@
 ---
 title: 'On a retrouvé π au beau milieu du hasard'
+media_order: blobpeek.png
 header_image:
     color: '#7a49b7'
     vertical_centering: 50
+taxonomy:
+    category:
+        - Sciences
+    tag:
+        - mathématiques
+        - pi
+        - piday
+        - probabilités
+    author:
+        - 'Amaury Carrade'
 page-toc:
-    active: true
+    active: false
 published: false
 date: '16:00 14-03-2020'
 license: by-sa
+routable: true
+visible: true
 ---
 
 π, ce nombre si emblématique des mathématiques, a cette fâcheuse tendance à apparaître partout, et surtout là où on ne l'attends pas. Facétieux, il se cache dans tous les recoins des mathématiques… même les plus inattendus !

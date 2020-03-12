@@ -1,8 +1,10 @@
 ---
 title: 'On a retrouvé π au beau milieu du hasard'
-media_order: blobpeek.png
+abstract: 'π, ce nombre si emblématique des mathématiques, a cette fâcheuse tendance à apparaître partout, et surtout là où on ne l''attend pas. Et même… dans le hasard le plus complet ?'
+media_order: 'blobpeek.png,logo-zds-dé-pi-bannière.png'
 header_image:
-    color: '#7a49b7'
+    image: logo-zds-dé-pi-bannière.png
+    color: '#084561'
     vertical_centering: 50
 taxonomy:
     category:
@@ -16,13 +18,13 @@ taxonomy:
         - 'Amaury Carrade'
 page-toc:
     active: false
-published: true
+published: false
 date: '16:00 14-03-2020'
 license: by-sa
 routable: true
 visible: true
 override_default_title: 'On a retrouvé π au beau milieu du hasard'
-override_default_desc: 'π, ce nombre si emblématique des mathématiques, a cette fâcheuse tendance à apparaître partout, et surtout là où on ne l&#039;attend pas. Facétieux, il se cache dans tous les recoins des mathématiques… même les plus inattendus ! Ici, on le retrouve dans le hasard le plus complet.'
+override_default_desc: 'π, ce nombre si emblématique des mathématiques, a cette fâcheuse tendance à apparaître partout, et surtout là où on ne l''attend pas. Et même… dans le hasard le plus complet ?'
 ---
 
 π, ce nombre si emblématique des mathématiques, a cette fâcheuse tendance à apparaître partout, et surtout là où on ne l'attend pas. Facétieux, il se cache dans tous les recoins des mathématiques… même les plus inattendus !

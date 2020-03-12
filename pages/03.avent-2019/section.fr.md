@@ -12,7 +12,7 @@ date: '00:00 14-12-2019'
 publish_date: '14-12-2019 16:30'
 menu: 'Avent 2019'
 child_type: document
-visible: true
+visible: false
 content:
     items: '@self.children'
     filter:

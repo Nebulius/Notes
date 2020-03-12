@@ -16,14 +16,16 @@ taxonomy:
         - 'Amaury Carrade'
 page-toc:
     active: false
-published: false
+published: true
 date: '16:00 14-03-2020'
 license: by-sa
 routable: true
 visible: true
+override_default_title: 'On a retrouvé π au beau milieu du hasard'
+override_default_desc: 'π, ce nombre si emblématique des mathématiques, a cette fâcheuse tendance à apparaître partout, et surtout là où on ne l&#039;attend pas. Facétieux, il se cache dans tous les recoins des mathématiques… même les plus inattendus ! Ici, on le retrouve dans le hasard le plus complet.'
 ---
 
-π, ce nombre si emblématique des mathématiques, a cette fâcheuse tendance à apparaître partout, et surtout là où on ne l'attends pas. Facétieux, il se cache dans tous les recoins des mathématiques… même les plus inattendus !
+π, ce nombre si emblématique des mathématiques, a cette fâcheuse tendance à apparaître partout, et surtout là où on ne l'attend pas. Facétieux, il se cache dans tous les recoins des mathématiques… même les plus inattendus !
 
 Et histoire de parler d’inattendu dans tous les sens du terme, retrouvons-le aujourd'hui dans *le hasard*.
 
@@ -31,19 +33,17 @@ Et histoire de parler d’inattendu dans tous les sens du terme, retrouvons-le a
 
 Alors bien sûr on ne va pas tirer des nombres au hasard jusqu'à tomber par (énorme) chance sur π ! On va être un peu plus intelligent que ça… en tirant *deux* nombres. Attendez, vous allez comprendre…
 
-## Une histoire de nombres premiers entre eux…
+## Une histoire de nombres premiers entre eux
 
-Tout nombre entier peut s'écrire comme le produit d'autres nombres : jusque là, rien de bien compliqué. Si on prend quelques nombres et qu'on les écrit de la sorte, en essayant d'aller le plus loin possible (jusqu'à avoir des nombres qu'on ne peut plus décomposer qu'en _eux-même fois un_[^premier]), on obtient quelque chose comme ça :
+Tout nombre entier peut s'écrire comme le produit d'autres nombres : jusque là, rien de bien compliqué. Si on prend quelques nombres et qu'on les écrit de la sorte, on obtient quelque chose comme ça :
 
-$$\begin{array}{rcl}12 &=& 3 \times 4\\11 &=& 11 \times 1\\100 &=& 2 \times 2 \times 5 \times 5\\40 &=& 2 \times 2 \times 2 \times 5\end{array}$$
+$$\begin{array}{rcl}12 &=& 3 \times 4\\11 &=& 11 \ \ \text{(il n'y a rien de mieux)}\\100 &=& 4 \times 5 \times 5\\40 &=& 2 \times 2 \times 2 \times 5\end{array}$$
 
 Si on regarde les nombres deux par deux, on aura dans certains cas des facteurs en commun (par exemple, 100 et 40 partagent 2 et 5). Dans d'autres cas, il n'y en a pas (11 et 12 ne partagent rien) : on dit alors que ces nombres sont **premiers entre eux**.
 
 Quand on tire deux nombres au hasard, il y a donc deux possibilités : ils peuvent être *premiers entre eux*, ou ne pas l'être.
 
-Par exemple, j'ai tiré avec deux dés à cent faces les nombres **77** et **87** : 87 s'écrit 3 × 29 et 77 = 7 × 11 — ils sont premiers entre eux, ne partageant aucun facteur premier commun. J'ai relancé mes dés pour trouver **2** et **14** : 2 est premier et 14 s'écrit 2 × 7 — ils ne sont donc, eux, pas premiers entre eux.
-
-[^premier]: Un tel nombre est appelé un *nombre premier*.
+Par exemple, j'ai tiré avec deux dés à cent faces les nombres **77** et **87** : 87 s'écrit 3 × 29 et 77 = 7 × 11 — ils sont premiers entre eux, ne partageant aucun facteur commun. J'ai relancé mes dés pour trouver **2** et **14** : 2 est premier et 14 s'écrit 2 × 7 — ils ne sont donc, eux, pas premiers entre eux.
 
 ## Expérimentons : tirons plein de nombres !
 
@@ -66,7 +66,7 @@ Comme il faut savoir commencer petit, j'ai démarré avec un millier de tirages.
 
 $$P = \frac{643}{1000} = 0,643$$
 
-On aurait donc $\frac{6}{\pi^2} = 0,643$ ? Si oui, ça donnerait :
+On aurait donc $6 / \pi^2 = 0,643$ ? Si oui, ça donnerait :
 
 $$\pi^2 = 6 \times \frac{1}{0,643} \approx 9,331$$
 
@@ -80,7 +80,7 @@ Comme ce n'est pas moi qui lance les dés, autant se faire plaisir : partons sur
 
 $$\pi \approx 3,141\,972$$
 
-Voilà qui n'est pas si mal ! Certes, dés la troisième décimale on perd la précision (elle devrait être un 1, la vraie valeur commençant par 3,1415) — mais encore une fois, on tire cette valeur du hasard complet, donc une précision de 0,01 % c'est relativement acceptable. Surtout qu'en pratique, prendre 3,14 comme approximation de π, ça suffit à la majorité des usages…
+Voilà qui n'est pas si mal ! Certes, dés la quatrième décimale on perd la précision (elle devrait être un 5, la vraie valeur commençant par 3,14159) — mais encore une fois, on tire cette valeur du hasard complet, donc une précision de 0,01 % c'est relativement acceptable. Surtout qu'en pratique, prendre 3,14 comme approximation de π, ça suffit à la majorité des usages…
 
 ### …mais finir gourmand
 
@@ -91,7 +91,7 @@ $$\pi \approx 3,141\,589\,943$$
 C'est déjà mieux : on a quatre décimales justes (la vraie valeur étant π = 3,1415**92**…) !
 
 [[secret|Le code source, pour les curieux⋅ses]]
-| Il n'y a en soit rien de très complexe dans le programme de tirage, pour qui connaît un peu la programmation : il s'agit juste de tirer plein de nombres au hasard en calculant leur PGCD et en comptant ceux pour lesquels le PGCD vaut 1 (correspondant au cas où les nombres sont premiers entre eux). Ensuite, en divisant ce nombre par le nombre total de tirages, on obtient la probabilité d'avoir deux nombres premiers entre eux, soit une approximation de $6 / \pi^2$. Un peu de maths en plus et on extrait une approximation de π :) .
+| Il n'y a en soit rien de très complexe dans le programme de tirage, pour qui connaît un peu la programmation : il s'agit juste de calculer le PGCD de plein de nombres tirés au hasard, et de compter ceux pour lesquels le PGCD vaut 1 (correspondant au cas où les nombres sont premiers entre eux). Ensuite, en divisant ce nombre par le nombre total de tirages, on obtient la probabilité d'avoir deux nombres premiers entre eux, soit une approximation de $6 / \pi^2$. Un peu de maths en plus et on extrait une approximation de π :) .
 | 
 | J'ai juste ajouté par dessus un petit calcul de la précision en se basant sur la valeur de π “réelle” (à 15 décimales).
 | 
@@ -145,10 +145,9 @@ C'est déjà mieux : on a quatre décimales justes (la vraie valeur étant π = 
 | Avec dix milliards de tirages, c'est… un peu plus long, mais le résultat est bien meilleur !
 | 
 | ```console
-| $ time cargo run --release --quiet -- 10000000000
+| $ cargo run --release --quiet -- 10000000000
 | 6079281509 coprimes in 10000000000 draws
 | π ≈ 3.14158994300916 (precision 0.0000862804128715215 %)
-| cargo run --release --quiet -- 10000000000   10183,03s user 21,23s system 86% cpu 3:16:20,08 total
 | ```
 
 [^dés-matt-parker]: Cela dit, si vraiment vous y tenez, [Matt Parker l'a fait](https://www.youtube.com/watch?v=ESU4KdRLzu0) (en anglais, avec 500 couples de nombres tirés).
@@ -157,6 +156,9 @@ C'est déjà mieux : on a quatre décimales justes (la vraie valeur étant π = 
 # Pourquoi ça marche ?
 
 Bon allez, il est temps de rentrer un peu dans les mathématiques afin de comprendre d'où vient cette probabilité !
+
+[[a|Une formule peut en cacher une autre]]
+| Cette section rentre dans des détails mathématiques. J'ai tenté d'être le plus clair possible même si vous n'avez pas de grosses connaissances (les maths du collège français, étudiées vers 14/15 ans, devraient suffire), mais si vous n'êtes pas à l'aise ou que l'explication ne vous intéresse pas, vous pouvez me faire confiance et sauter à la partie suivante.
 
 Partons de ce qu'on cherche. Avec $a$ et $b$ deux entiers naturels quelconques (ceux qu'on tire au dé), on cherche la probabilité qu'ils soient premiers entre eux, autrement dit que leur plus grand diviseur commun (PGCD) soit égal à 1.
 
@@ -181,7 +183,7 @@ $$p_1 + p_2 + \cdots + p_k + \cdots = 1$$
 
 Ce qu'on peut écrire d'une façon un peu plus compacte :
 
-$$\sum_{k = 1}^\infty p_k = 1$$
+$$\sum\limits_{k = 1}^\infty p_k = 1$$
 
 On va donc tenter de déterminer la probabilité que le PGCD de $a$ et $b$ soit $k$, c'est peut-être plus simple…
 
@@ -189,10 +191,10 @@ On va donc tenter de déterminer la probabilité que le PGCD de $a$ et $b$ soit 
 
 Réfléchissons. Pour que le PGCD de $a$ et $b$ soit $k$, il faut respecter deux critères en même temps :
 
-- $k$ doit diviser $a$ et $b$ (c'est mieux… sinon il aura du mal à être le plus grand diviseur) ; et
+- $k$ doit diviser $a$ et $b$ (c'est mieux… sinon il aura du mal à être le plus grand *diviseur*) ; et
 - il ne doit pas y avoir de diviseur _plus grand que $k$_.
 
-Pour trouver la probabilité $p_k$, il nous faut donc trouver la probabilité de ces deux événements et les multiplier (car on veut les deux _en même temps_).
+Pour trouver la probabilité $p_k$, il nous faut donc trouver la probabilité de ces deux événements et les multiplier (car on veut les deux _en même temps_, et que ces événements sont indépendants les uns des autres).
 
 ### Probabilité que $k$ divise $a$ et $b$
 
@@ -202,7 +204,7 @@ Quand on y pense,
 - 3 en divise un tiers (3, 6, 9, 12, …) ;
 - 4 en divise un quart…
 
-En généralisant, un nombre quelconque $k$ divise un $k$ième des nombres… la probabilité qu'il en divise un en particulier est donc $1/k$ — par exemple, 2 divise la moitié des nombres, donc en prenant un nombre au hasard, il y a une chance sur deux qu'il soit divisible par deux (pair).
+En généralisant, un nombre quelconque $k$ divise un $k$-ième des nombres… la probabilité qu'il en divise un en particulier est donc $1/k$ — par exemple, 2 divise la moitié des nombres, donc en prenant un nombre au hasard, il y a une chance sur deux qu'il soit divisible par deux (autrement dit, pair).
 
 [[i]]
 | Une autre façon de s'en convaincre est que dans la division d'un nombre quelconque par $k$, il peut y avoir $k$ restes différents : 0, 1, 2, …, et $k-1$. Le seul bon cas est celui où le reste est nul ; comme on au autant de chance de tomber sur l'un ou l'autre des restes, la probabilité de tomber sur zéro est bien $1/k$.
@@ -229,9 +231,9 @@ Si on rassemble ces deux points, on peut donc affirmer que $p_k$, la probabilit�
 
 $$p_k = \frac{1}{k^2} \times p_1 = \frac{p_1}{k^2}$$
 
-Mais attendez, on avait plus haut une relation avec $p_k$ ! Et si on essayait d'injecter cette nouvelle valeur ? On obtient : 
+Or, on avait plus haut une relation avec $p_k$ ! Et si on essayait d'injecter cette nouvelle valeur ? On obtient : 
 
-$$\sum_{k = 1}^\infty p_k = p_1 + \frac{p_1}{2^2} + \frac{p_1}{3^2}+ \frac{p_1}{4^2} + \cdots = 1$$
+$$\sum\limits_{k = 1}^\infty p_k = p_1 + \frac{p_1}{2^2} + \frac{p_1}{3^2}+ \frac{p_1}{4^2} + \cdots = 1$$
 
 Or $p_1$ est une constante, on peut donc factoriser pour la sortir de la somme :
 
@@ -254,14 +256,14 @@ Et *voilà*.
 
 ## Mais d'où il sort, ce π ?
 
-J'aime beaucoup cette tendance de π à pointer le bout de son nez un peu partout en mathématiques sans vraiment qu'on s'y attende. Tel un discret ange gardien qui n'est jamais très loin…
+J'aime beaucoup cette tendance de π à pointer le bout de son nez un peu partout en mathématiques sans vraiment qu'on s'y attende. Tel un discret ange gardien qui n'est jamais très loin, caché derrière un mur prêt à bondir dans tous les domaines des sciences…
 
 ![Un personnage un peu pipou et mignon, jaune et tout arrondi avec un sourire un peu espiègle, qui se cache derrière un mur et n'apparaît que partiellement.](blobpeek.png)
 Figure: π, allégorie.
 
-Mais cette démonstration pourrait vous laisser un peu… frustré⋅e. π semble arriver tel un cheveux sur la soupe qu'il faut accepter sans broncher, ce qui n'est, je l'admets, pas très satisfaisant.
+Mais cette démonstration pourrait vous laisser un peu… frustré⋅e. π semble arriver tel un cheveu sur la soupe qu'il faut accepter sans broncher, ce qui n'est, je l'admets, pas très satisfaisant.
 
-Il existe une démonstration que je trouve fort élégante et compréhensible du problème de Bâle qui permet de très bien comprendre *d'où sort* ce π. On peut relier ce problème à un problème géométrique impliquant des cercles, et qui dit cercle… dit π ;) . La preuve est assez longue et ne sera pas traitée dans cet article — cela dit, une suite est prévue pour justement la présenter, et ainsi comprendre complètement comment on obtient π à partir du hasard :) .
+Il existe une démonstration que je trouve très élégante et compréhensible du problème de Bâle, qui permet de très bien comprendre *d'où sort* ce π. On peut relier ce problème à un problème géométrique impliquant des cercles, et qui dit cercle… dit π ;) . La preuve est assez longue et ne sera pas traitée dans cet article — cela dit, une suite est prévue pour justement la présenter, et ainsi comprendre complètement comment on obtient π à partir du hasard :) .
 
 [[i]]
 | Les curieux anglophones et à l'aise avec les mathématiques pourront également consulter la sixième source en fin d'article.
@@ -286,12 +288,11 @@ Lorsqu'on calcule π avec une très grande précision, espérant des milliards d
 
 ---
 
-J'aime beaucoup le nombre π — même si ce n'est pas le seul nombre intéressant en mathématiques bien sûr, sa tendance espiègle à apparaître un peu partout sans prévenir est amusante.
+J'aime beaucoup le nombre π — même si ce n'est pas le seul nombre intéressant en mathématiques, bien sûr, sa tendance espiègle à apparaître un peu partout sans prévenir est amusante.
 
 Le tirer du hasard est d'autant plus surprenant, c'est pourquoi j'avais envie d'en parler à l'occasion du _π–day_ 2020. Cet article n'est pas encore complet : comme mentionné plus haut, une partie 2 justifiant plus clairement pourquoi on retrouve π et pas un autre nombre est à venir. En attendant, j'espère que la lecture vous fut agréable !
 
-*Je tiens à remercier Pifra pour ses conseils sur le traitement d'une partie de l'article, ainsi que [VALIDATEUR] pour la relecture et validation de cet article dans des délais assez courts !*
-
+*Je tiens à remercier Pifra pour ses conseils sur le traitement d'une partie de l'article, ainsi que [VALIDATEUR⋅TRICE] pour la relecture et validation de cet article dans des délais assez courts !*
 
 [[secret|Sources, références, et crédits]]
 | ### Sources et références pour aller plus loin

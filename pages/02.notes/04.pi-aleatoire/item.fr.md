@@ -1,7 +1,7 @@
 ---
 title: 'On a retrouvé π au beau milieu du hasard'
 abstract: 'π, ce nombre si emblématique des mathématiques, a cette fâcheuse tendance à apparaître partout, et surtout là où on ne l''attend pas. Et même… dans le hasard le plus complet ?'
-media_order: 'blobpeek.png,logo-zds-dé-pi-bannière.png'
+media_order: 'blobpeek.png,logo-zds-dé-pi-bannière.png,logo-zds-dé-pi.png'
 header_image:
     image: logo-zds-dé-pi-bannière.png
     color: '#084561'
@@ -26,6 +26,7 @@ routable: true
 visible: true
 override_default_title: 'On a retrouvé π au beau milieu du hasard'
 override_default_desc: 'π, ce nombre si emblématique des mathématiques, a cette fâcheuse tendance à apparaître partout, et surtout là où on ne l''attend pas. Et même… dans le hasard le plus complet ?'
+override_default_img: logo-zds-dé-pi.png
 ---
 
 π, ce nombre si emblématique des mathématiques, a cette fâcheuse tendance à apparaître partout, et surtout là où on ne l'attend pas. Facétieux, il se cache dans tous les recoins des mathématiques… même les plus inattendus !

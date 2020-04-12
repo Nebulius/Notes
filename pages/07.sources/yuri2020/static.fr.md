@@ -35,6 +35,7 @@ Vous retrouverez ici les sources et références de la mini-conférence donnée 
 - *[Bradley et Van Hooser - 2011 - Space Shuttle Main Engine - The Relentless Pursuit](https://www.alternatewars.com/BBOW/Space_Engines/SSME_Pursuit_Improvement.pdf)*. (s. d.). Consulté le 12 avril 2020.
 - National Aeronautics And Space Administration. (2011). *Wings in orbit: scientific and engineering legacies of the space shuttle, 1971-2010.* U S Govt. Printing Office.
 - [Resistance thermometer](https://en.wikipedia.org/w/index.php?title=Resistance_thermometer&oldid=948050725). (2020). In *Wikipedia*.
+- *[Les RTD - Principe](http://aviatechno.net/thermo/rtd01.php)*. (s. d.). Consulté 12 avril 2020.
 - *[Spaceflight mission report: STS-51F](http://spacefacts.de/mission/english/sts-51f.htm)*. (s. d.). Consulté le 12 avril 2020.
 - [STS-51-F](https://en.wikipedia.org/w/index.php?title=STS-51-F&oldid=937179246). (2020). In *Wikipedia*.
 
@@ -43,9 +44,18 @@ Vous retrouverez ici les sources et références de la mini-conférence donnée 
 
 ### Soyouz 1
 
-- Monument au point d'impact de Komarov : panoramia.org
+- Illustration représentant le vaisseau Soyouz 1 – Domaine public.
+- Vladimir Komarov – © Lev Viktorovich Ivanov, via Wikipédia (_fair use_).
+- Schéma des capteurs de Soyouz 1 – [svengrahn.pp.se](http://www.svengrahn.pp.se/histind/Soyuz1Land/SoyAtti.htm).
+- Schéma des antennes de Soyous 1 – [svengrahn.pp.se](http://www.svengrahn.pp.se/histind/Soyuz1Land/SoyRadio.htm).
+- Photo de l'impact de Soyouz 1 à Orsk – Domaine public.
+- Monument au point d'impact de Komarov – Panoramia.org.
 
 ### Challenger STS-51-F
+
+- Launch of the STS 51-F Challenger – NASA. (×2)
+- View of the Spacelab 2 pallet in the open payload bay. The solar telescope on the Instrument Pointing System (IPS) is fully deployed. The Solar UV high resolution Telescope and Spectrograph are also visible. – [NASA](https://eol.jsc.nasa.gov/SearchPhotos/photo.pl?mission=STS51F&roll=33&frame=005).
+- Capteur de température RTD à résistance de platine – [Direct Industry](https://www.directindustry.fr/prod/innovative-sensor-technology-ist-ag/product-34779-1895240.html).
 
 ### Quizz
 
